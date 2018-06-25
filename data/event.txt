@@ -1,0 +1,7 @@
+event Reavers
+	planet Atrapos
+		description `Placeholder Text.`
+		add shipyard reaver
+		add spaceport `Placeholder Text.`
+	system Levana
+		government Reaver

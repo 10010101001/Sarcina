@@ -1,0 +1,14 @@
+planet "Tai'ei ek"
+	bribe 0
+	description `Placeholder Text.`
+	landscape land/sea9
+	spaceport `Placeholder Text.`
+planet Achi'rei
+	bribe 0
+	description `Placeholder Text.`
+	landscape land/sea6
+	spaceport `Placeholder.`
+planet Atrapos
+	bribe 0
+	description `Placeholder Text.`
+	landscape land/lava6

@@ -1,0 +1,3 @@
+outfitter sarcina
+	"Fat Man"
+	"Korath Disruptor Gun"

@@ -1,0 +1,30 @@
+outfit "Fat Man"
+	"self destruct" 1
+	category "Hand to Hand"
+	cost 512000
+	description "The Fat Man is perhaps the most devastating infantry weapon ever unleashed upon the modern battlefield - a hand-held catapult that launches portable nuclear bombs.. probably not a good idea to use indoors..."
+	thumbnail outfit/fatman
+	unplunderable 1
+outfit "Korath Disruptor Gun"
+	"gun ports" -1
+	"outfit space" -28
+	"weapon capacity" -28
+	category Guns
+	cost 897000
+	description "Korath Disruptors interfere with a ship's shields, allowing a ship's hull to be damaged even when shields are up. However, they do very little hull damage by themselves."
+	mass 28
+	thumbnail outfit/disruptor_gun
+	weapon
+		"disruption damage" .24
+		"firing energy" 8.0
+		"firing heat" 2.7
+		"hit effect" "disruptor impact"
+		"hull damage" .5
+		"shield damage" 3.8
+		inaccuracy 1
+		lifetime 1
+		reload 1
+		sound disruptor
+		sprite projectile/disruptor
+			"frame rate" 15
+		velocity 480

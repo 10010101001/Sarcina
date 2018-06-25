@@ -1,0 +1,58 @@
+person "Darcy Manoel"
+	government Reaver
+	personality
+		plunders
+	phrase
+		word
+			"I hope you're enjoying my plugin! Come collab with me some time!"
+	ship "Reaver Firebird"
+		attributes
+			"cargo space" 27
+			"engine capacity" 183
+			"fuel capacity" 400
+			"gun ports" 4
+			"heat dissipation" 0.7
+			"hull repair rate" 7.1
+			"outfit space" 862
+			"required crew" 8
+			"shield energy" 0.36
+			"shield generation" 0.9
+			"turret mounts" 2
+			"weapon capacity" 261
+			bunks 25
+			category "Medium Warship"
+			cost 3920000
+			drag 4.8
+			hull 29300
+			mass 710
+			ramscoop 6
+			shields 6600
+		explode "small explosion" 73
+		explode "medium explosion" 49
+		explode "large explosion" 17
+		explode "huge explosion" 11
+		gun -28 -27 "Thrasher Cannon"
+		gun -39 -13 "Inhibitor Cannon"
+		gun 28 -27 "Thrasher Cannon"
+		gun 39 -13 "Inhibitor Cannon"
+		outfits
+			"Blue Sun Reactor"
+			"Fuel Pod"
+			"Jump Drive"
+			"Korath Disruptor" 2
+			"Korath Slicer" 4
+			"Large Heat Shunt"
+			"Large Repair Module" 5
+			"Large Shield Module"
+			"Outfits Expansion"
+			"Quantum Key Stone"
+			"Small Repair Module"
+			"Steering (Lunar Class)"
+			"Steering (Planetary Class)"
+			"Thruster (Asteroid Class)"
+			"Thruster (Lunar Class)" 2
+			"Wanderer Ramscoop"
+			"Yellow Sun Reactor"
+		sprite ship/rfirebird
+		turret -5 3 "Anti-Missile Turret"
+		turret 5 3 "Anti-Missile Turret"

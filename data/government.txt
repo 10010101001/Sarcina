@@ -1,0 +1,9 @@
+government "Wanderer Spirits"
+	"player reputation" 1
+	color .50 .71 .42
+	language "Wanderer"
+	swizzle 2
+government Reaver
+	"player reputation" 1
+	color .85 .85 .85
+	swizzle 0

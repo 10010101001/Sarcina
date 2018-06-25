@@ -1,0 +1,225 @@
+ship "Reaver Aphid"
+	attributes
+		"cargo space" 12
+		"engine capacity" 54
+		"fuel capacity" 400
+		"heat dissipation" .95
+		"outfit space" 206
+		"required crew" 1
+		"weapon capacity" 43
+		bunks 5
+		category Interceptor
+		cost 648000
+		drag 2.8
+		hull 1600
+		mass 115
+		shields 1900
+		weapon
+			"blast radius" 40
+			"hit force" 650
+			"hull damage" 200
+			"shield damage" 400
+	description "Placeholder Text."
+	engine -20 55
+	engine -9 52
+	engine 20 55
+	engine 9 52
+	explode "medium explosion" 15
+	explode "small explosion" 20
+	explode "tiny explosion" 10
+	gun -6 -49 "Beam Laser"
+	gun 0 -52 "Korath Fire-Lance"
+	gun 6 -49 "Beam Laser"
+	outfits
+		"A255 Atomic Steering"
+		"Beam Laser" 2
+		"Generator (Candle Class)"
+		"Hai Chasm Batteries"
+		"Hai Williwaw Cooling"
+		"Korath Fire-Lance"
+		"Pebble Core"
+		"S-270 Regenerator" 2
+		`"Benga" Atomic Thruster`
+		Hyperdrive
+	sprite ship/raphid
+ship "Reaver Firebird"
+	"final explode" "final explosion medium"
+	attributes
+		"cargo space" 35
+		"engine capacity" 115
+		"fuel capacity" 400
+		"heat dissipation" .7
+		"outfit space" 430
+		"required crew" 8
+		"weapon capacity" 175
+		bunks 25
+		category "Medium Warship"
+		cost 3920000
+		drag 4.8
+		hull 3300
+		mass 330
+		shields 8700
+		weapon
+			"blast radius" 150
+			"hit force" 1550
+			"hull damage" 600
+			"shield damage" 1100
+	description "Placeholder Text."
+	engine -33 65
+	engine 33 65
+	explode "large explosion" 8
+	explode "medium explosion" 24
+	explode "small explosion" 36
+	explode "tiny explosion" 18
+	gun -28 -27 "Thrasher Cannon"
+	gun -39 -13 "Inhibitor Cannon"
+	gun 28 -27 "Thrasher Cannon"
+	gun 39 -13 "Inhibitor Cannon"
+	outfits
+		"Anti-Missile Turret" 2
+		"Crucible-Class Thruster"
+		"Crystal Capacitor" 2
+		"D41-HY Shield Generator"
+		"Emergency Ramscoop" 2
+		"Generator (Furnace Class)" 3
+		"Inhibitor Cannon" 2
+		"Interference Plating" 3
+		"Laser Rifle" 5
+		"LP072a Battery Pack"
+		"Nerve Gas" 2
+		"Small Heat Shunt"
+		"Smelter-Class Steering"
+		"Thrasher Cannon" 2
+		"Thruster (Asteroid Class)" 2
+		Hyperdrive
+	sprite ship/rfirebird
+	turret -5 3 "Anti-Missile Turret"
+	turret 5 3 "Anti-Missile Turret"
+ship "Reaver Leviathan"
+	"final explode" "final explosion large"
+	attributes
+		"cargo space" 35
+		"engine capacity" 160
+		"fuel capacity" 500
+		"heat dissipation" .4
+		"outfit space" 715
+		"required crew" 53
+		"weapon capacity" 270
+		bunks 74
+		category "Heavy Warship"
+		cost 11497000
+		drag 8.9
+		hull 6200
+		mass 640
+		shields 16800
+		weapon
+			"blast radius" 90
+			"hit force" 1300
+			"hull damage" 500
+			"shield damage" 900
+	description "Placeholder Text."
+	engine -25 125
+	engine 0 130
+	engine 25 125
+	explode "large explosion" 8
+	explode "medium explosion" 24
+	explode "small explosion" 36
+	explode "tiny explosion" 18
+	gun -38 -21 "Inhibitor Cannon"
+	gun -50 2 "Particle Cannon"
+	gun 38 -21 "Inhibitor Cannon"
+	gun 50 2 "Particle Cannon"
+	outfits
+		"Anti-Missile Turret" 2
+		"Crystal Capacitor" 2
+		"D23-QP Shield Generator"
+		"D67-TM Shield Generator"
+		"Emergency Ramscoop" 3
+		"Fusion Reactor"
+		"Inhibitor Cannon" 2
+		"Liquid Helium Cooler"
+		"LP072a Battery Pack"
+		"Millennium Cell"
+		"Particle Cannon" 2
+		"Quantum Key Stone"
+		"Smelter-Class Steering"
+		"Thrasher Turret" 2
+		"Thruster (Asteroid Class)" 3
+		"X3700 Ion Thruster"
+		Hyperdrive
+	sprite ship/rleviathan
+	turret -15 -50 "Thrasher Turret"
+	turret -25 10 "Anti-Missile Turret"
+	turret 15 -50 "Thrasher Turret"
+	turret 25 10 "Anti-Missile Turret"
+ship Kestrel "Kestrel (More Engines)"
+	attributes
+		"engine capacity" 250
+		"outfit space" 790
+		"weapon capacity" 360
+	engine -14 187 1.2
+	engine 14 187 1.2
+ship Kestrel "Kestrel (More Shields)"
+	attributes
+		hull 10700
+		shields 22500
+ship "Kestrel" "Kestrel (More Weapons)"
+	attributes
+		"outfit space" 800
+		"weapon capacity" 390
+	gun -31 66 "Particle Cannon"
+	gun -53 61 "Particle Cannon"
+	gun -75 57 "Torpedo Launcher"
+	gun 0 -171 "Particle Cannon"
+	gun 31 66 "Particle Cannon"
+	gun 53 61 "Particle Cannon"
+	gun 75 57 "Torpedo Launcher"
+	outfits
+		"D94-YV Shield Generator"
+		"Fusion Reactor"
+		"Heavy Laser Turret" 4
+		"Liquid Nitrogen Cooler"
+		"LP144a Battery Pack"
+		"Orca Plasma Thruster"
+		"Particle Cannon" 5
+		"Torpedo Launcher" 2
+		"X5200 Ion Steering"
+		Hyperdrive
+		Torpedo 60
+	turret -23 14 "Heavy Laser Turret"
+	turret -7 -4 "Heavy Laser Turret"
+	turret 23 14 "Heavy Laser Turret"
+	turret 7 -4 "Heavy Laser Turret"
+ship Scud
+	attributes
+		category Drone
+		"engine capacity" 25
+		"heat dissipation" .7
+		"outfit space" 83
+		"weapon capacity" 29
+		automaton 1
+		cost 980000
+		drag .7
+		hull 6600
+		licenses
+			Wanderer
+		mass 45
+		weapon
+			"blast radius" 10
+			"hit force" 250
+			"hull damage" 150
+			"shield damage" 100
+	description "Flycatcher drones are used by the Wanderers to keep their star systems safe. This is a new design for the standard Flycatcher, the Scud boasts the combat capabilities of fitting a Thunderhead Launcher on a mere drone."
+	engine -9 28
+	engine 9 28
+	explode "tiny explosion" 30
+	explode "small explosion" 20
+	outfits
+		"Small Biochemical Cell"
+		"Thunderhead Launcher"
+		"Thunderhead Missile" 80
+		"Thunderhead Storage Array" 2
+		"Type 1 Radiant Thruster"
+		"Type 1 Radiant Steering"
+	gun 0 -32 "Thunderhead Launcher"
+	sprite ship/scud

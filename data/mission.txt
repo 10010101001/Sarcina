@@ -1,0 +1,21 @@
+mission "Reavers: 1"
+	assisting
+	destination Atrapos
+	on offer
+		conversation
+			`When you repair the <origin> he makes a transmission with only system coordinates and a short message; "Wait one day", strange.`
+				accept
+	source
+		government Remnant
+	to offer
+		random < 60
+mission "Reavers: 2"
+	landing
+	on offer
+		conversation
+			`After one day on <origin> inside your ship a signal is recieved from orbit; "Hello captain! I was told to be expecting a newcomer. I have a feeling you will like what we have to offer, follow the attached planet-side coordinates." The signal disappears without warning, this is turning out to be quite the goose chase.`
+				decline
+		event Reavers
+	source Atrapos
+	to offer
+		has "Reavers: 1: offered"
