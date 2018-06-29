@@ -1,3 +1,15 @@
+ship "Model 8" bypass
+	description "The primary role of the smallest Kor Mereti drones is asteroid mining, however some are fitted with front-facing Korath Disruptors. These drones serve no greater purpose than to support heavier warships, allowing heavy hitting weaponary to pierce shields."
+	gun "Korath Disruptor Gun"
+	outfits
+		"Korath Disruptor Gun"
+		"Generator (Furnace Class)"
+		"Generator (Candle Class)"
+		"Systems Core (Small)"
+		"Reasoning Node"
+		"Thruster (Comet Class)"
+		"Steering (Lunar Class)"
+		Hyperdrive
 ship "Reaver Aphid"
 	attributes
 		"cargo space" 12

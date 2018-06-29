@@ -1,9 +1,3 @@
-shipyard sarcina
-	"Reaver Aerie"
-	"Reaver Aphid"
-	"Reaver Firebird"
-	"Reaver Leviathan"
-	Scud
 shipyard reaver
 	"Reaver Aerie"
 	"Reaver Aphid"
