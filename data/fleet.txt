@@ -1,3 +1,170 @@
+fleet "Large Kor Mereti"
+	commodities "Heavy Metals" Electronics Equipment Industrial Plastic
+	fighters "kor mereti"
+	government "Kor Mereti"
+	names "kor mereti"
+	personality
+		opportunistic
+	variant 1
+		"Model 128" 2
+		"Model 32" 2
+		"Model 512"
+		"Model 64"
+	variant 1
+		"Model 16" 8
+		"Model 32" 5
+		"Model 512"
+	variant 14
+		"Model 256"
+		"Model 4" 2
+		"Model 64"
+	variant 14
+		"Model 256"
+		"Model 64" 2
+	variant 2
+		"Model 128"
+		"Model 16"
+		"Model 256"
+		"Model 32"
+		"Model 4" 2
+		"Model 512"
+		"Model 64"
+	variant 2
+		"Model 128"
+		"Model 16"
+		"Model 256"
+		"Model 32"
+		"Model 4" 2
+		"Model 64"
+	variant 2
+		"Model 128" 2
+		"Model 16" 8
+		"Model 256"
+		"Model 32" 5
+		"Model 4" 6
+		"Model 64" 3
+	variant 3
+		"Model 128" 2
+		"Model 32" 2
+		"Model 64"
+	variant 3
+		"Model 16" 2
+		"Model 256" 2
+		"Model 32" 3
+		"Model 4" 3
+		"Model 64"
+	variant 3
+		"Model 256" 2
+		"Model 4" 5
+	variant 3
+		"Model 256" 2
+		"Model 512"
+	variant 3
+		"Model 256" 3
+	variant 4
+		"Model 128" 2
+		"Model 16" 8
+		"Model 32" 5
+		"Model 64" 3
+	variant 4
+		"Model 256" 2
+	variant 4
+		"Model 512"
+	variant 5
+		"Model 128" 2
+		"Model 4" 3
+	variant 5
+		"Model 128" 3
+	variant 5
+		"Model 16" 2
+		"Model 256"
+		"Model 32" 3
+		"Model 64"
+	variant 5
+		"Model 16" 2
+		"Model 32"
+		"Model 4" 3
+		"Model 512"
+	variant 6
+		"Model 256"
+		"Model 64" 4
+	variant 7
+		"Model 128"
+		"Model 256"
+	variant 7
+		"Model 128"
+		"Model 256" 2
+	variant 8
+		"Model 128"
+		"Model 16"
+		"Model 256"
+		"Model 32"
+		"Model 4"
+		"Model 64"
+	variant 8
+		"Model 128"
+		"Model 16"
+		"Model 32"
+		"Model 64"
+	variant 9
+		"Model 256"
+		"Model 64" 2
+fleet "Small Kor Mereti"
+	commodities "Heavy Metals" Electronics Equipment Industrial Plastic
+	fighters "kor mereti"
+	government "Kor Mereti"
+	names "kor mereti"
+	personality
+		opportunistic
+	variant 1
+		"Model 16" 2
+		"Model 32"
+		"Model 4"
+		"Model 64"
+	variant 1
+		"Model 16" 5
+		"Model 32"
+	variant 2
+		"Model 32" 2
+		"Model 64"
+	variant 3
+		"Model 128"
+		"Model 4" 2
+	variant 3
+		"Model 16" 1
+		"Model 32" 2
+		"Model 4" 4
+		"Model 64"
+	variant 3
+		"Model 16" 3
+		"Model 32" 2
+	variant 3
+		"Model 16" 4
+		"Model 32"
+		"Model 4" 2
+	variant 3
+		"Model 32"
+		"Model 4" 3
+	variant 4
+		"Model 16" 2
+		"Model 4"
+	variant 4
+		"Model 16" 3
+		"Model 32"
+	variant 4
+		"Model 32"
+		"Model 64"
+	variant 5
+		"Model 16" 2
+		"Model 32"
+	variant 5
+		"Model 64"
+	variant 6
+		"Model 16"
+		"Model 32"
+		"Model 64"
+	variant 6
+		"Model 16" 3
 fleet "Spirit Freight"
 	cargo 3
 	government "Wanderer Spirits"
@@ -21,19 +188,19 @@ fleet "Spirit Armada"
 	names "wanderer"
 	personality
 		heroic opportunistic
-	variant 7
-		"Strong Wind" 2
+	variant 3
+		"Tempest (Missile)"
 		Derecho
-		Tempest 2
-	variant 6
-		"Strong Wind" 3
+		Hurricane 2
 		Tempest 2
 	variant 4
 		"Tempest (Missile)" 2
 		Derecho
 		Tempest 2
-	variant 3
-		"Tempest (Missile)"
+	variant 6
+		"Strong Wind" 3
+		Tempest 2
+	variant 7
+		"Strong Wind" 2
 		Derecho
-		Hurricane 2
 		Tempest 2

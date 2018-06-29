@@ -1,4 +1,4 @@
-ship "Model 8" bypass
+ship "Model 8" "Model 4"
 	description "The primary role of the smallest Kor Mereti drones is asteroid mining, however some are fitted with front-facing Korath Disruptors. These drones serve no greater purpose than to support heavier warships, allowing heavy hitting weaponary to pierce shields."
 	gun "Korath Disruptor Gun"
 	outfits
