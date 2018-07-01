@@ -204,15 +204,15 @@ ship "Kestrel" "Kestrel (More Weapons)"
 	turret 7 -4 "Heavy Laser Turret"
 ship Scud
 	attributes
-		category Drone
 		"engine capacity" 25
 		"heat dissipation" .7
-		"outfit space" 83
+		"outfit space" 73
 		"weapon capacity" 29
 		automaton 1
+		category Drone
 		cost 980000
 		drag .7
-		hull 6600
+		hull 5100
 		licenses
 			Wanderer
 		mass 45
@@ -229,8 +229,8 @@ ship Scud
 	outfits
 		"Small Biochemical Cell"
 		"Thunderhead Launcher"
-		"Thunderhead Missile" 80
-		"Thunderhead Storage Array" 2
+		"Thunderhead Missile" 60
+		"Thunderhead Storage Array"
 		"Type 1 Radiant Thruster"
 		"Type 1 Radiant Steering"
 	gun 0 -32 "Thunderhead Launcher"
