@@ -8,7 +8,10 @@ Copyright: Darcy Manoel <Darcman00@gmail.com>
 License: CC-BY-SA-4.0
 
 Files:
-	images/outfit/disruptor gun*
+	images/outfit/disruptor_gun*
+	images/outfit/disruptor_gun@2x*
+	images/outfit/flame_thrower*
+	images/outfit/flame_thrower@2x*
 	images/ship/raphid*
 	images/ship/raphid@2x*
 	images/ship/rfirebird*
