@@ -7,8 +7,13 @@ planet Achi'rei
 	bribe 0
 	description `Placeholder Text.`
 	landscape land/sea6
-	spaceport `Placeholder.`
+	spaceport `Placeholder Text.`
 planet Atrapos
 	bribe 0
 	description `Placeholder Text.`
 	landscape land/lava6
+planet Ayek'ret
+	bribe 0
+	description `Placeholder Text.`
+	landscape land/sea1
+	spaceport `Placeholder Text.`

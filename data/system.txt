@@ -4,6 +4,7 @@ system "Ivar i'atai"
 	fleet "Spirit Freight" 2000
 	government "Wanderer Spirits"
 	link "K'ch' rai"
+	link Sa'i'ai
 	object
 		sprite star/k0
 	object "Collapsed Gateway"
@@ -31,6 +32,7 @@ system "K'ch' rai"
 	fleet "Spirit Freight" 2300
 	government "Wanderer Spirits"
 	link "Ivar i'atai"
+	link Sa'i'ai
 	object
 		sprite star/b1
 	object Achi'rei
@@ -48,6 +50,31 @@ system "K'ch' rai"
 	trade Medical 651
 	trade Metal 763
 	trade Plastic 389
+system Sa'i'ai
+	asteroids "medium rock" 13 14
+	asteroids "large rock" 7 3
+	fleet "Spirit Armada" 600
+	fleet "Spirit Freight" 2700
+	government "Wanderer Spirits"
+	link "Ivar i'atai"
+	link "K'ch' rai"
+	object
+		sprite star/b1
+	object Ayek'ret
+		distance 420
+		period 350
+		sprite planet/forest4
+	pos 10071 -154
+	trade "Heavy Metals" 1420
+	trade "Luxury Goods" 1098
+	trade Clothing 452
+	trade Electronics 678
+	trade Equipment 423
+	trade Food 293
+	trade Industrial 835
+	trade Medical 701
+	trade Metal 743
+	trade Plastic 412
 system "Pug Iyik"
 	add object "Collapsed Gateway"
 		distance 1220
