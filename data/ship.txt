@@ -50,6 +50,7 @@ ship "Reaver Aphid"
 		"Hai Williwaw Cooling"
 		"Korath Fire-Lance"
 		"Pebble Core"
+		"Quantum Key Stone"
 		"S-270 Regenerator" 2
 		`"Benga" Atomic Thruster`
 		Hyperdrive
@@ -99,6 +100,7 @@ ship "Reaver Firebird"
 		"Laser Rifle" 5
 		"LP072a Battery Pack"
 		"Nerve Gas" 2
+		"Quantum Key Stone"
 		"Small Heat Shunt"
 		"Smelter-Class Steering"
 		"Thrasher Cannon" 2
