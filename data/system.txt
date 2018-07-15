@@ -84,3 +84,15 @@ system Levana
 		distance 720
 		period 270
 		sprite planet/dust5
+	minables aluminium 11 5.4736
+	minables copper 13 2.4836
+	minables gold 7 3.4735
+	minables iron 9 1.4736
+	minables lead 6 5.4736
+	minables neodymium 8 3.5746
+	minables platinum 8 4.5736
+	minables silicon 16 2.4736
+	minables silver 5 4.4625
+	minables titanium 17 1.4736
+	minables tungsten 12 4.3736
+	minables uranium 7 6.3467
