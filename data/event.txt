@@ -1,4 +1,4 @@
-event Reavers
+event reavers
 	planet Atrapos
 		description `Placeholder Text.`
 		add shipyard reaver
