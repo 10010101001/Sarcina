@@ -10,7 +10,7 @@ outfit "Flame Thrower"
 	"capture defense" .9
 	category "Hand to Hand"
 	cost 35000
-	description "This is a relic of times past, from the days of early spaceflight brought forth mass piracy. Because of the overwhelming popularity among pirates and the inhumane use of such a weapon, interstellar law forbids possession. One can earn a particularly nasty fine if caught in possession of a Flame Thrower. They do serve their purpose however, they clear out an enemy ship quicker than most other methods...""
+	description "This is a relic of times past, from the days of early spaceflight brought forth mass piracy. Because of the overwhelming popularity among pirates and the inhumane use of such a weapon, interstellar law forbids possession. One can earn a particularly nasty fine if caught in possession of a Flame Thrower. They do serve their purpose however, they clear out an enemy ship quicker than most other methods..."
 	illegal 450000
 	thumbnail outfit/flame_thrower
 outfit "Korath Disruptor Gun"
