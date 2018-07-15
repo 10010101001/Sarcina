@@ -333,3 +333,62 @@ mission "reavers: 2"
 	source Atrapos
 	to offer
 		has "reavers: 1: offered"
+
+
+mission "hire escorts small"
+	description "Hire a lightweight band of mercenaries to escort your ships and protect from enemy engagement."
+	job
+	name "Hire Lightweight Mercenaries"
+	npc accompany save
+		personality escort heroic
+		government Reaver
+		ship "Reaver Aphid"
+		ship "Reaver Aphid"
+		ship "Reaver Aphid"
+		ship "Reaver Aphid"
+		ship "Reaver Aphid"
+		ship "Reaver Aphid"
+	on accept
+	repeat
+mission "hire escorts medium"
+	description "Hire a competent lot of mercenaries to escort your ships and protect from enemy engagement."
+	job
+	name "Hire Competent Mercenaries"
+	npc accompany save
+		personality escort heroic
+		government Reaver
+		ship "Reaver Aphid"
+		ship "Reaver Aphid"
+		ship "Reaver Aphid"
+		ship "Reaver Firebird"
+		ship "Reaver Firebird"
+	repeat
+mission "hire escorts large"
+	description "Hire a capable force of mercenaries to escort your ships and protect from enemy engagement."
+	job
+	name "Hire Capable Mercenaries"
+	npc accompany save
+		personality escort heroic
+		government Reaver
+		ship "Reaver Aphid"
+		ship "Reaver Aphid"
+		ship "Reaver Firebird"
+		ship "Reaver Firebird"
+		ship "Reaver Leviathan"
+	repeat
+mission "hire escorts extra large"
+	description "Hire a proficient fleet of mercenaries to escort your ships and protect from enemy engagement."
+	job
+	name "Hire Proficient Mercenaries"
+	npc accompany save
+		personality escort heroic
+		government Reaver
+		ship "Reaver Firebird"
+		ship "Reaver Firebird"
+		ship "Reaver Firebird"
+		ship "Reaver Firebird"
+		ship "Reaver Firebird"
+		ship "Reaver Leviathan"
+		ship "Reaver Leviathan"
+	repeat
+	
