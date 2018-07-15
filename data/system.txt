@@ -81,7 +81,7 @@ system "Pug Iyik"
 		sprite planet/wormhole
 system Levana
 	add object Atrapos
-		distance 720
+		distance 1440
 		period 270
 		sprite planet/dust5
 	minables aluminium 11 5.4736
