@@ -351,6 +351,8 @@ mission "hire escorts small"
 	repeat
 	source
 		system Levana
+	to offer
+		random < 50
 mission "hire escorts medium"
 	description "Hire a competent lot of mercenaries to escort your ships and protect from enemy engagement."
 	job
@@ -366,6 +368,8 @@ mission "hire escorts medium"
 	repeat
 	source
 		system Levana
+	to offer
+		random < 40
 mission "hire escorts large"
 	description "Hire a capable force of mercenaries to escort your ships and protect from enemy engagement."
 	job
@@ -381,6 +385,8 @@ mission "hire escorts large"
 	repeat
 	source
 		system Levana
+	to offer
+		random < 30
 mission "hire escorts extra large"
 	description "Hire a proficient fleet of mercenaries to escort your ships and protect from enemy engagement."
 	job
@@ -398,3 +404,5 @@ mission "hire escorts extra large"
 	repeat
 	source
 		system Levana
+	to offer
+		random < 20
