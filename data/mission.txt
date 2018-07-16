@@ -329,7 +329,7 @@ mission "reavers: 2"
 		conversation
 			`After one day on <origin> inside your ship a signal is recieved from orbit; "Hello captain! I was told to be expecting a newcomer. I have a feeling you will like what we have to offer, follow the attached planet-side coordinates." The signal disappears without warning, this is turning out to be quite the goose chase.`
 				decline
-		event Reavers
+		event reavers
 	source Atrapos
 	to offer
 		has "reavers: 1: offered"
@@ -348,7 +348,8 @@ mission "hire escorts small"
 		ship "Reaver Aphid"
 		ship "Reaver Aphid"
 		ship "Reaver Aphid"
-	on accept
+	source
+		system Levana
 	repeat
 mission "hire escorts medium"
 	description "Hire a competent lot of mercenaries to escort your ships and protect from enemy engagement."
@@ -362,6 +363,8 @@ mission "hire escorts medium"
 		ship "Reaver Aphid"
 		ship "Reaver Firebird"
 		ship "Reaver Firebird"
+	source
+		system Levana
 	repeat
 mission "hire escorts large"
 	description "Hire a capable force of mercenaries to escort your ships and protect from enemy engagement."
@@ -375,6 +378,8 @@ mission "hire escorts large"
 		ship "Reaver Firebird"
 		ship "Reaver Firebird"
 		ship "Reaver Leviathan"
+	source
+		system Levana
 	repeat
 mission "hire escorts extra large"
 	description "Hire a proficient fleet of mercenaries to escort your ships and protect from enemy engagement."
@@ -390,5 +395,7 @@ mission "hire escorts extra large"
 		ship "Reaver Firebird"
 		ship "Reaver Leviathan"
 		ship "Reaver Leviathan"
+	source
+		system Levana
 	repeat
 	
