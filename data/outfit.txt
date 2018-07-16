@@ -36,3 +36,12 @@ outfit "Korath Disruptor Gun"
 		sprite projectile/disruptor
 			"frame rate" 15
 		velocity 480
+outfit "Reflective Plating"
+	category "Systems"
+	"cloaking energy" 18
+	cloak .002
+	cost 750000
+	description "Having been refined over centuries, is military grade Reflective Plating. Reflective Plating works by showing observers what is behind the object rather than the object itself, the technology is rough around the edges but still proves to be a must have for any pilot fortunate enough to get their hands on it."
+	"outfit space" -3
+	thumbnail outfit/reflective_plating
+	unplunderable 1
