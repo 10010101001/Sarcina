@@ -348,9 +348,9 @@ mission "hire escorts small"
 		ship "Reaver Aphid"
 		ship "Reaver Aphid"
 		ship "Reaver Aphid"
+	repeat
 	source
 		system Levana
-	repeat
 mission "hire escorts medium"
 	description "Hire a competent lot of mercenaries to escort your ships and protect from enemy engagement."
 	job
@@ -363,9 +363,9 @@ mission "hire escorts medium"
 		ship "Reaver Aphid"
 		ship "Reaver Firebird"
 		ship "Reaver Firebird"
+	repeat
 	source
 		system Levana
-	repeat
 mission "hire escorts large"
 	description "Hire a capable force of mercenaries to escort your ships and protect from enemy engagement."
 	job
@@ -378,9 +378,9 @@ mission "hire escorts large"
 		ship "Reaver Firebird"
 		ship "Reaver Firebird"
 		ship "Reaver Leviathan"
+	repeat
 	source
 		system Levana
-	repeat
 mission "hire escorts extra large"
 	description "Hire a proficient fleet of mercenaries to escort your ships and protect from enemy engagement."
 	job
@@ -395,7 +395,6 @@ mission "hire escorts extra large"
 		ship "Reaver Firebird"
 		ship "Reaver Leviathan"
 		ship "Reaver Leviathan"
+	repeat
 	source
 		system Levana
-	repeat
-	
