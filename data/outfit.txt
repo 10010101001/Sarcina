@@ -1,3 +1,16 @@
+outfit "Blessing of a Deity"
+	"cargo scan power" 1000000
+	"jump drive" 1
+	"jump speed" 1000000
+	"outfit scan power" 1000000
+	"quantum keystone" 1
+	category Special
+	cloak 1
+	description "Developer item, allows 'creative mode' players to be able to fly anywhere and everywhere, even disappear..."
+	gaslining 1
+	inscrutable
+	ramscoop 1000000
+	unplunderable
 outfit "Fat Man"
 	"self destruct" 1
 	category "Hand to Hand"
@@ -45,3 +58,18 @@ outfit "Reflective Plating"
 	"outfit space" -3
 	thumbnail outfit/reflective_plating
 	unplunderable 1
+outfit "Strength of a Deity"
+	"capture attack" 1000000
+	"capture defense" 1000000
+	"cargo space" 1000000
+	"disruption resistance" 1000000
+	"energy generation" 1000000
+	"ion resistance" 1000000
+	"radar jamming" 1000000
+	"shield generation" 1000000
+	"slowing resistance" 1000000
+	bunks 1000000
+	category Special
+	cooling 1000000
+	inscrutable
+	unplunderable
