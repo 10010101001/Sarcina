@@ -17,3 +17,7 @@ planet Ayek'ret
 	description `Placeholder Text.`
 	landscape land/sea1
 	spaceport `Placeholder Text.`
+planet Lagrange
+	tribute 6400
+		threshold 59000
+		fleet Quarg 10
