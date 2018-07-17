@@ -12,11 +12,19 @@ planet Atrapos
 	bribe 0
 	description `Placeholder Text.`
 	landscape land/lava6
+planet Aventine
+	tribute 2900
+		threshold 11000
+		fleet "Large Remnant" 4
 planet Ayek'ret
 	bribe 0
 	description `Placeholder Text.`
 	landscape land/sea1
 	spaceport `Placeholder Text.`
+planet Caelian
+	tribute 4700
+		threshold 17000
+		fleet "Large Remnant" 10
 planet Darkcloak
 	tribute 1800
 		threshold 3000
@@ -29,6 +37,10 @@ planet Lagrange
 	tribute 6400
 		threshold 59000
 		fleet Quarg 10
+planet Viminal
+	tribute 3200
+		threshold 13000
+		fleet "Large Remnant" 8
 planet Warfeed
 	tribute 1400
 		threshold 3000
