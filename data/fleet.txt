@@ -165,10 +165,10 @@ fleet "Small Kor Mereti"
 		"Model 64"
 	variant 6
 		"Model 16" 3
-fleet "Spirit Freight"
+fleet "spirit freight"
 	cargo 3
 	government "Wanderer Spirits"
-	names "wanderer"
+	names wanderer
 	personality
 		timid
 	variant
@@ -183,9 +183,9 @@ fleet "Spirit Freight"
 		"Deep River 4"
 	variant
 		"Deep River"
-fleet "Spirit Armada"
+fleet "spirit armada"
 	government "Wanderer Spirits"
-	names "wanderer"
+	names wanderer
 	personality
 		heroic opportunistic
 	variant 3
