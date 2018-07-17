@@ -4,6 +4,7 @@ outfit "Blessing of a Deity"
 	"jump speed" 1000000
 	"outfit scan power" 1000000
 	"quantum keystone" 1
+	"quantum waystone" 1
 	category Special
 	cloak 1
 	description "Developer item, allows 'creative mode' players to be able to fly anywhere and everywhere, even disappear..."
@@ -49,6 +50,14 @@ outfit "Korath Disruptor Gun"
 		sprite projectile/disruptor
 			"frame rate" 15
 		velocity 480
+outfit "Quantum Waystone"
+	"mass" 1
+	"outfit space" -1
+	"quantum waystone" 1
+	category "Systems"
+	cost 720000
+	description "This precious artifact attunes a ship's quantum oscillations in a way that allows it to travel through The Gateway, an impassable wormhole seperating the Irm from the rest of the galaxy. Waystones are extremely rare and valuable, because they are only found in one place, Tutum."
+	thumbnail "outfit/keystone"
 outfit "Reflective Plating"
 	category "Systems"
 	"cloaking energy" 18

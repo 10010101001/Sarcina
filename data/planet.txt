@@ -11,6 +11,8 @@ planet "Tai'ei ek"
 	description `Placeholder Text.`
 	landscape land/sea9
 	spaceport `Placeholder Text.`
+planet "Wormhole X"
+	attributes "requires: quantum waystone"
 planet Achi'rei
 	bribe 0
 	description `Placeholder Text.`
@@ -132,6 +134,11 @@ planet Stonebreak
 	tribute 2600
 		fleet "Large Hai" 8
 		threshold 8000
+planet Tutum
+	description "Placeholder Text."
+	landscape land/myrabella7
+	outfitter irm
+	spaceport "Placeholder Text."
 planet Viminal
 	tribute 3200
 		fleet "Large Remnant" 8

@@ -1,2 +1,4 @@
 outfitter "Pirate Outfits"
 	"Flame Thrower"
+outfitter irm
+	"Quantum Waystone"
