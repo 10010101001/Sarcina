@@ -1,3 +1,11 @@
+planet "Alta Hai"
+	tribute 11000
+		threshold 163000
+		fleet Quarg 24
+planet "Kuwaru Efreti"
+	tribute 5300
+		threshold 163000
+		fleet Quarg 14
 planet "Tai'ei ek"
 	bribe 0
 	description `Placeholder Text.`
@@ -32,13 +40,25 @@ planet Darkcloak
 	tribute 1800
 		threshold 3000
 		fleet "Large Unfettered" 12
+planet Echo
+	tribute 3100
+		threshold 163000
+		fleet Quarg 8
 planet Firelode
 	tribute 1300
 		threshold 3000
 		fleet "Large Unfettered" 8
+planet Forpelog
+	tribute 4700
+		threshold 163000
+		fleet Quarg 6
+planet Grakhord
+	tribute 2900
+		threshold 163000
+		fleet Quarg 4
 planet Lagrange
 	tribute 6400
-		threshold 59000
+		threshold 163000
 		fleet Quarg 10
 planet Viminal
 	tribute 3200
