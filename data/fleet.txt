@@ -109,6 +109,35 @@ fleet "Large Kor Mereti"
 	variant 9
 		"Model 256"
 		"Model 64" 2
+fleet "reaver defensive"
+	government Reaver
+	personality heroic
+	variant
+		"Reaver Aphid"
+		"Reaver Aphid"
+		"Reaver Aphid"
+		"Reaver Aphid"
+		"Reaver Aphid"
+		"Reaver Aphid"
+		"Reaver Aphid"
+	variant
+		"Reaver Aphid"
+		"Reaver Aphid"
+		"Reaver Aphid"
+		"Reaver Firebird"
+		"Reaver Firebird"
+	variant
+		"Reaver Firebird"
+		"Reaver Firebird"
+		"Reaver Firebird"
+		"Reaver Firebird"
+	variant
+		"Reaver Firebird"
+		"Reaver Firebird"
+		"Reaver Leviathan"
+	variant
+		"Reaver Leviathan"
+		"Reaver Leviathan"
 fleet "Small Kor Mereti"
 	commodities "Heavy Metals" Electronics Equipment Industrial Plastic
 	fighters "kor mereti"
