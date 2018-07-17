@@ -61,7 +61,6 @@ outfit "Reflective Plating"
 outfit "Strength of a Deity"
 	"capture attack" 1000000
 	"capture defense" 1000000
-	"cargo space" 1000000
 	"disruption resistance" 1000000
 	"energy generation" 1000000
 	"ion resistance" 1000000
@@ -71,6 +70,6 @@ outfit "Strength of a Deity"
 	bunks 1000000
 	category Special
 	cooling 1000000
-	description "Developer item, allows 'creative mode' players to be able to withstand any form of engagement, also allows an absurd amount of passenger and cargo space."
+	description "Developer item, allows 'creative mode' players to be able to withstand any form of engagement, also allows an absurd amount of passengers aboard your ship."
 	inscrutable
 	unplunderable
