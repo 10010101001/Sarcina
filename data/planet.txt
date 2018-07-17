@@ -16,6 +16,10 @@ planet Achi'rei
 	description `Placeholder Text.`
 	landscape land/sea6
 	spaceport `Placeholder Text.`
+planet Allhome
+	tribute 1900
+		fleet "Large Hai" 10
+		threshold 8000
 planet Atrapos
 	bribe 0
 	description `Placeholder Text.`
@@ -39,27 +43,95 @@ planet Caelian
 planet Darkcloak
 	tribute 1800
 		fleet "Large Unfettered" 12
-		threshold 3000
+		threshold 6000
+planet Darkmetal
+	tribute 2100
+		fleet "Large Hai" 8
+		threshold 8000
+planet Dustmaker
+	tribute 1300
+		fleet "Large Hai" 4
+		threshold 8000
 planet Echo
 	tribute 3100
 		fleet Quarg 8
 		threshold 163000
+planet Farwater
+	tribute 900
+		fleet "Large Hai" 4
+		threshold 8000
 planet Firelode
 	tribute 1300
 		fleet "Large Unfettered" 8
-		threshold 3000
+		threshold 6000
 planet Forpelog
 	tribute 4700
 		fleet Quarg 6
 		threshold 163000
+planet Frostmark
+	tribute 1100
+		fleet "Large Hai" 6
+		threshold 8000
+planet Giverstone
+	tribute 3200
+		fleet "Large Hai" 12
+		threshold 8000
+planet Cloudfire
+	tribute 1300
+		fleet "Large Hai" 14
+		threshold 8000
 planet Grakhord
 	tribute 2900
 		fleet Quarg 4
 		threshold 163000
+planet Greenbloom
+	tribute 1400
+		fleet "Large Hai" 4
+		threshold 8000
+planet Greenwater
+	tribute 2300
+		fleet "Large Hai" 6
+		threshold 8000
+planet Hai-home
+	tribute 5900
+		fleet "Large Hai" 18
+		threshold 8000
+planet Heartvalley
+	tribute 2000
+		fleet "Large Hai" 10
+		threshold 8000
+planet Icelake
+	tribute 3500
+		fleet "Large Hai" 12
+		threshold 8000
 planet Lagrange
 	tribute 6400
 		fleet Quarg 10
 		threshold 163000
+planet Makerplace
+	tribute 2800
+		fleet "Large Hai" 12
+		threshold 8000
+planet Mirrorlake
+	tribute 2700
+		fleet "Large Hai" 10
+		threshold 8000
+planet Newhome
+	tribute 1800
+		fleet "Large Hai" 8
+		threshold 8000
+planet Skyfarm
+	tribute 1000
+		fleet "Large Hai" 4
+		threshold 8000
+planet Snowfeather
+	tribute 2300
+		fleet "Large Hai" 10
+		threshold 8000
+planet Stonebreak
+	tribute 2600
+		fleet "Large Hai" 8
+		threshold 8000
 planet Viminal
 	tribute 3200
 		fleet "Large Remnant" 8
@@ -67,4 +139,4 @@ planet Viminal
 planet Warfeed
 	tribute 1400
 		fleet "Large Unfettered" 10
-		threshold 3000
+		threshold 6000
