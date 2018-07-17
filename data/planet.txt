@@ -1,11 +1,11 @@
 planet "Alta Hai"
 	tribute 11000
-		threshold 163000
 		fleet Quarg 24
+		threshold 163000
 planet "Kuwaru Efreti"
 	tribute 5300
-		threshold 163000
 		fleet Quarg 14
+		threshold 163000
 planet "Tai'ei ek"
 	bribe 0
 	description `Placeholder Text.`
@@ -21,12 +21,12 @@ planet Atrapos
 	description `Placeholder Text.`
 	landscape land/lava6
 	tribute 5800
-		threshold 44000
 		fleet "reaver defensive" 12
+		threshold 44000
 planet Aventine
 	tribute 2900
-		threshold 11000
 		fleet "Large Remnant" 4
+		threshold 11000
 planet Ayek'ret
 	bribe 0
 	description `Placeholder Text.`
@@ -34,37 +34,37 @@ planet Ayek'ret
 	spaceport `Placeholder Text.`
 planet Caelian
 	tribute 4700
-		threshold 17000
 		fleet "Large Remnant" 10
+		threshold 17000
 planet Darkcloak
 	tribute 1800
-		threshold 3000
 		fleet "Large Unfettered" 12
+		threshold 3000
 planet Echo
 	tribute 3100
-		threshold 163000
 		fleet Quarg 8
+		threshold 163000
 planet Firelode
 	tribute 1300
-		threshold 3000
 		fleet "Large Unfettered" 8
+		threshold 3000
 planet Forpelog
 	tribute 4700
-		threshold 163000
 		fleet Quarg 6
+		threshold 163000
 planet Grakhord
 	tribute 2900
-		threshold 163000
 		fleet Quarg 4
+		threshold 163000
 planet Lagrange
 	tribute 6400
-		threshold 163000
 		fleet Quarg 10
+		threshold 163000
 planet Viminal
 	tribute 3200
-		threshold 13000
 		fleet "Large Remnant" 8
+		threshold 13000
 planet Warfeed
 	tribute 1400
-		threshold 3000
 		fleet "Large Unfettered" 10
+		threshold 3000
