@@ -17,7 +17,19 @@ planet Ayek'ret
 	description `Placeholder Text.`
 	landscape land/sea1
 	spaceport `Placeholder Text.`
+planet Darkcloak
+	tribute 1800
+		threshold 3000
+		fleet "Large Unfettered" 12
+planet Firelode
+	tribute 1300
+		threshold 3000
+		fleet "Large Unfettered" 8
 planet Lagrange
 	tribute 6400
 		threshold 59000
 		fleet Quarg 10
+planet Warfeed
+	tribute 1400
+		threshold 3000
+		fleet "Large Unfettered" 10
