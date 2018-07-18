@@ -1,4 +1,12 @@
 outfitter "Pirate Outfits"
 	"Flame Thrower"
+outfitter content
+	"Blessing of a Deity"
+	"Fat Man"
+	"Flame Thrower"
+	"Korath Disruptor Gun"
+	"Quantum Waystone"
+	"Reflective Plating"
+	"Strength of a Deity"
 outfitter irm
 	"Quantum Waystone"
