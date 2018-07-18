@@ -2,6 +2,14 @@ planet "Alta Hai"
 	tribute 11000
 		fleet Quarg 24
 		threshold 163000
+planet "Kort Kehai"
+	tribute 4300
+		fleet "Wanderer Defense" 12
+		threshold 59000
+planet "Kort Vek'kri"
+	tribute 3900
+		fleet "Wanderer Defense" 10
+		threshold 54000
 planet "Kuwaru Efreti"
 	tribute 5300
 		fleet Quarg 14
@@ -11,6 +19,66 @@ planet "Tai'ei ek"
 	description `Placeholder Text.`
 	landscape land/sea9
 	spaceport `Placeholder Text.`
+planet "Tik Klai"
+	tribute 3800
+		fleet "Wanderer Defense" 8
+		threshold 48000
+planet "Var' Kar'i'i"
+	tribute 5100
+		fleet "Wanderer Defense" 12
+		threshold 58000
+planet "Var' Kayi"
+	tribute 3800
+		fleet "Wanderer Defense" 10
+		threshold 60000
+planet "Var' Roi"
+	tribute 2900
+		fleet "Wanderer Defense" 6
+		threshold 49000
+planet "Vara K'chrai"
+	tribute 6200
+		fleet "Wanderer Defense" 16
+		threshold 76000
+planet "Vara Ke'sok"
+	tribute 4200
+		fleet "Wanderer Defense" 10
+		threshold 49000
+planet "Vara Ke'stai"
+	tribute 4400
+		fleet "Wanderer Defense" 8
+		threshold 54000
+planet "Vara Kehi'ki"
+	tribute 4100
+		fleet "Wanderer Defense" 8
+		threshold 51000
+planet "Vara Rakak"
+	tribute 3900
+		fleet "Wanderer Defense" 8
+		threshold 57000
+planet "Varu Ek'lak'lai"
+	tribute 4400
+		fleet "Wanderer Defense" 10
+		threshold 50000
+planet "Varu K'est"
+	tribute 4300
+		fleet "Wanderer Defense" 12
+		threshold 55000
+planet "Varu K'prai"
+	tribute 3400
+		fleet "Wanderer Defense" 8
+		threshold 56000
+planet "Varu Mer'ek"
+	tribute 4700
+		fleet "Wanderer Defense" 12
+		threshold 59000
+planet "Varu Tek'kai"
+	tribute 3300
+		fleet "Wanderer Defense" 8
+		threshold 51000
+planet "Varu Tev'kei"
+	tribute 5400
+		fleet "Wanderer Defense" 14
+		threshold 63000
 planet "Wormhole X"
 	attributes "requires: quantum waystone"
 planet Achi'rei
