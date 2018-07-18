@@ -134,7 +134,12 @@ planet Stonebreak
 	tribute 2600
 		fleet "Large Hai" 8
 		threshold 8000
-planet Tutum
+planet Arx
+	description "Placeholder Text."
+	landscape land/ringworld
+	outfitter irm
+	spaceport "Placeholder Text."
+planet Domum
 	description "Placeholder Text."
 	landscape land/myrabella7
 	outfitter irm
