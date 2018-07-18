@@ -9,4 +9,5 @@ outfitter content
 	"Reflective Plating"
 	"Strength of a Deity"
 outfitter irm
+	"Reflective Plating"
 	"Quantum Waystone"

@@ -59,12 +59,12 @@ outfit "Quantum Waystone"
 	description "This precious artifact attunes a ship's quantum oscillations in a way that allows it to travel through The Gateway, an impassable wormhole seperating the Irm from the rest of the galaxy. Waystones are extremely rare and valuable, because they are only found in one place, Tutum."
 	thumbnail "outfit/keystone"
 outfit "Reflective Plating"
-	category "Systems"
 	"cloaking energy" 18
+	"outfit space" -3
+	category "Systems"
 	cloak .002
 	cost 750000
-	description "Having been refined over millenia, is military grade Reflective Plating. Reflective Plating works by showing observers what is behind the object rather than the object itself, the technology is rough around the edges but still proves to be a must have for any pilot fortunate enough to get their hands on it."
-	"outfit space" -3
+	description "You're sure you left your ship here somewhere, but you can't see it."
 	thumbnail outfit/reflective_plating
 	unplunderable 1
 outfit "Strength of a Deity"
