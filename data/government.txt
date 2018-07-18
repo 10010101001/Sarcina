@@ -1,13 +1,10 @@
 government "Wanderer Spirits"
-	"player reputation" .1
 	color .5 .7 .4
 	language "Wanderer"
 	swizzle 2
 government Reaver
-	"player reputation" .1
 	color .85 .85 .85
 	swizzle 0
 government Irm
-	"player reputation" .1
 	color  .5 .2 1
 	swizzle 3
