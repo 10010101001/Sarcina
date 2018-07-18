@@ -22,6 +22,11 @@ planet Allhome
 	tribute 1900
 		fleet "Large Hai" 10
 		threshold 8000
+planet Arx
+	description "Placeholder Text."
+	landscape land/ringworld
+	outfitter irm
+	spaceport "Placeholder Text."
 planet Atrapos
 	bribe 0
 	description `Placeholder Text.`
@@ -50,6 +55,11 @@ planet Darkmetal
 	tribute 2100
 		fleet "Large Hai" 8
 		threshold 8000
+planet Domum
+	description "Placeholder Text."
+	landscape land/myrabella7
+	outfitter irm
+	spaceport "Placeholder Text."
 planet Dustmaker
 	tribute 1300
 		fleet "Large Hai" 4
@@ -134,16 +144,6 @@ planet Stonebreak
 	tribute 2600
 		fleet "Large Hai" 8
 		threshold 8000
-planet Arx
-	description "Placeholder Text."
-	landscape land/ringworld
-	outfitter irm
-	spaceport "Placeholder Text."
-planet Domum
-	description "Placeholder Text."
-	landscape land/myrabella7
-	outfitter irm
-	spaceport "Placeholder Text."
 planet Viminal
 	tribute 3200
 		fleet "Large Remnant" 8
