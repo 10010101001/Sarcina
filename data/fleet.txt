@@ -113,31 +113,17 @@ fleet "reaver defensive"
 	government Reaver
 	personality heroic
 	variant
-		"Reaver Aphid"
-		"Reaver Aphid"
-		"Reaver Aphid"
-		"Reaver Aphid"
-		"Reaver Aphid"
-		"Reaver Aphid"
-		"Reaver Aphid"
+		"Reaver Aphid" 7
 	variant
-		"Reaver Aphid"
-		"Reaver Aphid"
-		"Reaver Aphid"
-		"Reaver Firebird"
-		"Reaver Firebird"
+		"Reaver Aphid" 3
+		"Reaver Firebird" 2
 	variant
-		"Reaver Firebird"
-		"Reaver Firebird"
-		"Reaver Firebird"
-		"Reaver Firebird"
+		"Reaver Firebird" 4
 	variant
-		"Reaver Firebird"
-		"Reaver Firebird"
+		"Reaver Firebird" 2
 		"Reaver Leviathan"
 	variant
-		"Reaver Leviathan"
-		"Reaver Leviathan"
+		"Reaver Leviathan" 2
 fleet "Small Kor Mereti"
 	commodities "Heavy Metals" Electronics Equipment Industrial Plastic
 	fighters "kor mereti"
