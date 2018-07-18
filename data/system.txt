@@ -173,7 +173,7 @@ system Solum
 	object Domum
 		distance 847
 		offset -280
-		period 429
+		period 360
 		sprite planet/ocean2
 	pos -215 -580
 system Waypoint
