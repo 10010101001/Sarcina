@@ -14,6 +14,10 @@ planet "Kuwaru Efreti"
 	tribute 5300
 		fleet Quarg 14
 		threshold 163000
+planet "New Tibet"
+	tribute 800
+		threshold 4000
+		fleet "Large Militia" 10
 planet "Tai'ei ek"
 	bribe 0
 	description `Placeholder Text.`
@@ -176,6 +180,10 @@ planet Hai-home
 	tribute 5900
 		fleet "Large Hai" 18
 		threshold 8000
+planet Harmony
+	tribute 900
+		threshold 5000
+		fleet "Large Militia" 8
 planet Heartvalley
 	tribute 2000
 		fleet "Large Hai" 10
