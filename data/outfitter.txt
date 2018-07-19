@@ -1,6 +1,6 @@
 outfitter "Pirate Outfits"
 	"Flame Thrower"
-outfitter content
+outfitter sarcina
 	"Blessing of a Deity"
 	"Fat Man"
 	"Flame Thrower"
