@@ -28,6 +28,16 @@ outfit "Flame Thrower"
 	description "This is a relic of times past, from the days of early spaceflight brought forth mass piracy. Because of the overwhelming popularity among pirates and the inhumane use of such a weapon, interstellar law forbids possession. One can earn a particularly nasty fine if caught in possession of a Flame Thrower. They do serve their purpose however, they clear out an enemy ship quicker than most other methods..."
 	illegal 450000
 	thumbnail outfit/flame_thrower
+outfit "Irm Hyperdrive"
+	"jump fuel" 80
+	"jump speed" .5
+	"mass" 36
+	"outfit space" -36
+	category Systems
+	cost 50000
+	description "Placeholder Text."
+	hyperdrive 1
+	thumbnail outfit/hyperdrive
 outfit "Korath Disruptor Gun"
 	"gun ports" -1
 	"outfit space" -28

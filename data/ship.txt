@@ -199,6 +199,7 @@ ship Apocalypse
 		"Drak Antimatter Cannon"
 		"Forge-Class Steering"
 		"Forge-Class Thruster"
+		"Irm Hyperdrive"
 		"Korath Banisher" 8
 		"Large Heat Shunt"
 		"Quantum Waystone"
@@ -207,7 +208,6 @@ ship Apocalypse
 		"Smelter-Class Steering"
 		"Smelter-Class Thruster"
 		"Systems Core (Large)" 2
-		Hyperdrive
 	sprite ship/apocalypse
 	turret 0 -120 "Quarg Anti-Missile"
 	turret -58 108 "Korath Banisher"
