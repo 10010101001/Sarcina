@@ -34,10 +34,10 @@ outfit "Irm Hyperdrive"
 	"mass" 36
 	"outfit space" -36
 	category Systems
-	cost 50000
+	cost 125000
 	description "Placeholder Text."
 	hyperdrive 1
-	thumbnail outfit/hyperdrive
+	thumbnail outfit/unknown
 outfit "Korath Disruptor Gun"
 	"gun ports" -1
 	"outfit space" -28
@@ -68,7 +68,7 @@ outfit "Quantum Waystone"
 	category "Systems"
 	cost 720000
 	description "This precious artifact attunes a ship's quantum oscillations in a way that allows it to travel through The Gateway, an impassable wormhole seperating the Irm from the rest of the galaxy. Waystones are extremely rare and valuable, because they are only found in one place, Tutum."
-	thumbnail "outfit/keystone"
+	thumbnail outfit/unknown
 outfit "Reflective Plating"
 	"cloaking energy" 18
 	"outfit space" -3
