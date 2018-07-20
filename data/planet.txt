@@ -98,6 +98,7 @@ planet Arx
 	description "Placeholder Text."
 	landscape land/ringworld
 	outfitter irm
+	shipyard irm
 	spaceport "Placeholder Text."
 planet Atrapos
 	bribe 0

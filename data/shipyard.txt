@@ -1,11 +1,14 @@
-shipyard sarcina
-	"Reaver Aerie"
-	"Reaver Aphid"
-	"Reaver Firebird"
-	"Reaver Leviathan"
-	Scud
+shipyard irm
+	Apocalypse
 shipyard reaver
 	"Reaver Aerie"
 	"Reaver Aphid"
 	"Reaver Firebird"
 	"Reaver Leviathan"
+shipyard sarcina
+	"Reaver Aerie"
+	"Reaver Aphid"
+	"Reaver Firebird"
+	"Reaver Leviathan"
+	Apocalypse
+	Scud

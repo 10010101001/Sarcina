@@ -154,6 +154,70 @@ ship "Reaver Leviathan"
 	turret -25 10 "Anti-Missile Turret"
 	turret 15 -50 "Thrasher Turret"
 	turret 25 10 "Anti-Missile Turret"
+ship Apocalypse
+	attributes
+		"cargo space" 173
+		"engine capacity" 209
+		"fuel capacity" 400
+		"heat dissipation" .2
+		"outfit space" 1216
+		"required crew" 117
+		"weapon capacity" 482
+		bunks 233
+		category "Heavy Warship"
+		drag 30
+		hull 47200
+		mass 3700
+		shields 74800
+	drone -120 108 over left
+	drone -120 108 under left
+	drone -120 206 over left
+	drone -120 206 under left
+	drone -120 304 over left
+	drone -120 304 under left
+	drone -120 402 over left
+	drone -120 402 under left
+	drone 120 108 over right
+	drone 120 108 under right
+	drone 120 206 over right
+	drone 120 206 under right
+	drone 120 304 over right
+	drone 120 304 under right
+	drone 120 402 over right
+	drone 120 402 under right
+	engine -147 -35 .6
+	engine -34 636 1.2
+	engine -34 636 1.2
+	engine -83 621
+	engine 147 -35 .6
+	engine 34 636 1.2
+	engine 34 636 1.2
+	engine 83 621
+	gun 0 -633 "Drak Antimatter Cannon"
+	outfits
+		"Blue Sun Reactor" 2
+		"Drak Antimatter Cannon"
+		"Forge-Class Steering"
+		"Forge-Class Thruster"
+		"Korath Banisher" 8
+		"Large Heat Shunt"
+		"Quantum Waystone"
+		"Quarg Anti-Missile"
+		"Reflective Plating"
+		"Smelter-Class Steering"
+		"Smelter-Class Thruster"
+		"Systems Core (Large)" 2
+		Hyperdrive
+	sprite ship/apocalypse
+	turret 0 -120 "Quarg Anti-Missile"
+	turret -58 108 "Korath Banisher"
+	turret -58 206 "Korath Banisher"
+	turret -58 304 "Korath Banisher"
+	turret -58 402 "Korath Banisher"
+	turret 58 108 "Korath Banisher"
+	turret 58 206 "Korath Banisher"
+	turret 58 304 "Korath Banisher"
+	turret 58 402 "Korath Banisher"
 ship Kestrel "Kestrel (More Engines)"
 	attributes
 		"engine capacity" 250
