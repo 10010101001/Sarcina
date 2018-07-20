@@ -1,4 +1,4 @@
 tip "quantum keystone:"
-	`A mysterious property. could it have a use?`
+	`A mysterious property. Could it have a use?`
 tip "quantum waystone:"
-	`A mysterious property. could it have a use?`
+	`A mysterious property. Could it have a use?`
