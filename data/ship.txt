@@ -165,35 +165,37 @@ ship Apocalypse
 		"weapon capacity" 482
 		bunks 233
 		category "Heavy Warship"
+		cost 74980000
 		drag 30
 		hull 47200
 		mass 3700
 		shields 74800
-	drone -120 108 over left
-	drone -120 108 under left
-	drone -120 206 over left
-	drone -120 206 under left
-	drone -120 304 over left
-	drone -120 304 under left
-	drone -120 402 over left
-	drone -120 402 under left
-	drone 120 108 over right
-	drone 120 108 under right
-	drone 120 206 over right
-	drone 120 206 under right
-	drone 120 304 over right
-	drone 120 304 under right
-	drone 120 402 over right
-	drone 120 402 under right
-	engine -147 -35 .6
-	engine -34 636 1.2
-	engine -34 636 1.2
-	engine -83 621
-	engine 147 -35 .6
-	engine 34 636 1.2
-	engine 34 636 1.2
-	engine 83 621
-	gun 0 -633 "Drak Antimatter Cannon"
+	drone -114 102 over left
+	drone -114 102 under left
+	drone -114 198 over left
+	drone -114 198 under left
+	drone -114 294 over left
+	drone -114 294 under left
+	drone -114 390 over left
+	drone -114 390 under left
+	drone 114 102 over right
+	drone 114 102 under right
+	drone 114 198 over right
+	drone 114 198 under right
+	drone 114 294 over right
+	drone 114 294 under right
+	drone 114 390 over right
+	drone 114 390 under right
+	engine -144 -40 .6
+	engine -33 620 1.2
+	engine -33 620 1.2
+	engine -81 605
+	engine 0 635 2
+	engine 144 -40 .6
+	engine 33 620 1.2
+	engine 33 620 1.2
+	engine 81 605
+	gun 0 -630 "Drak Antimatter Cannon"
 	outfits
 		"Blue Sun Reactor" 2
 		"Drak Antimatter Cannon"
@@ -209,15 +211,15 @@ ship Apocalypse
 		"Smelter-Class Thruster"
 		"Systems Core (Large)" 2
 	sprite ship/apocalypse
-	turret 0 -120 "Quarg Anti-Missile"
-	turret -58 108 "Korath Banisher"
-	turret -58 206 "Korath Banisher"
-	turret -58 304 "Korath Banisher"
-	turret -58 402 "Korath Banisher"
-	turret 58 108 "Korath Banisher"
-	turret 58 206 "Korath Banisher"
-	turret 58 304 "Korath Banisher"
-	turret 58 402 "Korath Banisher"
+	turret 0 -116 "Quarg Anti-Missile"
+	turret -55 102 "Korath Banisher"
+	turret -55 198 "Korath Banisher"
+	turret -55 294 "Korath Banisher"
+	turret -55 390 "Korath Banisher"
+	turret 55 102 "Korath Banisher"
+	turret 55 198 "Korath Banisher"
+	turret 55 294 "Korath Banisher"
+	turret 55 390 "Korath Banisher"
 ship Kestrel "Kestrel (More Engines)"
 	attributes
 		"engine capacity" 250
