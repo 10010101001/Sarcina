@@ -28,6 +28,30 @@ outfit "Flame Thrower"
 	description "This is a relic of times past, from the days of early spaceflight brought forth mass piracy. Because of the overwhelming popularity among pirates and the inhumane use of such a weapon, interstellar law forbids possession. One can earn a particularly nasty fine if caught in possession of a Flame Thrower. They do serve their purpose however, they clear out an enemy ship quicker than most other methods..."
 	illegal 450000
 	thumbnail outfit/flame_thrower
+outfit "Irm Devastator"
+	"apocalypse spine" 1
+	"gun ports" -1
+	"outfit space" -143
+	"weapon capacity" -143
+	category Guns
+	cost 2690000
+	description "Placeholder Text."
+	mass 143
+	thumbnail outfit/unknown
+	weapon
+		"firing energy" 13
+		"firing heat" 11
+		"heat damage" 140
+		"hit effect" "fire-lance impact"
+		"hull damage" 17
+		"shield damage" 26
+		lifetime 1
+		reload 1
+		sound fire-lance
+		sprite projectile/temp
+			"frame rate" 1
+			"random start frame"
+		velocity 860
 outfit "Irm Hyperdrive"
 	"jump fuel" 80
 	"jump speed" .5

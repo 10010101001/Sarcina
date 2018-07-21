@@ -156,13 +156,14 @@ ship "Reaver Leviathan"
 	turret 25 10 "Anti-Missile Turret"
 ship Apocalypse
 	attributes
+		"apocalypse spine" -1
 		"cargo space" 173
 		"engine capacity" 209
 		"fuel capacity" 400
 		"heat dissipation" .2
-		"outfit space" 1216
+		"outfit space" 1259
 		"required crew" 117
-		"weapon capacity" 482
+		"weapon capacity" 562
 		bunks 233
 		category "Heavy Warship"
 		cost 74980000
@@ -195,31 +196,28 @@ ship Apocalypse
 	engine 33 620 1.2
 	engine 33 620 1.2
 	engine 81 605
-	gun 0 -630 "Drak Antimatter Cannon"
+	gun 0 -620 "Drak Antimatter Cannon"
 	outfits
-		"Blue Sun Reactor" 2
-		"Drak Antimatter Cannon"
+		"Blue Sun Reactor"
 		"Forge-Class Steering"
 		"Forge-Class Thruster"
+		"Irm Devastator"
 		"Irm Hyperdrive"
-		"Korath Banisher" 8
-		"Large Heat Shunt"
 		"Quantum Waystone"
-		"Quarg Anti-Missile"
+		"Quarg Anti-Missile" 8
 		"Reflective Plating"
 		"Smelter-Class Steering"
 		"Smelter-Class Thruster"
-		"Systems Core (Large)" 2
+		"Systems Core (Large)" 4
 	sprite ship/apocalypse
-	turret 0 -116 "Quarg Anti-Missile"
-	turret -55 102 "Korath Banisher"
-	turret -55 198 "Korath Banisher"
-	turret -55 294 "Korath Banisher"
-	turret -55 390 "Korath Banisher"
-	turret 55 102 "Korath Banisher"
-	turret 55 198 "Korath Banisher"
-	turret 55 294 "Korath Banisher"
-	turret 55 390 "Korath Banisher"
+	turret -55 102 "Quarg Anti-Missile"
+	turret -55 198 "Quarg Anti-Missile"
+	turret -55 294 "Quarg Anti-Missile"
+	turret -55 390 "Quarg Anti-Missile"
+	turret 55 102 "Quarg Anti-Missile"
+	turret 55 198 "Quarg Anti-Missile"
+	turret 55 294 "Quarg Anti-Missile"
+	turret 55 390 "Quarg Anti-Missile"
 ship Kestrel "Kestrel (More Engines)"
 	attributes
 		"engine capacity" 250
@@ -231,7 +229,7 @@ ship Kestrel "Kestrel (More Shields)"
 	attributes
 		hull 10700
 		shields 22500
-ship "Kestrel" "Kestrel (More Weapons)"
+ship Kestrel "Kestrel (More Weapons)"
 	attributes
 		"outfit space" 800
 		"weapon capacity" 390
