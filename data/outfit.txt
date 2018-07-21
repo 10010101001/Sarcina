@@ -62,6 +62,23 @@ outfit "Irm Hyperdrive"
 	description "Placeholder Text."
 	hyperdrive 1
 	thumbnail outfit/unknown
+outfit "Irm Large Engines"
+	"engine capacity" -139
+	"flare sound" "plasma medium"
+	"flare sprite" effect/irm_large_engines
+		"frame rate" 3
+	"outfit space" -139
+	"thrusting energy" 7.2
+	"thrusting heat" 6.1
+	"turning energy" 4.3
+	"turning heat" 3.7
+	category Engines
+	cost 1960000
+	mass 139
+	thrust 65.9
+	thumbnail outfit/unknown
+	turn 1790
+	description "Placeholder Text."
 outfit "Korath Disruptor Gun"
 	"gun ports" -1
 	"outfit space" -28

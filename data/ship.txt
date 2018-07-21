@@ -158,10 +158,10 @@ ship Apocalypse
 	attributes
 		"apocalypse spine" -1
 		"cargo space" 173
-		"engine capacity" 209
+		"engine capacity" 139
 		"fuel capacity" 400
 		"heat dissipation" .2
-		"outfit space" 1259
+		"outfit space" 1159
 		"required crew" 117
 		"weapon capacity" 562
 		bunks 233
@@ -196,18 +196,15 @@ ship Apocalypse
 	engine 33 620 1.2
 	engine 33 620 1.2
 	engine 81 605
-	gun 0 -620 "Drak Antimatter Cannon"
+	gun 0 -620 "Irm Devastator"
 	outfits
 		"Blue Sun Reactor"
-		"Forge-Class Steering"
-		"Forge-Class Thruster"
 		"Irm Devastator"
 		"Irm Hyperdrive"
+		"Irm Large Engines"
 		"Quantum Waystone"
 		"Quarg Anti-Missile" 8
 		"Reflective Plating"
-		"Smelter-Class Steering"
-		"Smelter-Class Thruster"
 		"Systems Core (Large)" 4
 	sprite ship/apocalypse
 	turret -55 102 "Quarg Anti-Missile"

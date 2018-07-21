@@ -32,6 +32,7 @@ outfitter "Wanderer Basics"
 outfitter irm
 	"Irm Devastator"
 	"Irm Hyperdrive"
+	"Irm Large Engines"
 	"Quantum Waystone"
 	"Reflective Plating"
 outfitter Remnant
@@ -42,6 +43,7 @@ outfitter sarcina
 	"Flame Thrower"
 	"Irm Devastator"
 	"Irm Hyperdrive"
+	"Irm Large Engines"
 	"Korath Disruptor Gun"
 	"Quantum Waystone"
 	"Reflective Plating"
