@@ -61,7 +61,7 @@ outfit "Irm Hyperdrive"
 	cost 125000
 	description "Placeholder Text."
 	hyperdrive 1
-	thumbnail outfit/unknown
+	thumbnail outfit/hyperdrive
 outfit "Irm Large Engines"
 	"engine capacity" -139
 	"flare sound" "plasma medium"
