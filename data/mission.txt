@@ -329,7 +329,7 @@ mission "reavers: 2"
 		conversation
 			`After one day on <origin> inside your ship a signal is recieved from orbit; "Hello captain! I was told to be expecting a newcomer. I have a feeling you will like what we have to offer, follow the attached planet-side coordinates." The signal disappears without warning, this is turning out to be quite the goose chase.`
 				decline
-		event reavers
+		event "reaver base found"
 	source Atrapos
 	to offer
 		has "reavers: 1: offered"

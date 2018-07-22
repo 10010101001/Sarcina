@@ -28,6 +28,33 @@ outfit "Flame Thrower"
 	description "This is a relic of times past, from the days of early spaceflight brought forth mass piracy. Because of the overwhelming popularity among pirates and the inhumane use of such a weapon, interstellar law forbids possession. One can earn a particularly nasty fine if caught in possession of a Flame Thrower. They do serve their purpose however, they clear out an enemy ship quicker than most other methods..."
 	illegal 450000
 	thumbnail outfit/flame_thrower
+outfit "Flamethrower Turret"
+	"fuel capacity" 100
+	"outfit space" -22
+	"required crew" 1
+	"turret mounts" -1
+	"weapon capacity" -22
+	category Turrets
+	cost 380000
+	description "The turret-mounted flamethrower represents the epitome of Free Worlds creative extravagance. So great are its fuel requirements that it comes with a standard fuel pod pre-installed. Smaller ships which lack powerful cooling systems should stay out of range at all costs."
+	mass 22
+	thumbnail outfit/flamethrower_turret
+	weapon
+		"hardpoint offset" 7.
+		"hardpoint sprite" hardpoint/flamethrower_turret
+		firing energy .25
+		firing fuel .25
+		firing heat 3
+		icon icon/flamethrower
+		inaccuracy 12
+		lifetime 5
+		reload 1
+		sound flamethrower
+		sprite effect/explosion/small
+			"frame rate" 60
+			"no repeat"
+		submunition "Flamethrower Projectile"
+		velocity 9
 outfit "Irm Devastator"
 	"apocalypse spine" 1
 	"gun ports" -1

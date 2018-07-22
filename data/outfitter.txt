@@ -41,6 +41,7 @@ outfitter sarcina
 	"Blessing of a Deity"
 	"Fat Man"
 	"Flame Thrower"
+	"Flamethrower Turret"
 	"Irm Devastator"
 	"Irm Hyperdrive"
 	"Irm Large Engines"

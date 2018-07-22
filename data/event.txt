@@ -1,10 +1,13 @@
-event reavers
+event "reaver base found"
 	planet Atrapos
 		description `Placeholder Text.`
 		add shipyard reaver
 		add spaceport `Placeholder Text.`
 	system Levana
 		government Reaver
+event "flamethrower available"
+	outfitter "Kraz Advanced"
+		"Flamethrower Turret"
 event "wanderers: first tech increase"
 	fleet "Wanderer Defense"
 		add variant
