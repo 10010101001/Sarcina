@@ -154,6 +154,10 @@ ship "Reaver Leviathan"
 	turret -25 10 "Anti-Missile Turret"
 	turret 15 -50 "Thrasher Turret"
 	turret 25 10 "Anti-Missile Turret"
+ship "Shield Beetle"
+	attributes
+		licenses
+			"Hai Trust"
 ship Apocalypse
 	attributes
 		"apocalypse spine" -1
