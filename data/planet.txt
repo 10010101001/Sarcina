@@ -130,8 +130,7 @@ planet Darkmetal
 		threshold 8000
 planet Domum
 	description "Placeholder Text."
-	landscape land/myrabella7
-	outfitter irm
+	landscape land/badlands2
 	spaceport "Placeholder Text."
 planet Dustmaker
 	tribute 1300
