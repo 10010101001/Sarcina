@@ -1,3 +1,43 @@
+mission "hai unfettered humans"
+	description "Defeat a pirate raid on <destination>."
+	name "Defend <planet>"
+	npc
+		fleet "Large Hai"
+		fleet "Large Hai"
+		fleet "Large Militia"
+		government Hai
+		personality heroic staying
+	npc evade
+		fleet "Large Northern Pirates"
+		fleet "Large Northern Pirates"
+		fleet "Large Northern Pirates"
+		fleet "Large Northern Pirates"
+		fleet "Large Northern Pirates"
+		fleet "Large Northern Pirates"
+		fleet "Large Northern Pirates"
+		fleet "Large Northern Pirates"
+		fleet "Large Northern Pirates"
+		fleet "Large Northern Pirates"
+		government Pirate
+		personality heroic staying
+	on complete
+		dialog "The government of <planet> pays you <payment> for helping to drive off the attack."
+		payment 280000
+		set "license: Hai Trust"
+	on offer
+		conversation
+			`Suddenly you notice a massive rush in the spaceport: "We are under attack! <planet> is under attack by the unfettered humans! We need every combat-worthy ship to join in the defenses!" The authorities will probably be very gracious, but this could also be an easy way to get yourself killed.`
+			choice
+				"	(Join the defense fleet.)"
+				"	(Stay here until the fight is over.)"
+					decline
+			"A mix of Hai and Human pilots have amassed to help repel the unfettered attack. You join them, and take off together..."
+				launch
+	source
+		planet Allhome
+	to offer
+		"combat rating" > 400
+		random < 20
 mission "harvest aluminum small"
 	description "Reaver contacts will pay you <payment> for 40 tons of aluminum."
 	job
