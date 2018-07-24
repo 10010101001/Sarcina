@@ -160,14 +160,14 @@ ship "Shield Beetle"
 			"Hai Trust"
 ship Apocalypse
 	attributes
-		"apocalypse spine" -1
+		"apocalypse spine" -2
 		"cargo space" 173
 		"engine capacity" 139
 		"fuel capacity" 400
 		"heat dissipation" .2
-		"outfit space" 1159
+		"outfit space" 1359
 		"required crew" 117
-		"weapon capacity" 562
+		"weapon capacity" 662
 		bunks 233
 		category "Heavy Warship"
 		cost 74980000
@@ -175,35 +175,36 @@ ship Apocalypse
 		hull 47200
 		mass 3700
 		shields 74800
-	drone -114 102 under left
-	drone -114 102 under left
-	drone -114 198 under left
-	drone -114 198 under left
-	drone -114 294 under left
-	drone -114 294 under left
-	drone -114 390 under left
-	drone -114 390 under left
-	drone 114 102 under right
-	drone 114 102 under right
-	drone 114 198 under right
-	drone 114 198 under right
-	drone 114 294 under right
-	drone 114 294 under right
-	drone 114 390 under right
-	drone 114 390 under right
-	engine -144 -40 .6
-	engine -33 620 1.2
-	engine -33 620 1.2
-	engine -81 605
-	engine 0 635 2
-	engine 144 -40 .6
-	engine 33 620 1.2
-	engine 33 620 1.2
-	engine 81 605
-	gun 0 -620 "Irm Devastator"
+	drone -98 26 over left
+	drone -98 26 under left
+	drone -98 115 over left
+	drone -98 115 under left
+	drone -98 204 over left
+	drone -98 204 under left
+	drone -98 293 over left
+	drone -98 293 under left
+	drone 98 26 over right
+	drone 98 26 under right
+	drone 98 115 over right
+	drone 98 115 under right
+	drone 98 204 over right
+	drone 98 204 under right
+	drone 98 293 over right
+	drone 98 293 under right
+	engine -132 -106 .6
+	engine -31 510 1.2
+	engine -31 510 1.2
+	engine -74 495
+	engine 0 522 2
+	engine 132 -106 .6
+	engine 31 510 1.2
+	engine 31 510 1.2
+	engine 74 495
+	gun -22 -520 "Irm Devastator"
+	gun 22 -520 "Irm Devastator"
 	outfits
 		"Blue Sun Reactor"
-		"Irm Devastator"
+		"Irm Devastator" 2
 		"Irm Hyperdrive"
 		"Irm Large Engines"
 		"Quantum Waystone"
@@ -211,14 +212,14 @@ ship Apocalypse
 		"Reflective Plating"
 		"Systems Core (Large)" 4
 	sprite ship/apocalypse
-	turret -55 102 "Quarg Anti-Missile"
-	turret -55 198 "Quarg Anti-Missile"
-	turret -55 294 "Quarg Anti-Missile"
-	turret -55 390 "Quarg Anti-Missile"
-	turret 55 102 "Quarg Anti-Missile"
-	turret 55 198 "Quarg Anti-Missile"
-	turret 55 294 "Quarg Anti-Missile"
-	turret 55 390 "Quarg Anti-Missile"
+	turret -46 26 "Quarg Anti-Missile"
+	turret -46 115 "Quarg Anti-Missile"
+	turret -46 204 "Quarg Anti-Missile"
+	turret -46 293 "Quarg Anti-Missile"
+	turret 46 26 "Quarg Anti-Missile"
+	turret 46 115 "Quarg Anti-Missile"
+	turret 46 204 "Quarg Anti-Missile"
+	turret 46 293 "Quarg Anti-Missile"
 ship Kestrel "Kestrel (More Engines)"
 	attributes
 		"engine capacity" 250
