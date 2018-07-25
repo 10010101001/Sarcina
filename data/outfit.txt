@@ -40,11 +40,11 @@ outfit "Flamethrower Turret"
 	mass 22
 	thumbnail outfit/flamethrower_turret
 	weapon
+		"firing energy" .25
+		"firing fuel" .25
+		"firing heat" 3
 		"hardpoint offset" 7.
 		"hardpoint sprite" hardpoint/flamethrower_turret
-		firing energy .25
-		firing fuel .25
-		firing heat 3
 		icon icon/flamethrower
 		inaccuracy 12
 		lifetime 5
