@@ -175,6 +175,7 @@ ship Apocalypse
 		hull 47200
 		mass 3700
 		shields 74800
+	description "Placeholder Text."
 	drone -98 26 over left
 	drone -98 26 under left
 	drone -98 115 over left
