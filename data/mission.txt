@@ -1,3 +1,24 @@
+mission "hai enlisted"
+	description "You have been recommended for your attentiveness for keeping the peace throughout Hai space. Hai officials would like to consult you about possible enlistment."
+	destination Hai-home
+	name "Enlist with the Hai"
+	on complete
+		conversation
+			`	Work in progress.`
+		set "license: Hai Trust"
+	on offer
+		conversation
+			`As soon as you depart your ship you discover an envoy of sorts awaiting you. "Few human visitors demonstrate care for the lasting peace we have established so long ago," the Hai begins hastily. "You are a prominent example of your kind, we request audience on <destination>. The unfettered humans have revealed a tentativeness to prey on those who follow a path unlike their own."`
+			choice
+				`	"I suppose I can hear you out."`
+				`	"I would prefer to not get caught up in any trouble."
+					defer
+			`	"That is a most pleasing answer," it says. "the consuls will be notified of this news and will be expecting attendance."`
+				accept
+	source
+		government Hai
+	to offer
+		has "hai unfettered humans: done"
 mission "hai unfettered humans"
 	description "Defeat a pirate raid on <destination>."
 	name "Defend <planet>"
@@ -23,7 +44,6 @@ mission "hai unfettered humans"
 	on complete
 		dialog "The government of <planet> pays you <payment> for helping to drive off the attack."
 		payment 280000
-		set "license: Hai Trust"
 	on offer
 		conversation
 			`Suddenly you notice a massive rush in the spaceport: "We are under attack! <planet> is under attack by the unfettered humans! We need every combat-worthy ship to join in the defenses!" The authorities will probably be very gracious, but this could also be an easy way to get yourself killed.`
