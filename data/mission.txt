@@ -58,27 +58,27 @@ mission "hai unfettered humans"
 	to offer
 		"combat rating" > 400
 		random < 35
-mission "harvest aluminum large"
-	description "Reaver contacts will pay you <payment> for 70 tons of aluminum."
+mission "harvest aluminium large"
+	description "Reaver contacts will pay you <payment> for 70 tons of aluminium."
 	job
-	name "Harvest Aluminum"
+	name "Harvest Aluminium"
 	on complete
-		outfit Aluminum -70
+		outfit Aluminium -70
 		payment 324000
-		dialog `You unload the aluminum at the spaceport. The contact thanks you, and pays you <payment>.`
+		dialog `You unload the aluminium at the spaceport. The contact thanks you, and pays you <payment>.`
 	repeat
 	source
 		government Reaver
 	to offer
 		random < 20
-mission "harvest aluminum small"
-	description "Reaver contacts will pay you <payment> for 40 tons of aluminum."
+mission "harvest aluminium small"
+	description "Reaver contacts will pay you <payment> for 40 tons of aluminium."
 	job
-	name "Harvest Aluminum"
+	name "Harvest Aluminium"
 	on complete
-		outfit Aluminum -40
+		outfit Aluminium -40
 		payment 157500
-		dialog `You unload the aluminum at the spaceport. The contact thanks you, and pays you <payment>.`
+		dialog `You unload the aluminium at the spaceport. The contact thanks you, and pays you <payment>.`
 	repeat
 	source
 		government Reaver
