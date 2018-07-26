@@ -58,19 +58,6 @@ mission "hai unfettered humans"
 	to offer
 		"combat rating" > 400
 		random < 35
-mission "harvest aluminum small"
-	description "Reaver contacts will pay you <payment> for 40 tons of aluminum."
-	job
-	name "Harvest Aluminum"
-	on complete
-		outfit Aluminum -40
-		payment 157500
-		dialog `You unload the aluminum at the spaceport. The contact thanks you, and pays you <payment>.`
-	repeat
-	source
-		government Reaver
-	to offer
-		random < 30
 mission "harvest aluminum large"
 	description "Reaver contacts will pay you <payment> for 70 tons of aluminum."
 	job
@@ -84,14 +71,14 @@ mission "harvest aluminum large"
 		government Reaver
 	to offer
 		random < 20
-mission "harvest copper small"
-	description "Reaver contacts will pay you <payment> for 40 tons of copper."
+mission "harvest aluminum small"
+	description "Reaver contacts will pay you <payment> for 40 tons of aluminum."
 	job
-	name "Harvest Copper"
+	name "Harvest Aluminum"
 	on complete
-		outfit Copper -40
-		payment 262500
-		dialog `You unload the copper at the spaceport. The contact thanks you, and pays you <payment>.`
+		outfit Aluminum -40
+		payment 157500
+		dialog `You unload the aluminum at the spaceport. The contact thanks you, and pays you <payment>.`
 	repeat
 	source
 		government Reaver
@@ -110,19 +97,19 @@ mission "harvest copper large"
 		government Reaver
 	to offer
 		random < 20
-mission "harvest gold small"
-	description "Reaver contacts will pay you <payment> for 40 tons of gold."
+mission "harvest copper small"
+	description "Reaver contacts will pay you <payment> for 40 tons of copper."
 	job
-	name "Harvest Gold"
+	name "Harvest Copper"
 	on complete
-		outfit Gold -40
-		payment 800000
-		dialog `You unload the gold at the spaceport. The contact thanks you, and pays you <payment>.`
+		outfit Copper -40
+		payment 262500
+		dialog `You unload the copper at the spaceport. The contact thanks you, and pays you <payment>.`
 	repeat
 	source
 		government Reaver
 	to offer
-		random < 15
+		random < 30
 mission "harvest gold large"
 	description "Reaver contacts will pay you <payment> for 70 tons of gold."
 	job
@@ -136,19 +123,19 @@ mission "harvest gold large"
 		government Reaver
 	to offer
 		random < 10
-mission "harvest iron small"
-	description "Reaver contacts will pay you <payment> for 40 tons of iron."
+mission "harvest gold small"
+	description "Reaver contacts will pay you <payment> for 40 tons of gold."
 	job
-	name "Harvest Iron"
+	name "Harvest Gold"
 	on complete
-		outfit Iron -40
-		payment 105000
-		dialog `You unload the iron at the spaceport. The contact thanks you, and pays you <payment>.`
+		outfit Gold -40
+		payment 800000
+		dialog `You unload the gold at the spaceport. The contact thanks you, and pays you <payment>.`
 	repeat
 	source
 		government Reaver
 	to offer
-		random < 30
+		random < 15
 mission "harvest iron large"
 	description "Reaver contacts will pay you <payment> for 70 tons of iron."
 	job
@@ -162,14 +149,14 @@ mission "harvest iron large"
 		government Reaver
 	to offer
 		random < 20
-mission "harvest lead small"
-	description "Reaver contacts will pay you <payment> for 40 tons of lead."
+mission "harvest iron small"
+	description "Reaver contacts will pay you <payment> for 40 tons of iron."
 	job
-	name "Harvest Lead"
+	name "Harvest Iron"
 	on complete
-		outfit Lead -40
-		payment 90000
-		dialog `You unload the lead at the spaceport. The contact thanks you, and pays you <payment>.`
+		outfit Iron -40
+		payment 105000
+		dialog `You unload the iron at the spaceport. The contact thanks you, and pays you <payment>.`
 	repeat
 	source
 		government Reaver
@@ -188,14 +175,14 @@ mission "harvest lead large"
 		government Reaver
 	to offer
 		random < 20
-mission "harvest neodymium small"
-	description "Reaver contacts will pay you <payment> for 40 tons of neodymium."
+mission "harvest lead small"
+	description "Reaver contacts will pay you <payment> for 40 tons of lead."
 	job
-	name "Harvest Neodymium"
+	name "Harvest Lead"
 	on complete
-		outfit Neodymium -40
-		payment 380000
-		dialog `You unload the neodymium at the spaceport. The contact thanks you, and pays you <payment>.`
+		outfit Lead -40
+		payment 90000
+		dialog `You unload the lead at the spaceport. The contact thanks you, and pays you <payment>.`
 	repeat
 	source
 		government Reaver
@@ -214,19 +201,19 @@ mission "harvest neodymium large"
 		government Reaver
 	to offer
 		random < 20
-mission "harvest platinum small"
-	description "Reaver contacts will pay you <payment> for 40 tons of platinum."
+mission "harvest neodymium small"
+	description "Reaver contacts will pay you <payment> for 40 tons of neodymium."
 	job
-	name "Harvest Platinum"
+	name "Harvest Neodymium"
 	on complete
-		outfit Platinum -40
-		payment 1500000
-		dialog `You unload the platinum at the spaceport. The contact thanks you, and pays you <payment>.`
+		outfit Neodymium -40
+		payment 380000
+		dialog `You unload the neodymium at the spaceport. The contact thanks you, and pays you <payment>.`
 	repeat
 	source
 		government Reaver
 	to offer
-		random < 10
+		random < 30
 mission "harvest platinum large"
 	description "Reaver contacts will pay you <payment> for 70 tons of platinum."
 	job
@@ -240,19 +227,19 @@ mission "harvest platinum large"
 		government Reaver
 	to offer
 		random < 5
-mission "harvest silicon small"
-	description "Reaver contacts will pay you <payment> for 40 tons of silicon."
+mission "harvest platinum small"
+	description "Reaver contacts will pay you <payment> for 40 tons of platinum."
 	job
-	name "Harvest Silicon"
+	name "Harvest Platinum"
 	on complete
-		outfit Silicon -40
-		payment 60000
-		dialog `You unload the silicon at the spaceport. The contact thanks you, and pays you <payment>.`
+		outfit Platinum -40
+		payment 1500000
+		dialog `You unload the platinum at the spaceport. The contact thanks you, and pays you <payment>.`
 	repeat
 	source
 		government Reaver
 	to offer
-		random < 30
+		random < 10
 mission "harvest silicon large"
 	description "Reaver contacts will pay you <payment> for 70 tons of silicon."
 	job
@@ -266,19 +253,19 @@ mission "harvest silicon large"
 		government Reaver
 	to offer
 		random < 20
-mission "harvest silver small"
-	description "Reaver contacts will pay you <payment> for 40 tons of silver."
+mission "harvest silicon small"
+	description "Reaver contacts will pay you <payment> for 40 tons of silicon."
 	job
-	name "Harvest Silver"
+	name "Harvest Silicon"
 	on complete
-		outfit Silver -40
-		payment 450000
-		dialog `You unload the silver at the spaceport. The contact thanks you, and pays you <payment>.`
+		outfit Silicon -40
+		payment 60000
+		dialog `You unload the silicon at the spaceport. The contact thanks you, and pays you <payment>.`
 	repeat
 	source
 		government Reaver
 	to offer
-		random < 20
+		random < 30
 mission "harvest silver large"
 	description "Reaver contacts will pay you <payment> for 70 tons of silver."
 	job
@@ -292,19 +279,19 @@ mission "harvest silver large"
 		government Reaver
 	to offer
 		random < 10
-mission "harvest titanium small"
-	description "Reaver contacts will pay you <payment> for 40 tons of titanium."
+mission "harvest silver small"
+	description "Reaver contacts will pay you <payment> for 40 tons of silver."
 	job
-	name "Harvest Titanium"
+	name "Harvest Silver"
 	on complete
-		outfit Titanium -40
-		payment 375000
-		dialog `You unload the titanium at the spaceport. The contact thanks you, and pays you <payment>.`
+		outfit Silver -40
+		payment 450000
+		dialog `You unload the silver at the spaceport. The contact thanks you, and pays you <payment>.`
 	repeat
 	source
 		government Reaver
 	to offer
-		random < 10
+		random < 20
 mission "harvest titanium large"
 	description "Reaver contacts will pay you <payment> for 70 tons of titanium."
 	job
@@ -318,19 +305,19 @@ mission "harvest titanium large"
 		government Reaver
 	to offer
 		random < 5
-mission "harvest tungsten small"
-	description "Reaver contacts will pay you <payment> for 40 tons of tungsten."
+mission "harvest titanium small"
+	description "Reaver contacts will pay you <payment> for 40 tons of titanium."
 	job
-	name "Harvest Tungsten"
+	name "Harvest Titanium"
 	on complete
-		outfit Tungsten -40
-		payment 450000
-		dialog `You unload the tungsten at the spaceport. The contact thanks you, and pays you <payment>.`
+		outfit Titanium -40
+		payment 375000
+		dialog `You unload the titanium at the spaceport. The contact thanks you, and pays you <payment>.`
 	repeat
 	source
 		government Reaver
 	to offer
-		random < 30
+		random < 10
 mission "harvest tungsten large"
 	description "Reaver contacts will pay you <payment> for 70 tons of tungsten."
 	job
@@ -344,19 +331,19 @@ mission "harvest tungsten large"
 		government Reaver
 	to offer
 		random < 20
-mission "harvest uranium small"
-	description "Reaver contacts will pay you <payment> for 40 tons of uranium."
+mission "harvest tungsten small"
+	description "Reaver contacts will pay you <payment> for 40 tons of tungsten."
 	job
-	name "Harvest Uranium"
+	name "Harvest Tungsten"
 	on complete
-		outfit Uranium -40
-		payment 750000
-		dialog `You unload the uranium at the spaceport. The contact thanks you, and pays you <payment>.`
+		outfit Tungsten -40
+		payment 450000
+		dialog `You unload the tungsten at the spaceport. The contact thanks you, and pays you <payment>.`
 	repeat
 	source
 		government Reaver
 	to offer
-		random < 10
+		random < 30
 mission "harvest uranium large"
 	description "Reaver contacts will pay you <payment> for 70 tons of uranium."
 	job
@@ -370,6 +357,19 @@ mission "harvest uranium large"
 		government Reaver
 	to offer
 		random < 5
+mission "harvest uranium small"
+	description "Reaver contacts will pay you <payment> for 40 tons of uranium."
+	job
+	name "Harvest Uranium"
+	on complete
+		outfit Uranium -40
+		payment 750000
+		dialog `You unload the uranium at the spaceport. The contact thanks you, and pays you <payment>.`
+	repeat
+	source
+		government Reaver
+	to offer
+		random < 10
 mission "reavers: 1"
 	assisting
 	destination Atrapos
