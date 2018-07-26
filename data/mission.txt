@@ -57,7 +57,7 @@ mission "hai unfettered humans"
 		planet Allhome
 	to offer
 		"combat rating" > 400
-		random < 20
+		random < 35
 mission "harvest aluminum small"
 	description "Reaver contacts will pay you <payment> for 40 tons of aluminum."
 	job
