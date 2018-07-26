@@ -136,7 +136,7 @@ outfit "Quantum Waystone"
 	category "Systems"
 	cost 720000
 	description "This precious artifact attunes a ship's quantum oscillations in a way that allows it to travel through The Gateway, an impassable wormhole seperating the Irm from the rest of the galaxy. Waystones are extremely rare and valuable, because they are only found in one place, Tutum."
-	thumbnail outfit/unknown
+	thumbnail outfit/keystone
 outfit "Reflective Plating"
 	"cloaking energy" 18
 	"outfit space" -3
