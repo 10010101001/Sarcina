@@ -1,4 +1,4 @@
-ship "Reaver Aphid"
+ship "Adel"
 	attributes
 		"cargo space" 12
 		"engine capacity" 54
@@ -19,7 +19,7 @@ ship "Reaver Aphid"
 			"hit force" 650
 			"hull damage" 200
 			"shield damage" 400
-	description "Placeholder Text."
+	description "The Aphid is a light freighter designed by the hai, but is also in production by the reavers. The Aphid may have been designed with hauling cargo in mind but this iteration took a complete turn in the fiercest possible way. A considerably stronger hull with an improved shield matrix, sporting three gun ports comes the lightest warship of choice, the Adel."
 	engine -20 55
 	engine -9 52
 	engine 20 55

@@ -7,8 +7,8 @@ shipyard reaver
 	"Reaver Leviathan"
 shipyard sarcina
 	"Reaver Aerie"
-	"Reaver Aphid"
 	"Reaver Firebird"
 	"Reaver Leviathan"
+	Adel
 	Apocalypse
 	Scud
