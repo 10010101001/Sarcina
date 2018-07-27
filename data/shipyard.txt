@@ -1,12 +1,12 @@
 shipyard irm
 	Apocalypse
 shipyard reaver
-	"Reaver Firebird"
 	"Reaver Leviathan"
 	Adel
+	Bennu
 shipyard sarcina
-	"Reaver Firebird"
 	"Reaver Leviathan"
 	Adel
 	Apocalypse
+	Bennu
 	Scud

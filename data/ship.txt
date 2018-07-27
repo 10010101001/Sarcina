@@ -1,102 +1,3 @@
-ship "Adel"
-	attributes
-		"cargo space" 12
-		"engine capacity" 54
-		"fuel capacity" 400
-		"heat dissipation" .95
-		"outfit space" 206
-		"required crew" 1
-		"weapon capacity" 43
-		bunks 5
-		category Interceptor
-		cost 648000
-		drag 2.8
-		hull 1600
-		mass 115
-		shields 1900
-		weapon
-			"blast radius" 40
-			"hit force" 650
-			"hull damage" 200
-			"shield damage" 400
-	description "The Aphid is a light freighter designed by the hai, but is also in production by the reavers. The Aphid may have been designed with hauling cargo in mind but this iteration took a complete turn in the fiercest possible way. A considerably stronger hull with an improved shield matrix, sporting three gun ports comes the lightest warship of choice, the Adel."
-	engine -20 55
-	engine -9 52
-	engine 20 55
-	engine 9 52
-	explode "medium explosion" 15
-	explode "small explosion" 20
-	explode "tiny explosion" 10
-	gun -6 -49 "Beam Laser"
-	gun 0 -52 "Korath Fire-Lance"
-	gun 6 -49 "Beam Laser"
-	outfits
-		"A255 Atomic Steering"
-		"Beam Laser" 2
-		"Generator (Candle Class)"
-		"Hai Chasm Batteries"
-		"Hai Williwaw Cooling"
-		"Korath Fire-Lance"
-		"Pebble Core"
-		"Quantum Key Stone"
-		"S-270 Regenerator" 2
-		`"Benga" Atomic Thruster`
-		Hyperdrive
-	sprite ship/raphid
-ship "Reaver Firebird"
-	"final explode" "final explosion medium"
-	attributes
-		"cargo space" 35
-		"engine capacity" 115
-		"fuel capacity" 400
-		"heat dissipation" .7
-		"outfit space" 430
-		"required crew" 8
-		"weapon capacity" 175
-		bunks 25
-		category "Medium Warship"
-		cost 3920000
-		drag 4.8
-		hull 3300
-		mass 330
-		shields 8700
-		weapon
-			"blast radius" 150
-			"hit force" 1550
-			"hull damage" 600
-			"shield damage" 1100
-	description "Placeholder Text."
-	engine -33 65
-	engine 33 65
-	explode "large explosion" 8
-	explode "medium explosion" 24
-	explode "small explosion" 36
-	explode "tiny explosion" 18
-	gun -28 -27 "Thrasher Cannon"
-	gun -39 -13 "Inhibitor Cannon"
-	gun 28 -27 "Thrasher Cannon"
-	gun 39 -13 "Inhibitor Cannon"
-	outfits
-		"Anti-Missile Turret" 2
-		"Crucible-Class Thruster"
-		"Crystal Capacitor" 2
-		"D41-HY Shield Generator"
-		"Emergency Ramscoop" 2
-		"Generator (Furnace Class)" 3
-		"Inhibitor Cannon" 2
-		"Interference Plating" 3
-		"Laser Rifle" 5
-		"LP072a Battery Pack"
-		"Nerve Gas" 2
-		"Quantum Key Stone"
-		"Small Heat Shunt"
-		"Smelter-Class Steering"
-		"Thrasher Cannon" 2
-		"Thruster (Asteroid Class)" 2
-		Hyperdrive
-	sprite ship/rfirebird
-	turret -5 3 "Anti-Missile Turret"
-	turret 5 3 "Anti-Missile Turret"
 ship "Reaver Leviathan"
 	"final explode" "final explosion large"
 	attributes
@@ -158,6 +59,51 @@ ship "Shield Beetle"
 	attributes
 		licenses
 			"Hai Trust"
+ship Adel
+	attributes
+		"cargo space" 12
+		"engine capacity" 54
+		"fuel capacity" 400
+		"heat dissipation" .95
+		"outfit space" 206
+		"required crew" 1
+		"weapon capacity" 43
+		bunks 5
+		category Interceptor
+		cost 648000
+		drag 2.8
+		hull 1600
+		mass 115
+		shields 1900
+		weapon
+			"blast radius" 40
+			"hit force" 650
+			"hull damage" 200
+			"shield damage" 400
+	description "The Aphid is a light freighter designed by the hai, but is also in production by the reavers. The Aphid may have been designed with hauling cargo in mind but this iteration took a complete turn in the fiercest possible way. A considerably stronger hull with an improved shield matrix, sporting three gun ports comes the lightest warship of choice, the Adel."
+	engine -20 55
+	engine -9 52
+	engine 20 55
+	engine 9 52
+	explode "medium explosion" 15
+	explode "small explosion" 20
+	explode "tiny explosion" 10
+	gun -6 -49 "Beam Laser"
+	gun 0 -52 "Korath Fire-Lance"
+	gun 6 -49 "Beam Laser"
+	outfits
+		"A255 Atomic Steering"
+		"Beam Laser" 2
+		"Generator (Candle Class)"
+		"Hai Chasm Batteries"
+		"Hai Williwaw Cooling"
+		"Korath Fire-Lance"
+		"Pebble Core"
+		"Quantum Key Stone"
+		"S-270 Regenerator" 2
+		`"Benga" Atomic Thruster`
+		Hyperdrive
+	sprite ship/raphid
 ship Apocalypse
 	attributes
 		"apocalypse spine" -2
@@ -221,6 +167,60 @@ ship Apocalypse
 	turret 46 115 "Quarg Anti-Missile"
 	turret 46 204 "Quarg Anti-Missile"
 	turret 46 293 "Quarg Anti-Missile"
+ship Bennu
+	"final explode" "final explosion medium"
+	attributes
+		"cargo space" 35
+		"engine capacity" 115
+		"fuel capacity" 400
+		"heat dissipation" .7
+		"outfit space" 430
+		"required crew" 8
+		"weapon capacity" 175
+		bunks 25
+		category "Medium Warship"
+		cost 3920000
+		drag 4.8
+		hull 3300
+		mass 330
+		shields 8700
+		weapon
+			"blast radius" 150
+			"hit force" 1550
+			"hull damage" 600
+			"shield damage" 1100
+	description "Firebirds fought on both sides of the Alpha Wars over half a millennium ago. There is a reason why the Firebird has been revered in all corners of human space as a warship to deal with any situation. Maintaining production of the Firebird iteration, Bennu, means a great deal to the reavers and has proven a worthy endeavor."
+	engine -33 65
+	engine 33 65
+	explode "large explosion" 8
+	explode "medium explosion" 24
+	explode "small explosion" 36
+	explode "tiny explosion" 18
+	gun -28 -27 "Thrasher Cannon"
+	gun -39 -13 "Inhibitor Cannon"
+	gun 28 -27 "Thrasher Cannon"
+	gun 39 -13 "Inhibitor Cannon"
+	outfits
+		"Anti-Missile Turret" 2
+		"Crucible-Class Thruster"
+		"Crystal Capacitor" 2
+		"D41-HY Shield Generator"
+		"Emergency Ramscoop" 2
+		"Generator (Furnace Class)" 3
+		"Inhibitor Cannon" 2
+		"Interference Plating" 3
+		"Laser Rifle" 5
+		"LP072a Battery Pack"
+		"Nerve Gas" 2
+		"Quantum Key Stone"
+		"Small Heat Shunt"
+		"Smelter-Class Steering"
+		"Thrasher Cannon" 2
+		"Thruster (Asteroid Class)" 2
+		Hyperdrive
+	sprite ship/rfirebird
+	turret -5 3 "Anti-Missile Turret"
+	turret 5 3 "Anti-Missile Turret"
 ship Kestrel "Kestrel (More Engines)"
 	attributes
 		"engine capacity" 250
