@@ -1,60 +1,3 @@
-ship "Reaver Leviathan"
-	"final explode" "final explosion large"
-	attributes
-		"cargo space" 35
-		"engine capacity" 160
-		"fuel capacity" 500
-		"heat dissipation" .4
-		"outfit space" 715
-		"required crew" 53
-		"weapon capacity" 270
-		bunks 74
-		category "Heavy Warship"
-		cost 11497000
-		drag 8.9
-		hull 6200
-		mass 640
-		shields 16800
-		weapon
-			"blast radius" 90
-			"hit force" 1300
-			"hull damage" 500
-			"shield damage" 900
-	description "Placeholder Text."
-	engine -25 125
-	engine 0 130
-	engine 25 125
-	explode "large explosion" 8
-	explode "medium explosion" 24
-	explode "small explosion" 36
-	explode "tiny explosion" 18
-	gun -38 -21 "Inhibitor Cannon"
-	gun -50 2 "Particle Cannon"
-	gun 38 -21 "Inhibitor Cannon"
-	gun 50 2 "Particle Cannon"
-	outfits
-		"Anti-Missile Turret" 2
-		"Crystal Capacitor" 2
-		"D23-QP Shield Generator"
-		"D67-TM Shield Generator"
-		"Emergency Ramscoop" 3
-		"Fusion Reactor"
-		"Inhibitor Cannon" 2
-		"Liquid Helium Cooler"
-		"LP072a Battery Pack"
-		"Millennium Cell"
-		"Particle Cannon" 2
-		"Quantum Key Stone"
-		"Smelter-Class Steering"
-		"Thrasher Turret" 2
-		"Thruster (Asteroid Class)" 3
-		"X3700 Ion Thruster"
-		Hyperdrive
-	sprite ship/rleviathan
-	turret -15 -50 "Thrasher Turret"
-	turret -25 10 "Anti-Missile Turret"
-	turret 15 -50 "Thrasher Turret"
-	turret 25 10 "Anti-Missile Turret"
 ship "Shield Beetle"
 	attributes
 		licenses
@@ -221,6 +164,63 @@ ship Bennu
 	sprite ship/rfirebird
 	turret -5 3 "Anti-Missile Turret"
 	turret 5 3 "Anti-Missile Turret"
+ship Hydra
+	"final explode" "final explosion large"
+	attributes
+		"cargo space" 35
+		"engine capacity" 160
+		"fuel capacity" 500
+		"heat dissipation" .4
+		"outfit space" 715
+		"required crew" 53
+		"weapon capacity" 270
+		bunks 74
+		category "Heavy Warship"
+		cost 11497000
+		drag 8.9
+		hull 6200
+		mass 640
+		shields 16800
+		weapon
+			"blast radius" 90
+			"hit force" 1300
+			"hull damage" 500
+			"shield damage" 900
+	description "The Leviathan has been a choice capital ship for centuries, long before the republic. Far outdated but still highly sought after, the Leviathan still outperforms certain modern day models, even if it is clunky by todays standards. Hydra is a long needed step up from the centuries old relic, generously provided with a sturdier hull and improved shield matrix."
+	engine -25 125
+	engine 0 130
+	engine 25 125
+	explode "large explosion" 8
+	explode "medium explosion" 24
+	explode "small explosion" 36
+	explode "tiny explosion" 18
+	gun -38 -21 "Inhibitor Cannon"
+	gun -50 2 "Particle Cannon"
+	gun 38 -21 "Inhibitor Cannon"
+	gun 50 2 "Particle Cannon"
+	outfits
+		"Anti-Missile Turret" 2
+		"Crystal Capacitor" 2
+		"D23-QP Shield Generator"
+		"D67-TM Shield Generator"
+		"Emergency Ramscoop" 3
+		"Fusion Reactor"
+		"Inhibitor Cannon" 2
+		"Liquid Helium Cooler"
+		"LP072a Battery Pack"
+		"Millennium Cell"
+		"Particle Cannon" 2
+		"Quantum Key Stone"
+		"Smelter-Class Steering"
+		"Thrasher Turret" 2
+		"Thruster (Asteroid Class)" 3
+		"X3700 Ion Thruster"
+		Hyperdrive
+	sprite ship/rleviathan
+	turret -15 -50 "Thrasher Turret"
+	turret -25 10 "Anti-Missile Turret"
+	turret 15 -50 "Thrasher Turret"
+	turret 25 10 "Anti-Missile Turret"
 ship Kestrel "Kestrel (More Engines)"
 	attributes
 		"engine capacity" 250
