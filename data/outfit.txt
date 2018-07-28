@@ -79,16 +79,6 @@ outfit "Irm Devastator"
 			"frame rate" 1
 			"random start frame"
 		velocity 860
-outfit "Irm Hyperdrive"
-	"jump fuel" 80
-	"jump speed" .5
-	"mass" 36
-	"outfit space" -36
-	category Systems
-	cost 125000
-	description "Placeholder Text."
-	hyperdrive 1
-	thumbnail outfit/hyperdrive
 outfit "Irm Large Engines"
 	"engine capacity" -139
 	"flare sound" "plasma medium"

@@ -95,12 +95,12 @@ ship Apocalypse
 	outfits
 		"Blue Sun Reactor"
 		"Irm Devastator" 2
-		"Irm Hyperdrive"
 		"Irm Large Engines"
 		"Quantum Waystone"
 		"Quarg Anti-Missile" 8
 		"Reflective Plating"
 		"Systems Core (Large)" 4
+		Hyperdrive
 	sprite ship/apocalypse
 	turret -46 26 "Quarg Anti-Missile"
 	turret -46 115 "Quarg Anti-Missile"
