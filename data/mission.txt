@@ -2,10 +2,8 @@ mission "hai enlisted"
 	description "You have been recommended for your attentiveness for keeping the peace throughout Hai space. Hai officials would like to consult you about possible enlistment."
 	destination Hai-home
 	name "Enlist with the Hai"
-	on complete
-		conversation
-			`	Work in progress.`
-		set "license: Hai Trust"
+	to complete
+		never
 	on offer
 		conversation
 			`As soon as you depart your ship you discover an envoy of sorts awaiting you. "Few human visitors demonstrate care for the lasting peace we have established so long ago," the Hai begins hastily. "You are a prominent example of your kind, we request audience on <destination>. The unfettered humans have revealed a tentativeness to prey on those who follow a path unlike their own."`
@@ -15,6 +13,7 @@ mission "hai enlisted"
 					defer
 			`	"That is a most pleasing answer," it says. "the consuls will be notified of this news and will be expecting attendance."`
 				accept
+		set "license: Hai Trust"
 	source
 		government Hai
 	to offer
