@@ -18,11 +18,6 @@ planet "New Tibet"
 	tribute 800
 		threshold 4000
 		fleet "Large Militia" 10
-planet "Tai'ei ek"
-	bribe 0
-	description `Placeholder Text.`
-	landscape land/sea9
-	spaceport `Placeholder Text.`
 planet "Tik Klai"
 	tribute 3800
 		fleet "Wanderer Defense" 8
@@ -85,11 +80,6 @@ planet "Varu Tev'kei"
 		threshold 63000
 planet "Wormhole X"
 	attributes "requires: quantum waystone"
-planet Achi'rei
-	bribe 0
-	description `Placeholder Text.`
-	landscape land/sea6
-	spaceport `Placeholder Text.`
 planet Allhome
 	tribute 1900
 		fleet "Large Hai" 10
@@ -111,11 +101,6 @@ planet Aventine
 	tribute 2900
 		fleet "Large Remnant" 4
 		threshold 11000
-planet Ayek'ret
-	bribe 0
-	description `Placeholder Text.`
-	landscape land/sea1
-	spaceport `Placeholder Text.`
 planet Caelian
 	tribute 4700
 		fleet "Large Remnant" 10

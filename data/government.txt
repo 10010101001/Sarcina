@@ -1,7 +1,3 @@
-government "Wanderer Spirits"
-	color .5 .7 .4
-	language "Wanderer"
-	swizzle 2
 government Reaver
 	color .85 .85 .85
 	swizzle 0

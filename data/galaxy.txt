@@ -1,3 +1,0 @@
-galaxy Helix
-	pos 10000 0
-	sprite ui/Helix
