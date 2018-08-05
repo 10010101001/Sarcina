@@ -89,7 +89,7 @@ system Solum
 		offset -80
 		period 360
 		sprite planet/ringworld
-	object Domum
+	object
 		distance 847
 		offset -280
 		period 360

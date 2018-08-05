@@ -113,10 +113,6 @@ planet Darkmetal
 	tribute 2100
 		fleet "Large Hai" 8
 		threshold 8000
-planet Domum
-	description "Placeholder Text."
-	landscape land/badlands2
-	spaceport "Placeholder Text."
 planet Dustmaker
 	tribute 1300
 		fleet "Large Hai" 4
