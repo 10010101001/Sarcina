@@ -95,7 +95,7 @@ outfit "Irm Large Engines"
 	thrust 65.9
 	thumbnail outfit/unknown
 	turn 1790
-	description "Placeholder Text."
+	description "The Irm find a certain comfort in hybrid systems. The directional thrust used to accelerate ships forwards can be diverted to any direction. Functionally, linking thrusters and steering together can greatly bolster the effectiveness of the engines."
 outfit "Korath Disruptor Gun"
 	"gun ports" -1
 	"outfit space" -28
