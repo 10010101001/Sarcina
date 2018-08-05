@@ -65,21 +65,21 @@ ship Apocalypse
 		mass 3700
 		shields 74800
 	description "Placeholder Text."
-	drone -98 26 over left
 	drone -98 26 under left
-	drone -98 115 over left
+	drone -98 26 under left
 	drone -98 115 under left
-	drone -98 204 over left
+	drone -98 115 under left
 	drone -98 204 under left
-	drone -98 293 over left
+	drone -98 204 under left
 	drone -98 293 under left
-	drone 98 26 over right
+	drone -98 293 under left
 	drone 98 26 under right
-	drone 98 115 over right
+	drone 98 26 under right
 	drone 98 115 under right
-	drone 98 204 over right
+	drone 98 115 under right
 	drone 98 204 under right
-	drone 98 293 over right
+	drone 98 204 under right
+	drone 98 293 under right
 	drone 98 293 under right
 	engine -132 -106 .6
 	engine -31 510 1.2
