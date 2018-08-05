@@ -375,7 +375,7 @@ mission "reavers: 1"
 	name "Mysterious Transmission"
 	on offer
 		conversation
-			`When you repair the <origin> he makes a transmission with only system coordinates and a short message; "Wait one day", strange.`
+			`When you repair the <origin> he makes a transmission with only system coordinates and a short message; "Wait one day in orbit", strange, but maybe something to investigate.`
 				accept
 	source
 		government Remnant
@@ -386,7 +386,7 @@ mission "reavers: 2"
 	name "Mysterious Transmission"
 	on offer
 		conversation
-			`After one day on <origin> inside your ship a signal is recieved from orbit; "Hello captain! I was told to be expecting a newcomer. I have a feeling you will like what we have to offer, follow the attached planet-side coordinates." The signal disappears without warning, this is turning out to be quite the goose chase.`
+			`After one day in orbit around <origin>, a signal is recieved planet-side; "Hello captain! I was told to be expecting a newcomer. I have a feeling you will like what we have to offer, follow the attached planet-side coordinates." The signal disappears without warning, this is turning out to be quite the goose chase.`
 				decline
 		event "reaver base found"
 	source Atrapos
