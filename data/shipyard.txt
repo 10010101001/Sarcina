@@ -8,5 +8,6 @@ shipyard sarcina
 	Adel
 	Apocalypse
 	Bennu
+	Bulwark
 	Hydra
 	Scud

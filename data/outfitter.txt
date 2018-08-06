@@ -45,6 +45,7 @@ outfitter sarcina
 	"Irm Devastator"
 	"Irm Large Engines"
 	"Korath Disruptor Gun"
+	"Quad Plasma Turret"
 	"Quantum Waystone"
 	"Reflective Plating"
 	"Regional Map"
