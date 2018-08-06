@@ -64,7 +64,7 @@ ship Apocalypse
 		hull 47200
 		mass 3700
 		shields 74800
-	description "The largest Irm ship in production, and one of the only. The Irms' focus on utilising their resources to their full potential all collate on this monstrosity. A super capital ship with an impressive 16 drone bays is all the fearsome deterrant the Irm need, in the case they are discovered and met with hostility of course."
+	description "The largest Irm ship in production, and one of the only. The Irms' focus on utilizing their resources to their full potential all collate on this monstrosity. A super capital ship with an impressive 16 drone bays is all the fearsome deterrant the Irm need, in the case they are discovered and met with hostility of course."
 	drone -98 26 under left
 	drone -98 26 under left
 	drone -98 115 under left

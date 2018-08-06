@@ -62,7 +62,7 @@ outfit "Irm Devastator"
 	"weapon capacity" -143
 	category Guns
 	cost 2690000
-	description "The Devastator, a long-range beam that is particularly good at overheating enemy ships. A fearsome weapon to weild, provided you can fit it, and appease its' hunger for power."
+	description "The Devastator is a long-range beam that is particularly good at overheating enemy ships. A fearsome weapon to weild, provided you can fit it, and appease its hunger for power."
 	mass 143
 	thumbnail outfit/unknown
 	weapon

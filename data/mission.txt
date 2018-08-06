@@ -408,7 +408,7 @@ mission "reavers: 1"
 	name "Mysterious Transmission"
 	on offer
 		conversation
-			`When you repair the <origin> he makes a transmission with only system coordinates and a short message; "Wait one day in orbit", strange, but maybe something to investigate.`
+			`When you repair the <origin> he makes a transmission with only system coordinates and a short message; "Wait one day in orbit." Strange, but maybe something to investigate.`
 				accept
 	source
 		government Remnant

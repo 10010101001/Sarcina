@@ -1,7 +1,7 @@
 event "reaver base found"
 	planet Atrapos
 		add shipyard reaver
-		add spaceport "One of the few remaining habitable areas on Atrapos, truly a paradise in hell. The death waves of radiation somehow happen to completely miss this valley. The overwhelming lack of life across the planets surface makes this valley and last bastion of hope so much more colourful and brighter than ever."
+		add spaceport "One of the few remaining habitable areas on Atrapos, truly a paradise in hell. The death waves of radiation somehow happen to completely miss this valley. The overwhelming lack of life across the planets' surface makes this valley and last bastion of hope so much more colorful and brighter than ever."
 	system Levana
 		government Reaver
 event "flamethrower available"
