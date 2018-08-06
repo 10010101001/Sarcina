@@ -41,6 +41,7 @@ outfitter sarcina
 	"Fat Man"
 	"Flame Thrower"
 	"Flamethrower Turret"
+	"Ion Mortar"
 	"Irm Devastator"
 	"Irm Large Engines"
 	"Korath Disruptor Gun"

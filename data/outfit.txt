@@ -55,6 +55,32 @@ outfit "Flamethrower Turret"
 			"no repeat"
 		submunition "Flamethrower Projectile"
 		velocity 9
+outfit "Ion Mortar"
+	"outfit space" -98
+	"required crew" 2
+	"turret mounts" -1
+	"weapon capacity" -98
+	category Turrets
+	cost 1320000
+	description "Ion cannons do not inflict as much damage as some other weapons, however the ion mortar maintains good damage while cripping the electrical systems of even the largest ships."
+	mass 98
+	thumbnail outfit/ion_mortar
+	weapon
+		"firing energy" 270
+		"firing force" 10
+		"firing heat" 210
+		"hit effect" "ion impact" 2
+		"hit force" 120
+		"hull damage" 48
+		"ion damage" 6
+		"shield damage" 154
+		inaccuracy 1
+		lifetime 50
+		reload 30
+		sound ion
+		sprite "projectile/ion bolt"
+			"frame rate" 5
+		velocity 16
 outfit "Irm Devastator"
 	"apocalypse spine" 1
 	"gun ports" -1
