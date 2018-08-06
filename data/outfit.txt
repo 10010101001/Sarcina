@@ -62,7 +62,7 @@ outfit "Ion Mortar"
 	"weapon capacity" -98
 	category Turrets
 	cost 1320000
-	description "Ion cannons do not inflict as much damage as some other weapons, however the ion mortar maintains good damage while cripping the electrical systems of even the largest ships."
+	description "Ion cannons do not inflict as much damage as some other weapons. However, the ion mortar maintains good damage while cripping the electrical systems of even the largest ships."
 	mass 98
 	thumbnail outfit/ion_mortar
 	weapon
@@ -152,7 +152,7 @@ outfit "Quad Plasma Turret"
 	"weapon capacity" -87
 	category Turrets
 	cost 520000
-	description "The Quad Plasma Turret is a set of four plasma cannons mounted on a single turret mount so that they can fire in any direction. It is a terrifying weapon. Only the largest of ships have the space and the energy that it requires."
+	description "The Quad Plasma Turret is a set of four plasma cannons mounted on a single turret mount so that they can fire in any direction. It is a terrifying weapon, but only the largest of ships have the space and the power capacity to operate it."
 	mass 87
 	thumbnail outfit/quad_plasma_turret
 	weapon
