@@ -69,6 +69,7 @@ outfit "Ion Mortar"
 		"firing energy" 270
 		"firing force" 10
 		"firing heat" 210
+		"hardpoint sprite" hardpoint/ion_mortar
 		"hit effect" "ion impact" 2
 		"hit force" 120
 		"hull damage" 48
@@ -159,7 +160,7 @@ outfit "Quad Plasma Turret"
 		"firing energy" 32
 		"firing heat" 195
 		"hardpoint offset" 15.
-		"hardpoint sprite" "hardpoint/plasma turret"
+		"hardpoint sprite" hardpoint/quad_plasma_turret
 		"heat damage" 370
 		"hit effect" "plasma explosion"
 		"hit force" 40
