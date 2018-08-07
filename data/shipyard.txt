@@ -1,3 +1,5 @@
+shipyard "Syndicate Advanced"
+	Bulwark
 shipyard irm
 	Apocalypse
 shipyard reaver

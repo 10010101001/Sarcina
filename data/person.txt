@@ -19,9 +19,9 @@ person "Captain Plasma"
 			category "Heavy Warship"
 			cost 7300000
 			drag 12.6
-			hull 113000
+			hull 57000
 			mass 560
-			shields 168000
+			shields 23000
 			weapon
 				"blast radius" 190
 				"hit force" 2600
