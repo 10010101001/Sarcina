@@ -51,13 +51,18 @@ ship Apocalypse
 	attributes
 		"apocalypse spine" -2
 		"cargo space" 173
+		"energy capacity" 174000
 		"engine capacity" 139
 		"fuel capacity" 400
 		"heat dissipation" .2
 		"outfit space" 1359
 		"required crew" 117
+		"solar collection" 9.7
 		"weapon capacity" 662
 		bunks 233
+		"shield generation" 9.1
+		"shield energy" 9.5
+		ramscoop 2
 		category "Heavy Warship"
 		cost 74980000
 		drag 30
@@ -93,16 +98,12 @@ ship Apocalypse
 	gun -22 -520 "Irm Devastator"
 	gun 22 -520 "Irm Devastator"
 	outfits
-		"Blue Sun Reactor"
 		"Irm Devastator" 2
 		"Irm Large Engines"
 		"Quantum Waystone"
 		"Quarg Anti-Missile" 8
 		"Reflective Plating"
-		"Systems Core (Large)" 4
-		"Systems Core (Medium)"
 		Hyperdrive
-		Ramscoop 2
 	sprite ship/apocalypse
 	turret -46 26 "Quarg Anti-Missile"
 	turret -46 115 "Quarg Anti-Missile"
@@ -282,10 +283,35 @@ ship Kestrel "Kestrel (More Engines)"
 		"weapon capacity" 360
 	engine -14 187 1.2
 	engine 14 187 1.2
+	outfits
+		"D94-YV Shield Generator"
+		"Fusion Reactor"
+		"Heavy Laser Turret" 4
+		"Liquid Nitrogen Cooler"
+		"LP144a Battery Pack"
+		"Orca Plasma Steering"
+		"Particle Cannon" 4
+		"Torpedo Launcher" 2
+		"X5700 Ion Thruster"
+		Hyperdrive
+		Torpedo 60
 ship Kestrel "Kestrel (More Shields)"
 	attributes
-		hull 10700
-		shields 22500
+		hull 7700
+		shields 19300
+	outfits
+		"D23-QP Shield Generator"
+		"D94-YV Shield Generator"
+		"Fusion Reactor"
+		"Heavy Laser Turret" 4
+		"Liquid Nitrogen Cooler"
+		"LP144a Battery Pack"
+		"Orca Plasma Thruster"
+		"Particle Cannon" 4
+		"Torpedo Launcher" 2
+		"X5200 Ion Steering"
+		Hyperdrive
+		Torpedo 60
 ship Kestrel "Kestrel (More Weapons)"
 	attributes
 		"outfit space" 800
