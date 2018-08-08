@@ -346,3 +346,32 @@ ship Scud
 		"Type 1 Radiant Steering"
 	gun 0 -32 "Thunderhead Launcher"
 	sprite ship/scud
+ship Solifuge
+	gun -11.5 -138.5
+	gun -9.5 -101 "Ion Cannon"
+	gun 0 -140 "Hai Tracker Pod"
+	gun 11.5 -138.5
+	gun 9.5 -101 "Ion Cannon"
+	outfits
+		"Boulder Reactor" 2
+		"Bullfrog Anti-Missile" 4
+		"Hai Diamond Regenerator"
+		"Hai Gorge Batteries"
+		"Hai Tracker Pod"
+		"Hai Tracker" 56
+		"Hai Williwaw Cooling" 6
+		"Ion Cannon" 2
+		"Ion Mortar"
+		"Pulse Turret" 2
+		"Quantum Keystone"
+		`"Benga" Atomic Steering`
+		`"Bondir" Atomic Thruster`
+		`"Bufaer" Atomic Steering`
+		Hyperdrive
+	turret -54.5 -48.5 "Bullfrog Anti-Missile"
+	turret -54.5 50.5 "Bullfrog Anti-Missile"
+	turret -55 1 "Pulse Turret"
+	turret 0 -109.5 "Ion Mortar"
+	turret 54.5 -48.5 "Bullfrog Anti-Missile"
+	turret 54.5 50.5 "Bullfrog Anti-Missile"
+	turret 55 1 "Pulse Turret"
