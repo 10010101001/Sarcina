@@ -8,6 +8,13 @@ Copyright: Darcy Manoel <Darcman00@gmail.com>
 License: CC-BY-SA-4.0
 
 Files:
+	images/outfit/fatman*
+	images/outfit/fatman@2x*
+Copyright: Darcy Manoel
+License: CC-BY-SA-4.0
+Comment: Derived from works by CEye228.
+
+Files:
 	images/effect/irm_large_engines+0*
 	images/effect/irm_large_engines+1*
 	images/hardpoint/flamethrower_turret*
@@ -47,18 +54,21 @@ License: CC-BY-SA-4.0
 Comment: Derived from works by Michael Zahniser (under the same license).
 
 Files:
-	images/outfit/fatman*
-	images/outfit/fatman@2x*
-Copyright: Darcy Manoel
-License: CC-BY-SA-4.0
-Comment: Derived from works by CEye228.
-
-Files:
 	images/outfit/flamethrower_turret*
 	images/outfit/flamethrower_turret@2x*
 Copyright: Nick Barry (github.com/itsnickbarry)
 License: CC-BY-SA-4.0
 Comment: Derived from works by Michael Zahniser <mzahniser@gmail.com>
+
+Files:
+	images/outfit/large_nucleovoltaic*
+	images/outfit/large_nucleovoltaic@2x*
+	images/outfit/large_radiothermal*
+	images/outfit/large_radiothermal@2x*
+	images/outfit/large_thermionic*
+	images/outfit/large_thermionic@2x*
+Copyright: Michael Zahniser <mzahniser@gmail.com>
+License: CC-BY-SA-4.0
 
 License: CC-BY-SA-4.0
 	By exercising the Licensed Rights (defined below), You accept and agree

@@ -144,6 +144,15 @@ outfit "Korath Disruptor Gun"
 		sprite projectile/disruptor
 			"frame rate" 15
 		velocity 480
+outfit "NT-340 Nucleovoltaic"
+	"energy generation" 16.1
+	"heat generation" 36
+	"outfit space" -129
+	category Power
+	cost 1130000
+	description "Nucleovoltaic generators are a relatively recent generator technology that harvests energy from the decay of a radioisotope source and converts it directly into electricity. They are the most powerful generator that relies on nuclear decay instead of an active nuclear chain reaction."
+	mass 129
+	thumbnail outfit/large_nucleovoltaic
 outfit "Quad Plasma Turret"
 	"outfit space" -87
 	"required crew" 2
@@ -195,6 +204,24 @@ outfit "Regional Map"
 	thumbnail "outfit/map"
 	"map" 48
 	description "This data chip contains complete information on a multitude of star systems closest to this one: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
+outfit "RT-II Radiothermal"
+	"energy generation" 10.1
+	"heat generation" 42
+	"outfit space" -98
+	category Power
+	cost 780000
+	description "Radiothermal generators harvest heat from radioactive isotopes and convert it into electricity. These are surprisingly powerful, but also produce an arguably absurd amount of heat."
+	mass 88
+	thumbnail outfit/large_radiothermal
+outfit "S5 Thermionic"
+	"energy generation" 11.4
+	"heat generation" 33
+	"outfit space" -117
+	category Power
+	cost 940000
+	description "Thermionic radioisotopic generators were designed as a cooler-running alternative to radiothermal generators."
+	mass 117
+	thumbnail outfit/large_thermionic
 outfit "Strength of a Deity"
 	"capture attack" 1000000
 	"capture defense" 1000000
