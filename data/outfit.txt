@@ -12,7 +12,7 @@ outfit "Blessing of a Deity"
 	ramscoop 1000000
 	thumbnail outfit/unknown
 outfit "Fat Man"
-	"self destruct" 1
+	"self destruct" .95
 	category "Hand to Hand"
 	cost 512000
 	description "The Fat Man is perhaps the most devastating infantry weapon ever unleashed upon the modern battlefield - a hand-held catapult that launches portable nuclear bombs.. probably not a good idea to use indoors..."

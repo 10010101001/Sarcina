@@ -7,7 +7,6 @@ person "Captain Plasma"
 			"I dearly hope you're packing some shunts, this is gonna be fun!"
 	ship Bulwark
 		"final explode" "final explosion large"
-		"never disabled"
 		attributes
 			"cargo space" 30
 			"engine capacity" 110
@@ -37,6 +36,7 @@ person "Captain Plasma"
 		explode "small explosion" 38
 		explode "tiny explosion" 20
 		outfits
+			"Fat Man"
 			"Korath Grab-Strike" 2
 			"Korath Warder" 2
 			"Large Heat Shunt" 3
