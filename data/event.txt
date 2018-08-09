@@ -1,3 +1,6 @@
+event "bulwark available"
+	shipyard "Syndicate Advanced"
+		Bulwark
 event "reaver base found"
 	planet Atrapos
 		add shipyard reaver

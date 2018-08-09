@@ -1,3 +1,11 @@
+mission "bulwark available"
+	invisible
+	landing
+	on offer
+		event "bulwark available" 60
+		fail
+	to offer
+		has "main plot completed"
 mission "hai enlisted"
 	description "You have been recommended for your attentiveness for keeping the peace throughout Hai space. Hai officials would like to consult you about possible enlistment."
 	destination Hai-home
