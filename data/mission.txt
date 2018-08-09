@@ -7,7 +7,7 @@ mission "hai enlisted"
 			`As soon as you depart your ship you discover an envoy of sorts awaiting you. "Few human visitors demonstrate care for the lasting peace we have established so long ago," the Hai begins hastily. "You are a prominent example of your kind, we request audience on <destination>. The unfettered humans have revealed a tentativeness to prey on those who follow a path unlike their own."`
 			choice
 				`	"I suppose I can hear you out."`
-				`	"I would prefer to not get caught up in any trouble."
+				`	"I would prefer to not get caught up in any trouble."`
 					defer
 			`	"That is a most pleasing answer," it says. "the consuls will be notified of this news and will be expecting attendance."`
 				accept
@@ -90,27 +90,27 @@ mission "hai unfettered humans"
 	to offer
 		"combat rating" > 400
 		random < 35
-mission "harvest aluminium large"
-	description "Reaver contacts will pay you <payment> for 70 tons of aluminium."
+mission "harvest aluminum large"
+	description "Reaver contacts will pay you <payment> for 70 tons of aluminum."
 	job
-	name "Harvest Aluminium"
+	name "Harvest Aluminum"
 	on complete
-		outfit Aluminium -70
+		outfit Aluminum -70
 		payment 324000
-		dialog `You unload the aluminium at the spaceport. The contact thanks you, and pays you <payment>.`
+		dialog `You unload the aluminum at the spaceport. The contact thanks you, and pays you <payment>.`
 	repeat
 	source
 		government Reaver
 	to offer
 		random < 20
-mission "harvest aluminium small"
-	description "Reaver contacts will pay you <payment> for 40 tons of aluminium."
+mission "harvest aluminum small"
+	description "Reaver contacts will pay you <payment> for 40 tons of aluminum."
 	job
-	name "Harvest Aluminium"
+	name "Harvest Aluminum"
 	on complete
-		outfit Aluminium -40
+		outfit Aluminum -40
 		payment 157500
-		dialog `You unload the aluminium at the spaceport. The contact thanks you, and pays you <payment>.`
+		dialog `You unload the aluminum at the spaceport. The contact thanks you, and pays you <payment>.`
 	repeat
 	source
 		government Reaver

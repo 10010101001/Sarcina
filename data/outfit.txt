@@ -9,10 +9,8 @@ outfit "Blessing of a Deity"
 	cloak 1
 	description "Developer item, allows 'creative mode' players to be able to fly anywhere and everywhere, even disappear..."
 	gaslining 1
-	inscrutable
 	ramscoop 1000000
 	thumbnail outfit/unknown
-	unplunderable
 outfit "Fat Man"
 	"self destruct" 1
 	category "Hand to Hand"
@@ -166,13 +164,13 @@ outfit "Quad Plasma Turret"
 		"hit force" 40
 		"hull damage" 28
 		"shield damage" 66
+		"turret turn" 2
 		inaccuracy 2
 		lifetime 40
 		reload 5
 		sound plasma
 		sprite projectile/plasma
 			"frame rate" 3
-		turret turn 2
 		velocity 12
 outfit "Quantum Waystone"
 	"mass" 1
@@ -210,6 +208,4 @@ outfit "Strength of a Deity"
 	category Special
 	cooling 1000000
 	description "Developer item, allows 'creative mode' players to be able to withstand any form of engagement, also allows an absurd amount of passengers aboard your ship."
-	inscrutable
 	thumbnail outfit/unknown
-	unplunderable

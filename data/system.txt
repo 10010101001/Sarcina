@@ -3,7 +3,7 @@ system Levana
 		distance 1440
 		period 270
 		sprite planet/dust5
-	minables aluminium 11 5.4736
+	minables aluminum 11 5.4736
 	minables copper 13 2.4836
 	minables gold 7 3.4735
 	minables iron 9 1.4736
