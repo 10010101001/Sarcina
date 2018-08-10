@@ -14,41 +14,12 @@ Copyright: Darcy Manoel
 License: CC-BY-SA-4.0
 Comment: Derived from works by CEye228.
 
-Files:
-	images/effect/irm_large_engines+0*
-	images/effect/irm_large_engines+1*
-	images/hardpoint/flamethrower_turret*
-	images/hardpoint/flamethrower_turret@2x*
-	images/hardpoint/ion_mortar*
-	images/hardpoint/ion_mortar@2x*
-	images/hardpoint/quad_plasma_turret*
-	images/hardpoint/quad_plasma_turret@2x*
-	images/outfit/disruptor_gun*
-	images/outfit/disruptor_gun@2x*
-	images/outfit/flame_thrower*
-	images/outfit/flame_thrower@2x*
-	images/outfit/ion_mortar*
-	images/outfit/ion_mortar@2x*
-	images/outfit/quad_plasma_turret*
-	images/outfit/quad_plasma_turret@2x*
-	images/outfit/reflective_plating*
-	images/outfit/reflective_plating@2x*
-	images/projectile/temp+0*
-	images/projectile/temp+1*
-	images/projectile/temp+2*
-	images/projectile/temp+3*
-	images/ship/apocalypse*
-	images/ship/apocalypse@2x*
-	images/ship/bulwark*
-	images/ship/bulwark@2x*
-	images/ship/raphid*
-	images/ship/raphid@2x*
-	images/ship/rfirebird*
-	images/ship/rfirebird@2x*
-	images/ship/rleviathan*
-	images/ship/rleviathan@2x*
-	images/ship/scud*
-	images/ship/scud@2x*
+Files:*
+Copyright: Darcy Manoel
+License: CC-BY-SA-4.0
+Comment: Derived from works by Michael Zahniser (under the same license).
+
+Files: images/*
 Copyright: Darcy Manoel
 License: CC-BY-SA-4.0
 Comment: Derived from works by Michael Zahniser (under the same license).
