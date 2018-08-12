@@ -99,7 +99,6 @@ person "Darcy Manoel"
 		outfits
 			"Blue Sun Reactor"
 			"Fuel Pod"
-			"Jump Drive"
 			"Korath Disruptor" 2
 			"Korath Slicer" 4
 			"Large Heat Shunt"
@@ -107,6 +106,7 @@ person "Darcy Manoel"
 			"Large Shield Module"
 			"Outfits Expansion"
 			"Quantum Key Stone"
+			"Scram Drive"
 			"Small Repair Module"
 			"Steering (Lunar Class)"
 			"Steering (Planetary Class)"
