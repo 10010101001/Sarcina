@@ -10,4 +10,5 @@ shipyard sarcina
 	Bennu
 	Bulwark
 	Hydra
+	Sarkic
 	Scud
