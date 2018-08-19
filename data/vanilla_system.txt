@@ -15,8 +15,8 @@ system Levana
 	minables titanium 17 1.4736
 	minables tungsten 12 4.3736
 	minables uranium 7 6.3467
-#system Waypoint
-#	add object "Wormhole X"
-#		distance 6048
-#		period 5634
-#		sprite planet/wormhole
+system Waypoint
+	add object "Wormhole X"
+		distance 6048
+		period 5634
+		sprite planet/wormhole
