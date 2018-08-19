@@ -1,0 +1,22 @@
+system Levana
+	add object Atrapos
+		distance 1440
+		period 270
+		sprite planet/dust5
+	minables aluminum 11 5.4736
+	minables copper 13 2.4836
+	minables gold 7 3.4735
+	minables iron 9 1.4736
+	minables lead 6 5.4736
+	minables neodymium 8 3.5746
+	minables platinum 8 4.5736
+	minables silicon 16 2.4736
+	minables silver 5 4.4625
+	minables titanium 17 1.4736
+	minables tungsten 12 4.3736
+	minables uranium 7 6.3467
+#system Waypoint
+#	add object "Wormhole X"
+#		distance 6048
+#		period 5634
+#		sprite planet/wormhole
