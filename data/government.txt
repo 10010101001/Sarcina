@@ -1,6 +1,10 @@
-government Reaver
-	color .85 .85 .85
-	swizzle 0
+government Hai
+	"attitude toward"
+		"Hai (Unfettered)" -.5
+		Pirate -.5
 government Irm
 	color  .5 .2 1
 	swizzle 3
+government Reaver
+	color .85 .85 .85
+	swizzle 0
