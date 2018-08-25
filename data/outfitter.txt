@@ -13,6 +13,7 @@ outfitter sarcina
 	"Irm Large Engines"
 	"Korath Disruptor Gun"
 	"NT-340 Nucleovoltaic"
+	"Quad Javelin Turret"
 	"Quad Plasma Turret"
 	"Quantum Waystone"
 	"Reflective Plating"

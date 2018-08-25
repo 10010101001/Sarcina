@@ -32,6 +32,15 @@ License: CC-BY-SA-4.0
 Comment: Derived from works by Michael Zahniser <mzahniser@gmail.com>
 
 Files:
+	images/outfit/javelin_turret*
+	images/outfit/javelin_turret@2x*
+	images/hardpoint/javelin_turret*
+	images/hardpoint/javelin_turret@2x*
+Copyright: Zachary Siple (github.com/Kryes-Omega)
+License: CC-BY-SA-4.0
+Comment: Derived from works by Michael Zahniser <mzahniser@gmail.com>
+
+Files:
 	images/outfit/large_nucleovoltaic*
 	images/outfit/large_nucleovoltaic@2x*
 	images/outfit/large_radiothermal*

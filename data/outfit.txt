@@ -121,6 +121,16 @@ outfit "Irm Large Engines"
 	thumbnail outfit/unknown
 	turn 1790
 	description "The Irm find a certain comfort in hybrid systems. The directional thrust used to accelerate ships forwards can be diverted to any direction. Functionally, linking thrusters and steering together can greatly bolster the effectiveness of the engines."
+outfit "javelin volley"
+	weapon
+		"hit effect" "tiny explosion"
+		"hit force" 5
+		"hull damage" 26
+		"missile strength" 2
+		"shield damage" 48
+		inaccuracy 8
+		lifetime 59
+		sprite projectile/javelin
 outfit "Korath Disruptor Gun"
 	"gun ports" -1
 	"outfit space" -28
@@ -153,6 +163,30 @@ outfit "NT-340 Nucleovoltaic"
 	description "Nucleovoltaic generators are a relatively recent generator technology that harvests energy from the decay of a radioisotope source and converts it directly into electricity. They are the most powerful generator that relies on nuclear decay instead of an active nuclear chain reaction."
 	mass 129
 	thumbnail outfit/large_nucleovoltaic
+outfit "Quad Javelin Turret"
+	"javelin capacity" 800
+	"outfit space" -54
+	"turret mounts" -1
+	"weapon capacity" -54
+	category "Secondary Weapons"
+	cost 110000
+	description "Placeholder Text."
+	mass 22
+	thumbnail outfit/javelin_turret
+	weapon
+		"burst count" 4
+		"burst reload" 10
+		"firing energy" .2
+		"firing heat" 12
+		"hardpoint offset" 15
+		"hardpoint sprite" hardpoint/javelin_turret
+		ammo Javelin
+		icon icon/javelin
+		reload 75
+		sound javelin
+		sprite projectile/javelin
+		submunition "javelin volley" 15
+		velocity 10
 outfit "Quad Plasma Turret"
 	"outfit space" -87
 	"required crew" 2
@@ -166,7 +200,7 @@ outfit "Quad Plasma Turret"
 	weapon
 		"firing energy" 32
 		"firing heat" 195
-		"hardpoint offset" 15.
+		"hardpoint offset" 15
 		"hardpoint sprite" hardpoint/quad_plasma_turret
 		"heat damage" 370
 		"hit effect" "plasma explosion"
