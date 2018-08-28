@@ -433,7 +433,7 @@ mission "reavers: 2"
 	source Atrapos
 	to offer
 		has "reavers: 1: offered"
-mission "Syndicate target practice [4]"
+mission "syndicate target practice [4]"
 	description "Disable the robotic target dummy ship in <system>, collect test data for Syndicate engineers by scanning its cargo, and land on <planet>. Warning: the target ship is programmed to engage in self-defense behaviors to ensure a realistic simulation. Payment is <payment>."
 	destination
 		distance 1 3

@@ -15,4 +15,4 @@ planet Atrapos
 	landscape land/lava6
 	tribute 5800
 		fleet "reaver defensive" 12
-		threshold 44000
+		threshold 11400
