@@ -9,6 +9,7 @@ shipyard sarcina
 	Apocalypse
 	Bennu
 	Bulwark
+	Hornet
 	Hydra
 	Sarkic
 	Scud

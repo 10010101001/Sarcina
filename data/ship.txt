@@ -215,6 +215,46 @@ ship Bulwark
 	turret 46 -62 "Quad Blaster Turret"
 	turret 46 54 "Quad Blaster Turret"
 	turret 64 -4 "Quad Blaster Turret"
+ship Hornet
+	attributes
+		"cargo space" 20
+		"engine capacity" 80
+		"fuel capacity" 500
+		"heat dissipation" .7
+		"outfit space" 190
+		"required crew" 2
+		"weapon capacity" 34
+		bunks 5
+		category Interceptor
+		cost 690000
+		drag 1.4
+		hull 900
+		mass 90
+		shields 2600
+		weapon
+			"blast radius" 30
+			"hit force" 410
+			"hull damage" 190
+			"shield damage" 260
+	description "The hornet is a borderline light warship, officially classed interceptor. While the wasps' selling point is as an escort to cargo vessels, the hornet can very well serve as its' own freighter."
+	engine -15 14 .5
+	engine 0 41 .5
+	engine 15 14 .5
+	explode "small explosion" 14
+	explode "tiny explosion" 22
+	gun -4 -41 "Sidewinder Missile Launcher"
+	gun 4 -41 "Sidewinder Missile Launcher"
+	outfits
+		"Cargo Expansion"
+		"D23-QP Shield Generator"
+		"LP072a Battery Pack"
+		"nGVF-BB Fuel Cell"
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 100
+		"X2200 Ion Steering"
+		"X2700 Ion Thruster"
+		Hyperdrive
+	sprite ship/hornet
 ship Hydra
 	"final explode" "final explosion large"
 	attributes
