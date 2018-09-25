@@ -13,3 +13,4 @@ shipyard sarcina
 	Hydra
 	Sarkic
 	Scud
+	Scutter
