@@ -377,7 +377,7 @@ ship Scutter
 	attributes
 		"cargo space" 15
 		"engine capacity" 55
-		"fuel capacity" 500
+		"fuel capacity" 600
 		"heat dissipation" .8
 		"outfit space" 120
 		"required crew" 1
@@ -385,7 +385,7 @@ ship Scutter
 		category Transport
 		cost 110000
 		drag 1.1
-		hull 250
+		hull 500
 		mass 45
 		shields 900
 		weapon
@@ -393,8 +393,7 @@ ship Scutter
 			"hit force" 240
 			"hull damage" 80
 			"shield damage" 160
-	description "Across the board this is the nimblest and speediest transport ship ever seen. A skeleton hull consisting of only vital systems and an overwhelming amount in comparison to mass dedicated to engines, as bare-bones as ships come."
-	description "If not for the overwhelming price tag of atomic engines this would prove a testament to engineering, bringing the cost of spacefaring to a new low of affordability."
+	description "Across the board this is the nimblest and speediest transport ship ever seen. A skeleton hull consisting of only vital systems and an overwhelming dedication to engines, as bare-bones as ships come."
 	engine -12 20 .8
 	engine 12 20 .8
 	explode "small explosion" 15

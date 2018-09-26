@@ -433,6 +433,18 @@ mission "reavers: 2"
 	source Atrapos
 	to offer
 		has "reavers: 1: offered"
+mission "scutter for sale"
+	invisible
+	landing
+	on offer
+		conversation
+			scene scene/scutter
+			`Chatter arises over a new sales product from Lionheart, a ship. New space ships are seldom seen, so much so that it seems even a galactic war cannot dampen the news. "The Scutter! no guns. all engines. all affordable." it seems to be targeted at those who do not have such a large budget as to buy any sort of larger ship, however it still carries a hefty price tag for such a small ship.
+		event "scutters for sale"
+		event "scutter deployment" 45
+		fail
+	to offer
+		has "fw caught navy planting sensors"
 mission "syndicate target practice [4]"
 	description "Disable the robotic target dummy ship in <system>, collect test data for Syndicate engineers by scanning its cargo, and land on <planet>. Warning: the target ship is programmed to engage in self-defense behaviors to ensure a realistic simulation. Payment is <payment>."
 	destination
