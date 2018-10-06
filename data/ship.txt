@@ -312,6 +312,32 @@ ship Hydra
 	turret -25 10 "Anti-Missile Turret"
 	turret 15 -50 "Thrasher Turret"
 	turret 25 10 "Anti-Missile Turret"
+ship Revelation
+	attributes
+		"cargo space" 38
+		"energy capacity" 51000
+		"engine capacity" 79
+		"heat dissipation" .9
+		"outfit space" 149
+		"solar collection" 4.6
+		"weapon capacity" 58
+		"shield generation" 3.7
+		"shield energy" 4.1
+		category Drone
+		cost 3410000
+		drag .9
+		hull 12200
+		mass 68
+		shields 1300
+	description "Revelation, requires coordination and direction in order to effectively defend its' mothership. The Apocalypse tends to be discovered by alien life before it is able to finish its' cloaking sequence, on occasion these encounters develop into a hostile incursion."
+	description "Effective in numbers, best at dealing with singular targets but is suddenly inferior once multiple targets engage. A strong offensive is one where many of these disruptive drones can converge on the same target to build up electrical disruption and excess heat."
+	engine 0 30
+	gun 0 -40 "Irm Harrier"
+	outfits
+		"Irm Harrier"
+		"Irm Small Engines"
+		"Quantum Waystone"
+	sprite "ship/hai lightning bug"
 ship Sarkic
 	"never disabled"
 	attributes

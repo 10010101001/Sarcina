@@ -1,5 +1,6 @@
 shipyard irm
 	Apocalypse
+	Revelation
 shipyard reaver
 	Adel
 	Bennu
@@ -11,6 +12,7 @@ shipyard sarcina
 	Bulwark
 	Hornet
 	Hydra
+	Revelation
 	Sarkic
 	Scud
 	Scutter

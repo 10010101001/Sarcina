@@ -104,6 +104,30 @@ outfit "Irm Devastator"
 			"frame rate" 1
 			"random start frame"
 		velocity 860
+outfit "Irm Harrier"
+	"gun ports" -1
+	"outfit space" -57
+	"weapon capacity" -57
+	category Guns
+	cost 1160000
+	description "The Harrier, immensively effective that is, for overheating hostile ships. Combining the electrical disruption with excess heat build-up can be devastating for any crew unfortunate enough to find themselves at the mercy of the Revalation disruptive drone."
+	mass 57
+	thumbnail outfit/unknown
+	weapon
+		"firing energy" 4
+		"firing heat" 3.7
+		"heat damage" 40
+		"hit effect" "skylance impact"
+		"hull damage" 2
+		"ion damage" 1.3
+		"shield damage" 2.4
+		lifetime 1
+		reload 1
+		sound fire-lance
+		sprite "projectile/ion beam"
+			"frame rate" 1
+			"random start frame"
+		velocity 630
 outfit "Irm Large Engines"
 	"engine capacity" -139
 	"flare sound" "plasma medium"
@@ -121,6 +145,24 @@ outfit "Irm Large Engines"
 	thumbnail outfit/unknown
 	turn 1790
 	description "The Irm find a certain comfort in hybrid systems. The directional thrust used to accelerate ships forwards can be diverted to any direction. Functionally, linking thrusters and steering together can greatly bolster the effectiveness of the engines."
+outfit "Irm Small Engines"
+	"engine capacity" -76
+	"flare sound" "plasma medium"
+	"flare sprite" effect/irm_small_engines
+		"frame rate" 3
+	"outfit space" -76
+	"thrusting energy" 2.6
+	"thrusting heat" 1.8
+	"turning energy" 1.7
+	"turning heat" 1.1
+	category Engines
+	cost 940000
+	mass 76
+	thrust 12.5
+	thumbnail outfit/unknown
+	turn 430
+	description "The Irm find a certain comfort in hybrid systems. The directional thrust used to accelerate ships forwards can be diverted to any direction. Functionally, linking thrusters and steering together can greatly bolster the effectiveness of the engines."
+	description "This is a scaled down design of the original, larger engines. In the process of miniaturization much of the efficiency that set the Irm engines as a staple for stellar traval were lost."
 outfit "javelin volley"
 	weapon
 		"hit effect" "tiny explosion"

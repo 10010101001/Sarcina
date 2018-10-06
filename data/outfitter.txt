@@ -1,6 +1,8 @@
 outfitter irm
 	"Irm Devastator"
+	"Irm Harrier"
 	"Irm Large Engines"
+	"Irm Small Engines"
 	"Quantum Waystone"
 	"Reflective Plating"
 outfitter reaver
@@ -35,7 +37,9 @@ outfitter sarcina
 	"Flamethrower Turret"
 	"Ion Mortar"
 	"Irm Devastator"
+	"Irm Harrier"
 	"Irm Large Engines"
+	"Irm Small Engines"
 	"Korath Disruptor Gun"
 	"NT-340 Nucleovoltaic"
 	"Quad Javelin Turret"
