@@ -1,3 +1,15 @@
+fleet "irm home"
+	government Irm
+	personality heroric vindictive
+	variant
+		Apocalypse(nocloak) 1
+		Revelation 16
+fleet "irm scout"
+	government Irm
+	personality forbearing vindictive
+	variant
+		Apocalypse 1
+		Revelation 16
 fleet "reaver defensive"
 	government Reaver
 	personality heroic

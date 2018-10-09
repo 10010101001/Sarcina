@@ -109,6 +109,13 @@ ship Apocalypse
 	turret 46 115 "Quarg Anti-Missile"
 	turret 46 204 "Quarg Anti-Missile"
 	turret 46 293 "Quarg Anti-Missile"
+ship Apocalypse Apocalypse(nocloak)
+	outfits
+		"Irm Devastator" 2
+		"Irm Large Engines"
+		"Quantum Waystone"
+		"Quarg Anti-Missile" 8
+		Hyperdrive
 ship Bennu
 	"final explode" "final explosion medium"
 	attributes
