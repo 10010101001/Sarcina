@@ -329,7 +329,7 @@ ship Revelation
 		shields 1300
 	description "Concept ship. Very fast, disabling weapons, low energy generation, insanely high energy capacity."
 	engine 0 30
-	gun 0 -40 "Irm Harrier"
+	gun 0 -40 Harrier
 	outfits
 		"Small Efficient Engines"
 		Harrier
