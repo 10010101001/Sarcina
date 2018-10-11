@@ -2,4 +2,4 @@
 [Check out the development roadmap!](https://trello.com/b/XHFtG3Zf/sarcina)
 > My main Endless Sky plugin, my play area.
 
-This is the universe for which I build upon, this will contain most of all changes I make, from creating additional content to changing up the base game.
+Personal testing plugin, free for others to use if they really want. Anything I test will remain in here but won't be added anywhere in the actual game.
