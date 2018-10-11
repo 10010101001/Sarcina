@@ -1,21 +1,8 @@
-outfit "Blessing of a Deity"
-	"cargo scan power" 1000000
-	"jump drive" 1
-	"jump speed" 1000000
-	"outfit scan power" 1000000
-	"quantum keystone" 1
-	"quantum waystone" 1
-	category Special
-	cloak 1
-	description "Developer item, allows 'creative mode' players to be able to fly anywhere and everywhere, even disappear..."
-	gaslining 1
-	ramscoop 1000000
-	thumbnail outfit/unknown
 outfit "Fat Man"
 	"self destruct" .95
 	category "Hand to Hand"
 	cost 512000
-	description "The Fat Man is perhaps the most devastating infantry weapon ever unleashed upon the modern battlefield - a hand-held catapult that launches portable nuclear bombs.. probably not a good idea to use indoors..."
+	description "Joke outfit. From Fallout 4, self destruct chance is closest I can get it to how I would like it."
 	thumbnail outfit/fatman
 	unplunderable 1
 outfit "Flame Thrower"
@@ -23,36 +10,9 @@ outfit "Flame Thrower"
 	"capture defense" .9
 	category "Hand to Hand"
 	cost 35000
-	description "This is a relic of times past, from the days of early spaceflight brought forth mass piracy. Because of the overwhelming popularity among pirates and the inhumane use of such a weapon, interstellar law forbids possession. One can earn a particularly nasty fine if caught in possession of a Flame Thrower. They do serve their purpose however, they clear out an enemy ship quicker than most other methods..."
+	description "Lore H2H. Old, outdated, and banned personnel weapon."
 	illegal 450000
 	thumbnail outfit/flame_thrower
-outfit "Flamethrower Turret"
-	"fuel capacity" 100
-	"outfit space" -22
-	"required crew" 1
-	"turret mounts" -1
-	"weapon capacity" -22
-	category Turrets
-	cost 380000
-	description "The turret-mounted flamethrower represents the epitome of Free Worlds creative extravagance. So great are its fuel requirements that it comes with a standard fuel pod pre-installed. Smaller ships which lack powerful cooling systems should stay out of range at all costs."
-	mass 22
-	thumbnail outfit/flamethrower_turret
-	weapon
-		"firing energy" .25
-		"firing fuel" .25
-		"firing heat" 3
-		"hardpoint offset" 7.
-		"hardpoint sprite" hardpoint/flamethrower_turret
-		icon icon/flamethrower
-		inaccuracy 12
-		lifetime 5
-		reload 1
-		sound flamethrower
-		sprite effect/explosion/small
-			"frame rate" 60
-			"no repeat"
-		submunition "Flamethrower Projectile"
-		velocity 9
 outfit "Ion Mortar"
 	"outfit space" -98
 	"required crew" 2
@@ -60,7 +20,7 @@ outfit "Ion Mortar"
 	"weapon capacity" -98
 	category Turrets
 	cost 1320000
-	description "Ion cannons do not inflict as much damage as some other weapons. However, the ion mortar maintains good damage while cripping the electrical systems of even the largest ships."
+	description "Concept weapon. Two Ion Cannons combined and mounted onto a turret mount."
 	mass 98
 	thumbnail outfit/ion_mortar
 	weapon
@@ -80,106 +40,13 @@ outfit "Ion Mortar"
 		sprite "projectile/ion bolt"
 			"frame rate" 5
 		velocity 16
-outfit "Irm Devastator"
-	"apocalypse spine" 1
-	"gun ports" -1
-	"outfit space" -143
-	"weapon capacity" -143
-	category Guns
-	cost 2690000
-	description "The Devastator is a long-range beam that is particularly good at overheating enemy ships. A fearsome weapon to weild, provided you can fit it, and appease its hunger for power."
-	mass 143
-	thumbnail outfit/unknown
-	weapon
-		"firing energy" 13
-		"firing heat" 11
-		"heat damage" 140
-		"hit effect" "fire-lance impact"
-		"hull damage" 17
-		"shield damage" 26
-		lifetime 1
-		reload 1
-		sound fire-lance
-		sprite projectile/temp
-			"frame rate" 1
-			"random start frame"
-		velocity 860
-outfit "Irm Harrier"
-	"gun ports" -1
-	"outfit space" -57
-	"weapon capacity" -57
-	category Guns
-	cost 1160000
-	description "The Harrier, immensively effective that is, for overheating hostile ships. Combining the electrical disruption with excess heat build-up can be devastating for any crew unfortunate enough to find themselves at the mercy of the Revalation disruptive drone."
-	mass 57
-	thumbnail outfit/unknown
-	weapon
-		"firing energy" 4
-		"firing heat" 3.7
-		"heat damage" 40
-		"hit effect" "skylance impact"
-		"hull damage" 2
-		"ion damage" 1.3
-		"shield damage" 2.4
-		lifetime 1
-		reload 1
-		sound fire-lance
-		sprite "projectile/ion beam"
-			"frame rate" 1
-			"random start frame"
-		velocity 630
-outfit "Irm Large Engines"
-	"engine capacity" -139
-	"flare sound" "plasma medium"
-	"flare sprite" effect/irm_large_engines
-		"frame rate" 3
-	"outfit space" -139
-	"thrusting energy" 7.2
-	"thrusting heat" 6.1
-	"turning energy" 4.3
-	"turning heat" 3.7
-	category Engines
-	cost 1960000
-	mass 139
-	thrust 65.9
-	thumbnail outfit/unknown
-	turn 1790
-	description "The Irm find a certain comfort in hybrid systems. The directional thrust used to accelerate ships forwards can be diverted to any direction. Functionally, linking thrusters and steering together can greatly bolster the effectiveness of the engines."
-outfit "Irm Small Engines"
-	"engine capacity" -76
-	"flare sound" "plasma medium"
-	"flare sprite" effect/irm_small_engines
-		"frame rate" 3
-	"outfit space" -76
-	"thrusting energy" 2.6
-	"thrusting heat" 1.8
-	"turning energy" 1.7
-	"turning heat" 1.1
-	category Engines
-	cost 940000
-	mass 76
-	thrust 12.5
-	thumbnail outfit/unknown
-	turn 430
-	description "The Irm find a certain comfort in hybrid systems. The directional thrust used to accelerate ships forwards can be diverted to any direction. Functionally, linking thrusters and steering together can greatly bolster the effectiveness of the engines."
-	description "This is a scaled down design of the original, larger engines. In the process of miniaturization much of the efficiency that set the Irm engines as a staple for stellar traval were lost."
-outfit "javelin volley"
-	weapon
-		"hit effect" "tiny explosion"
-		"hit force" 5
-		"hull damage" 26
-		"missile strength" 2
-		"shield damage" 48
-		inaccuracy 8
-		lifetime 59
-		sprite projectile/javelin
 outfit "Korath Disruptor Gun"
 	"gun ports" -1
 	"outfit space" -28
 	"weapon capacity" -28
 	category Guns
 	cost 897000
-	description "Korath Disruptors interfere with a ship's shields, allowing a ship's hull to be damaged even when shields are up. However, they do very little hull damage by themselves."
+	description "Concept weapon. Converting the Korath Disruptor to just a gun placement rather than turret mounted."
 	mass 28
 	thumbnail outfit/disruptor_gun
 	weapon
@@ -196,39 +63,23 @@ outfit "Korath Disruptor Gun"
 		sprite projectile/disruptor
 			"frame rate" 15
 		velocity 480
-outfit "NT-340 Nucleovoltaic"
-	"energy generation" 16.1
-	"heat generation" 36
-	"outfit space" -129
-	category Power
-	cost 1130000
-	description "Nucleovoltaic generators are a relatively recent generator technology that harvests energy from the decay of a radioisotope source and converts it directly into electricity. They are the most powerful generator that relies on nuclear decay instead of an active nuclear chain reaction."
-	mass 129
-	thumbnail outfit/large_nucleovoltaic
-outfit "Quad Javelin Turret"
-	"javelin capacity" 800
-	"outfit space" -54
-	"turret mounts" -1
-	"weapon capacity" -54
-	category "Secondary Weapons"
-	cost 110000
-	description "Placeholder Text."
-	mass 22
-	thumbnail outfit/javelin_turret
-	weapon
-		"burst count" 4
-		"burst reload" 10
-		"firing energy" .2
-		"firing heat" 12
-		"hardpoint offset" 15
-		"hardpoint sprite" hardpoint/javelin_turret
-		ammo Javelin
-		icon icon/javelin
-		reload 75
-		sound javelin
-		sprite projectile/javelin
-		submunition "javelin volley" 15
-		velocity 10
+outfit "Large Efficient Engines"
+	"engine capacity" -139
+	"flare sound" "plasma medium"
+	"flare sprite" effect/irm_large_engines
+		"frame rate" 3
+	"outfit space" -139
+	"thrusting energy" 7.2
+	"thrusting heat" 6.1
+	"turning energy" 4.3
+	"turning heat" 3.7
+	category Engines
+	cost 1960000
+	description "Concept engines. Combined thruster and steering, low thrust and turn, very low energy and heat costs"
+	mass 139
+	thrust 65.9
+	thumbnail outfit/unknown
+	turn 1790
 outfit "Quad Plasma Turret"
 	"outfit space" -87
 	"required crew" 2
@@ -236,7 +87,7 @@ outfit "Quad Plasma Turret"
 	"weapon capacity" -87
 	category Turrets
 	cost 520000
-	description "The Quad Plasma Turret is a set of four plasma cannons mounted on a single turret mount so that they can fire in any direction. It is a terrifying weapon, but only the largest of ships have the space and the power capacity to operate it."
+	description "Insane weapon. Four plasma cannons onto a single turret mount."
 	mass 87
 	thumbnail outfit/quad_plasma_turret
 	weapon
@@ -257,58 +108,82 @@ outfit "Quad Plasma Turret"
 		sprite projectile/plasma
 			"frame rate" 3
 		velocity 12
-outfit "Quantum Waystone"
-	"mass" 1
-	"outfit space" -1
-	"quantum waystone" 1
-	category "Systems"
-	cost 720000
-	description "This precious artifact attunes a ship's quantum oscillations in a way that allows it to travel through The Gateway, an impassable wormhole seperating the Irm from the rest of the galaxy. Waystones are extremely rare and valuable, because they are only found in one place, Tutum."
-	thumbnail outfit/keystone
 outfit "Reflective Plating"
 	"cloaking energy" 18
 	"outfit space" -3
 	category "Systems"
 	cloak .002
 	cost 750000
-	description "You're sure you left your ship here somewhere, but you can't see it."
+	description "Concept outfit. Slow cloak at an insane energy requirement, no fuel cost."
 	thumbnail outfit/reflective_plating
 	unplunderable 1
 outfit "Regional Map"
 	category "Special"
 	cost 12000
+	description "Concept outfit. More informative map at a higher cost."
+	map 48
 	thumbnail "outfit/map"
-	"map" 48
-	description "This data chip contains complete information on a multitude of star systems closest to this one: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
-outfit "RT-II Radiothermal"
-	"energy generation" 10.1
-	"heat generation" 42
-	"outfit space" -98
-	category Power
-	cost 780000
-	description "Radiothermal generators harvest heat from radioactive isotopes and convert it into electricity. These are surprisingly powerful, but also produce an arguably absurd amount of heat."
-	mass 88
-	thumbnail outfit/large_radiothermal
-outfit "S5 Thermionic"
-	"energy generation" 11.4
-	"heat generation" 33
-	"outfit space" -117
-	category Power
+outfit "Small Efficient Engines"
+	"engine capacity" -76
+	"flare sound" "plasma medium"
+	"flare sprite" effect/irm_small_engines
+		"frame rate" 3
+	"outfit space" -76
+	"thrusting energy" 2.6
+	"thrusting heat" 1.8
+	"turning energy" 1.7
+	"turning heat" 1.1
+	category Engines
 	cost 940000
-	description "Thermionic radioisotopic generators were designed as a cooler-running alternative to radiothermal generators."
-	mass 117
-	thumbnail outfit/large_thermionic
-outfit "Strength of a Deity"
-	"capture attack" 1000000
-	"capture defense" 1000000
-	"disruption resistance" 1000000
-	"energy generation" 1000000
-	"ion resistance" 1000000
-	"radar jamming" 1000000
-	"shield generation" 1000000
-	"slowing resistance" 1000000
-	bunks 1000000
-	category Special
-	cooling 1000000
-	description "Developer item, allows 'creative mode' players to be able to withstand any form of engagement, also allows an absurd amount of passengers aboard your ship."
+	description "Concept engines. Combined thruster and steering, low thrust and turn, very low energy and heat costs"
+	mass 76
+	thrust 12.5
 	thumbnail outfit/unknown
+	turn 430
+outfit Devastator
+	"gun ports" -1
+	"outfit space" -143
+	"weapon capacity" -143
+	category Guns
+	cost 2690000
+	description "Concept weapon. Massive space, high damage, high heat damage, massive energy drain."
+	mass 143
+	thumbnail outfit/unknown
+	weapon
+		"firing energy" 13
+		"firing heat" 11
+		"heat damage" 140
+		"hit effect" "fire-lance impact"
+		"hull damage" 17
+		"shield damage" 26
+		lifetime 1
+		reload 1
+		sound fire-lance
+		sprite projectile/temp
+			"frame rate" 1
+			"random start frame"
+		velocity 860
+outfit Harrier
+	"gun ports" -1
+	"outfit space" -57
+	"weapon capacity" -57
+	category Guns
+	cost 1160000
+	description "Concept Weapon. Low shield and hull damage, extremely high heat and ion damage."
+	mass 57
+	thumbnail outfit/unknown
+	weapon
+		"firing energy" 4
+		"firing heat" 3.7
+		"heat damage" 40
+		"hit effect" "skylance impact"
+		"hull damage" 2
+		"ion damage" 1.3
+		"shield damage" 2.4
+		lifetime 1
+		reload 1
+		sound fire-lance
+		sprite "projectile/ion beam"
+			"frame rate" 1
+			"random start frame"
+		velocity 630

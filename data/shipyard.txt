@@ -1,10 +1,3 @@
-shipyard irm
-	Apocalypse
-	Revelation
-shipyard reaver
-	Adel
-	Bennu
-	Hydra
 shipyard sarcina
 	Adel
 	Apocalypse

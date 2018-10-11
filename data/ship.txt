@@ -19,7 +19,7 @@ ship Adel
 			"hit force" 650
 			"hull damage" 200
 			"shield damage" 400
-	description "The Aphid is a light freighter designed by the hai, but is also in production by the reavers. The Aphid may have been designed with hauling cargo in mind but this iteration took a complete turn in the fiercest possible way. A considerably stronger hull with an improved shield matrix, sporting three gun ports comes the lightest warship of choice, the Adel."
+	description "Modified ship. Weaponised Hai Aphid."
 	engine -20 55
 	engine -9 52
 	engine 20 55
@@ -45,7 +45,6 @@ ship Adel
 	sprite ship/raphid
 ship Apocalypse
 	attributes
-		"apocalypse spine" -2
 		"cargo space" 173
 		"energy capacity" 174000
 		"engine capacity" 139
@@ -53,19 +52,19 @@ ship Apocalypse
 		"heat dissipation" .2
 		"outfit space" 1359
 		"required crew" 117
+		"shield energy" 9.5
+		"shield generation" 9.1
 		"solar collection" 9.7
 		"weapon capacity" 662
 		bunks 233
-		"shield generation" 9.1
-		"shield energy" 9.5
-		ramscoop 2
 		category "Heavy Warship"
 		cost 74980000
 		drag 30
 		hull 47200
 		mass 3700
+		ramscoop 2
 		shields 74800
-	description "The largest Irm ship in production, and one of the only. The Irms' focus on utilizing their resources to their full potential all collate on this monstrosity. A super capital ship with an impressive 16 drone bays is all the fearsome deterrant the Irm need, in the case they are discovered and met with hostility of course."
+	description "Concept ship. Massive, very slow, very low energy generation, insanely high energy capacity, insane amount of drone bays, very high amount of turret mounts."
 	drone -98 26 under left
 	drone -98 26 under left
 	drone -98 115 under left
@@ -91,14 +90,13 @@ ship Apocalypse
 	engine 31 510 1.2
 	engine 31 510 1.2
 	engine 74 495
-	gun -22 -520 "Irm Devastator"
-	gun 22 -520 "Irm Devastator"
+	gun -22 -520 Devastator
+	gun 22 -520 Devastator
 	outfits
-		"Irm Devastator" 2
-		"Irm Large Engines"
-		"Quantum Waystone"
+		"Large Efficient Engines"
 		"Quarg Anti-Missile" 8
 		"Reflective Plating"
+		Devastator 2
 		Hyperdrive
 	sprite ship/apocalypse
 	turret -46 26 "Quarg Anti-Missile"
@@ -109,13 +107,6 @@ ship Apocalypse
 	turret 46 115 "Quarg Anti-Missile"
 	turret 46 204 "Quarg Anti-Missile"
 	turret 46 293 "Quarg Anti-Missile"
-ship Apocalypse Apocalypse(nocloak)
-	outfits
-		"Irm Devastator" 2
-		"Irm Large Engines"
-		"Quantum Waystone"
-		"Quarg Anti-Missile" 8
-		Hyperdrive
 ship Bennu
 	"final explode" "final explosion medium"
 	attributes
@@ -138,7 +129,7 @@ ship Bennu
 			"hit force" 1550
 			"hull damage" 600
 			"shield damage" 1100
-	description "Firebirds fought on both sides of the Alpha Wars over half a millennium ago. There is a reason why the Firebird has been revered in all corners of human space as a warship to deal with any situation. Maintaining production of the Firebird iteration, Bennu, means a great deal to the reavers and has proven a worthy endeavor."
+	description "Modified ship. Originally Firebird."
 	engine -33 65
 	engine 33 65
 	explode "large explosion" 8
@@ -192,7 +183,7 @@ ship Bulwark
 			"hit force" 2600
 			"hull damage" 850
 			"shield damage" 1700
-	description "Why Syndicate engineers decided to take to the workshop with the Protector one more time is a mystery. This monstrosity is even closer to a defense platform than the Protecter as it packs on more turrets, and 'boasts' even less manuverability. It relies on nothing more than the concentrated firepower from over six blaster turrets mounted on its' reinforced frame. This warship serves as a rear guard to any fleet, simply because it cannot keep up with the fleeing merchants it's often employed to protect."
+	description "Series ship. Protector cousin, more durable, slower."
 	engine -11 122 .8
 	engine -34 99
 	engine 11 122
@@ -243,7 +234,7 @@ ship Hornet
 			"hit force" 410
 			"hull damage" 190
 			"shield damage" 260
-	description "The hornet is a borderline light warship, officially classed interceptor. While the wasps' selling point is as an escort to cargo vessels, the hornet can very well serve as its' own freighter."
+	description "Series ship. Wasp cousin, more durable, harder-hitting."
 	engine -15 14 .5
 	engine 0 41 .5
 	engine 15 14 .5
@@ -284,7 +275,7 @@ ship Hydra
 			"hit force" 1300
 			"hull damage" 500
 			"shield damage" 900
-	description "The Leviathan has been a choice capital ship for centuries, long before the republic. Far outdated but still highly sought after, the Leviathan still outperforms certain modern day models, even if it is clunky by todays standards. Hydra is a long needed step up from the centuries old relic, generously provided with a sturdier hull and improved shield matrix."
+	description "Modified ship. Originally Leviathan."
 	engine -25 125
 	engine 0 130
 	engine 25 125
@@ -336,14 +327,12 @@ ship Revelation
 		hull 12200
 		mass 68
 		shields 1300
-	description "Revelation, requires coordination and direction in order to effectively defend its' mothership. The Apocalypse tends to be discovered by alien life before it is able to finish its' cloaking sequence, on occasion these encounters develop into a hostile incursion."
-	description "Effective in numbers, best at dealing with singular targets but is suddenly inferior once multiple targets engage. A strong offensive is one where many of these disruptive drones can converge on the same target to build up electrical disruption and excess heat."
+	description "Concept ship. Very fast, disabling weapons, low energy generation, insanely high energy capacity."
 	engine 0 30
 	gun 0 -40 "Irm Harrier"
 	outfits
-		"Irm Harrier"
-		"Irm Small Engines"
-		"Quantum Waystone"
+		"Small Efficient Engines"
+		Harrier
 	sprite "ship/hai lightning bug"
 ship Sarkic
 	"never disabled"
@@ -361,6 +350,7 @@ ship Sarkic
 		mass 400
 		thrust 40
 		turn 1200
+	description "Series ship. Archon cousin, origin of Archons' biological aspects, monster, very close range only."
 	explode "small explosion" 10
 	explode "tiny explosion" 16
 	gun 0 -27 Mouthparts?
@@ -392,7 +382,7 @@ ship Scud
 			"hit force" 250
 			"hull damage" 150
 			"shield damage" 100
-	description "Flycatcher drones are used by the Wanderers to keep their star systems safe. This is a new design for the standard Flycatcher, the Scud boasts the combat capabilities of fitting a Thunderhead Launcher on a mere drone."
+	description "Series ship. Flycatcher cousin, missile drone rather than anti-missile drone."
 	engine -9 28
 	engine 9 28
 	explode "tiny explosion" 30
@@ -426,7 +416,8 @@ ship Scutter
 			"hit force" 240
 			"hull damage" 80
 			"shield damage" 160
-	description "Across the board this is the nimblest and speediest transport ship ever seen. A skeleton hull consisting of only vital systems and an overwhelming dedication to engines, as bare-bones as ships come."
+	description "Series ship. Flivver cousin, very fast, no weapons, less durable."
+	description "Concept ship. Unarmed, extremely fast, low cargo space, weak."
 	engine -12 20 .8
 	engine 12 20 .8
 	explode "small explosion" 15
@@ -438,32 +429,3 @@ ship Scutter
 		"nGVF-BB Fuel Cell"
 		"Scram Drive"
 	sprite ship/scutter
-ship Solifuge
-	gun -11.5 -138.5
-	gun -9.5 -101 "Ion Cannon"
-	gun 0 -140 "Hai Tracker Pod"
-	gun 11.5 -138.5
-	gun 9.5 -101 "Ion Cannon"
-	outfits
-		"Boulder Reactor" 2
-		"Bullfrog Anti-Missile" 4
-		"Hai Diamond Regenerator"
-		"Hai Gorge Batteries"
-		"Hai Tracker Pod"
-		"Hai Tracker" 56
-		"Hai Williwaw Cooling" 6
-		"Ion Cannon" 2
-		"Ion Mortar"
-		"Pulse Turret" 2
-		"Quantum Keystone"
-		`"Benga" Atomic Steering`
-		`"Bondir" Atomic Thruster`
-		`"Bufaer" Atomic Steering`
-		Hyperdrive
-	turret -54.5 -48.5 "Bullfrog Anti-Missile"
-	turret -54.5 50.5 "Bullfrog Anti-Missile"
-	turret -55 1 "Pulse Turret"
-	turret 0 -109.5 "Ion Mortar"
-	turret 54.5 -48.5 "Bullfrog Anti-Missile"
-	turret 54.5 50.5 "Bullfrog Anti-Missile"
-	turret 55 1 "Pulse Turret"

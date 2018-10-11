@@ -1,6 +1,0 @@
-government Irm
-	color  .5 .2 1
-	swizzle 3
-government Reaver
-	color .85 .85 .85
-	swizzle 0
