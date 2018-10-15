@@ -4,7 +4,7 @@ effect "blastey thing"
 	"random velocity" 20
 	"velocity scale" 1
 	lifetime 10
-	sprite "effect/seeker impact blue"
+	sprite "effect/seeker impact red"
 		"frame rate" 30
 		"no repeat"
 		"start frame" 0
@@ -23,13 +23,13 @@ effect "large impact glow"
 	lifetime 15
 	sprite "effect/big superweapon impact"
 		"frame rate" 60
-effect "superweapon residue blue"
+effect "superweapon residue red"
 	"random angle" 360
 	"random spin" 5
 	"random velocity" 20
 	"velocity scale" .2
 	lifetime 9
-	sprite "effect/blue huge"
+	sprite "effect/red huge"
 		"frame rate" 60
 		"no repeat"
 effect "superweapon residue"

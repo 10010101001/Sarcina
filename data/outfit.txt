@@ -159,14 +159,14 @@ outfit Devastator
         "firing heat" 11
         "heat damage" 140
         "hit effect" "large impact glow"
-        "hit effect" "superweapon residue blue" 10
+        "hit effect" "superweapon residue red" 10
         "hit effect" "superweapon residue" 7
         "hit effect" "u-sniper OP hit"
         "hit force" 10
         "hull damage" 17
         "shield damage" 26
         inaccuracy 0
-        lifetime 50
+        lifetime 18
         safe
         sound "final explosion small"
         sprite projectile/superweapon
