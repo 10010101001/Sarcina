@@ -170,7 +170,6 @@ outfit Devastator
         safe
         sound "final explosion small"
         sprite projectile/superweapon
-        unplunderable 1
         velocity 80
 outfit Harrier
 	"gun ports" -1
