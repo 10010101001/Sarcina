@@ -187,7 +187,7 @@ outfit Harrier
 		"heat damage" 40
 		"hit effect" "skylance impact"
 		"hull damage" 2
-		"ion damage" 1.3
+		"ion damage" .7
 		"shield damage" 2.4
 		lifetime 1
 		reload 1
