@@ -150,19 +150,28 @@ outfit Devastator
 	mass 143
 	thumbnail outfit/unknown
 	weapon
-		"firing energy" 13
-		"firing heat" 11
-		"heat damage" 140
-		"hit effect" "fire-lance impact"
-		"hull damage" 17
-		"shield damage" 26
-		lifetime 1
-		reload 1
-		sound fire-lance
-		sprite projectile/temp
-			"frame rate" 1
-			"random start frame"
-		velocity 860
+        "blast radius" 400
+        "burst count" 60
+        "die effect" "u-sniper fadeout"
+        "fire effect" "blastey thing" 2
+        "fire effect" "large glow"
+        "firing energy" 13
+        "firing heat" 11
+        "heat damage" 140
+        "hit effect" "large impact glow"
+        "hit effect" "superweapon residue blue" 10
+        "hit effect" "superweapon residue" 7
+        "hit effect" "u-sniper OP hit"
+        "hit force" 10
+        "hull damage" 17
+        "shield damage" 26
+        inaccuracy 0
+        lifetime 50
+        safe
+        sound "final explosion small"
+        sprite projectile/superweapon
+        unplunderable 1
+        velocity 80
 outfit Harrier
 	"gun ports" -1
 	"outfit space" -57
