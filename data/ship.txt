@@ -392,7 +392,7 @@ ship Scud
 			"hit force" 250
 			"hull damage" 150
 			"shield damage" 100
-	description "Series ship. Flycatcher cousin, missile drone rather than anti-missile drone."
+	description "Flycatcher drones are used by the Wanderers to keep their star systems safe. This is a new design for the standard Flycatcher, the Scud boasts the combat capabilities of fitting a Thunderhead Launcher on a mere drone."
 	engine -9 28
 	engine 9 28
 	explode "tiny explosion" 30
