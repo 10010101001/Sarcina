@@ -1,0 +1,4 @@
+ship "Shield Beetle"
+	attributes
+		licenses
+			"Hai Trust"
