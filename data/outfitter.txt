@@ -2,11 +2,12 @@ outfitter sarcina
 	"Fat Man"
 	"Flame Thrower"
 	"Ion Mortar"
+	"Irm Large Engines"
+	"Irm Small Engines"
 	"Korath Disruptor Gun"
-	"Large Efficient Engines"
 	"Quad Plasma Turret"
+	"Quantum Waystone"
 	"Reflective Plating"
 	"Regional Map"
-	"Small Efficient Engines"
 	Devastator
 	Harrier

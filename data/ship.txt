@@ -45,6 +45,7 @@ ship Adel
 	sprite ship/raphid
 ship Apocalypse
 	attributes
+		"apocalypse spine" -2
 		"cargo space" 173
 		"energy capacity" 174000
 		"engine capacity" 139
@@ -64,7 +65,7 @@ ship Apocalypse
 		mass 3700
 		ramscoop 2
 		shields 74800
-	description "Concept ship. Massive, very slow, very low energy generation, insanely high energy capacity, insane amount of drone bays, very high amount of turret mounts."
+	description "The largest Irm ship in production, and one of the only. The Irms' focus on utilizing their resources to their full potential all collate on this monstrosity. A super capital ship with an impressive 16 drone bays is all the fearsome deterrant the Irm need, in the case they are discovered and met with hostility of course."
 	drone -98 26 under left
 	drone -98 26 under left
 	drone -98 115 under left
@@ -93,7 +94,8 @@ ship Apocalypse
 	gun -22 -520 Devastator
 	gun 22 -520 Devastator
 	outfits
-		"Large Efficient Engines"
+		"Irm Large Engines"
+		"Quantum Waystone"
 		"Quarg Anti-Missile" 8
 		"Reflective Plating"
 		Devastator 2
@@ -107,6 +109,13 @@ ship Apocalypse
 	turret 46 115 "Quarg Anti-Missile"
 	turret 46 204 "Quarg Anti-Missile"
 	turret 46 293 "Quarg Anti-Missile"
+ship Apocalypse Apocalypse(nocloak)
+	outfits
+		"Devastator" 2
+		"Irm Large Engines"
+		"Quantum Waystone"
+		"Quarg Anti-Missile" 8
+		Hyperdrive
 ship Bennu
 	"final explode" "final explosion medium"
 	attributes
@@ -318,20 +327,21 @@ ship Revelation
 		"heat dissipation" .9
 		"outfit space" 149
 		"solar collection" 4.6
-		"weapon capacity" 58
+		"weapon capacity" 32
 		"shield generation" 3.7
 		"shield energy" 4.1
 		category Drone
 		cost 3410000
 		drag .9
-		hull 12200
+		hull 9200
 		mass 68
 		shields 1300
-	description "Concept ship. Very fast, disabling weapons, low energy generation, insanely high energy capacity."
+	description "Revelation, requires coordination and direction in order to effectively defend its' mothership. The Apocalypse tends to be discovered by alien life before it is able to finish its' cloaking sequence, on occasion these encounters develop into a hostile incursion."
+	description "Effective in numbers, best at dealing with singular targets but is suddenly inferior once multiple targets engage. A strong offensive is one where many of these disruptive drones can converge on the same target to build up electrical disruption and excess heat."
 	engine 0 30
 	gun 0 -40 Harrier
 	outfits
-		"Small Efficient Engines"
+		"Irm Small Engines"
 		Harrier
 	sprite "ship/hai lightning bug"
 ship Sarkic

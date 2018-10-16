@@ -20,7 +20,7 @@ effect "large glow"
 effect "large impact glow"
 	"random angle" 360
 	"velocity scale" .3
-	lifetime 15
+	lifetime 3
 	sprite "effect/big superweapon impact"
 		"frame rate" 60
 effect "superweapon residue red"
@@ -31,15 +31,6 @@ effect "superweapon residue red"
 	lifetime 9
 	sprite "effect/red huge"
 		"frame rate" 60
-		"no repeat"
-effect "superweapon residue"
-	"random angle" 360
-	"random spin" 5
-	"random velocity" 15
-	"velocity scale" .2.5
-	lifetime 30
-	sprite "effect/explosion/huge"
-		"frame rate" 20
 		"no repeat"
 effect "u-sniper fadeout"
 	"velocity scale" 1

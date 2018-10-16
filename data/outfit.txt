@@ -40,6 +40,41 @@ outfit "Ion Mortar"
 		sprite "projectile/ion bolt"
 			"frame rate" 5
 		velocity 16
+outfit "Irm Large Engines"
+	"engine capacity" -139
+	"flare sound" "plasma medium"
+	"flare sprite" effect/irm_large_engines
+		"frame rate" 3
+	"outfit space" -139
+	"thrusting energy" 7.2
+	"thrusting heat" 6.1
+	"turning energy" 4.3
+	"turning heat" 3.7
+	category Engines
+	cost 1960000
+	description "The Irm find a certain comfort in hybrid systems. The directional thrust used to accelerate ships forwards can be diverted to any direction. Functionally, linking thrusters and steering together can greatly bolster the effectiveness of the engines."
+	mass 139
+	thrust 65.9
+	thumbnail outfit/unknown
+	turn 1790
+outfit "Irm Small Engines"
+	"engine capacity" -76
+	"flare sound" "plasma medium"
+	"flare sprite" effect/irm_small_engines
+		"frame rate" 3
+	"outfit space" -76
+	"thrusting energy" 2.6
+	"thrusting heat" 1.8
+	"turning energy" 1.7
+	"turning heat" 1.1
+	category Engines
+	cost 940000
+	description "The Irm find a certain comfort in hybrid systems. The directional thrust used to accelerate ships forwards can be diverted to any direction. Functionally, linking thrusters and steering together can greatly bolster the effectiveness of the engines."
+	description "This is a scaled down design of the original, larger engines. In the process of miniaturization much of the efficiency that set the Irm engines as a staple for stellar traval were lost."
+	mass 76
+	thrust 12.5
+	thumbnail outfit/unknown
+	turn 430
 outfit "Korath Disruptor Gun"
 	"gun ports" -1
 	"outfit space" -28
@@ -63,23 +98,6 @@ outfit "Korath Disruptor Gun"
 		sprite projectile/disruptor
 			"frame rate" 15
 		velocity 480
-outfit "Large Efficient Engines"
-	"engine capacity" -139
-	"flare sound" "plasma medium"
-	"flare sprite" effect/irm_large_engines
-		"frame rate" 3
-	"outfit space" -139
-	"thrusting energy" 7.2
-	"thrusting heat" 6.1
-	"turning energy" 4.3
-	"turning heat" 3.7
-	category Engines
-	cost 1960000
-	description "Concept engines. Combined thruster and steering, low thrust and turn, very low energy and heat costs"
-	mass 139
-	thrust 65.9
-	thumbnail outfit/unknown
-	turn 1790
 outfit "Quad Plasma Turret"
 	"outfit space" -87
 	"required crew" 2
@@ -108,13 +126,21 @@ outfit "Quad Plasma Turret"
 		sprite projectile/plasma
 			"frame rate" 3
 		velocity 12
+outfit "Quantum Waystone"
+	"outfit space" -1
+	"quantum waystone" 1
+	category Systems
+	cost 720000
+	description "This precious artifact attunes a ship's quantum oscillations in a way that allows it to travel through The Gateway, an impassable wormhole seperating the Irm from the rest of the galaxy. Waystones are extremely rare and valuable, because they are only found in one place, Tutum."
+	mass 1
+	thumbnail outfit/keystone
 outfit "Reflective Plating"
 	"cloaking energy" 18
 	"outfit space" -3
 	category "Systems"
 	cloak .002
 	cost 750000
-	description "Concept outfit. Slow cloak at an insane energy requirement, no fuel cost."
+	description "You're sure you left your ship here somewhere, but you can't see it."
 	thumbnail outfit/reflective_plating
 	unplunderable 1
 outfit "Regional Map"
@@ -123,32 +149,16 @@ outfit "Regional Map"
 	description "Concept outfit. More informative map at a higher cost."
 	map 48
 	thumbnail "outfit/map"
-outfit "Small Efficient Engines"
-	"engine capacity" -76
-	"flare sound" "plasma medium"
-	"flare sprite" effect/irm_small_engines
-		"frame rate" 3
-	"outfit space" -76
-	"thrusting energy" 2.6
-	"thrusting heat" 1.8
-	"turning energy" 1.7
-	"turning heat" 1.1
-	category Engines
-	cost 940000
-	description "Concept engines. Combined thruster and steering, low thrust and turn, very low energy and heat costs"
-	mass 76
-	thrust 12.5
-	thumbnail outfit/unknown
-	turn 430
 outfit Devastator
+	"apocalypse spine" 1
 	"gun ports" -1
 	"outfit space" -143
 	"weapon capacity" -143
 	category Guns
 	cost 2690000
-	description "Concept weapon. Massive space, high damage, high heat damage, massive energy drain."
+	description "The Devastator is a long-range beam that is particularly good at overheating enemy ships. A fearsome weapon to weild, provided you can fit it, and appease its hunger for power."
 	mass 143
-	thumbnail outfit/unknown
+	thumbnail outfit/devastator
 	weapon
         "blast radius" 400
         "burst count" 60
@@ -159,8 +169,7 @@ outfit Devastator
         "firing heat" 11
         "heat damage" 140
         "hit effect" "large impact glow"
-        "hit effect" "superweapon residue red" 10
-        "hit effect" "superweapon residue" 7
+        "hit effect" "superweapon residue red" 4
         "hit effect" "u-sniper OP hit"
         "hit force" 10
         "hull damage" 17
@@ -173,20 +182,20 @@ outfit Devastator
         velocity 80
 outfit Harrier
 	"gun ports" -1
-	"outfit space" -57
-	"weapon capacity" -57
+	"outfit space" -31
+	"weapon capacity" -31
 	category Guns
 	cost 1160000
-	description "Concept Weapon. Low shield and hull damage, extremely high heat and ion damage."
+	description "The Harrier, immensively effective that is, for overheating hostile ships. Combining the electrical disruption with excess heat build-up can be devastating for any crew unfortunate enough to find themselves at the mercy of the Revalation disruptive drone."
 	mass 57
 	thumbnail outfit/unknown
 	weapon
 		"firing energy" 4
 		"firing heat" 3.7
-		"heat damage" 40
+		"heat damage" 28
 		"hit effect" "skylance impact"
 		"hull damage" 2
-		"ion damage" .7
+		"ion damage" .1
 		"shield damage" 2.4
 		lifetime 1
 		reload 1
