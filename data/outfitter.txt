@@ -1,4 +1,5 @@
 outfitter sarcina
+	"Chain Blaster Turret"
 	"Fat Man"
 	"Flame Thrower"
 	"Ion Mortar"

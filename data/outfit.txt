@@ -1,3 +1,28 @@
+outfit "Chain Blaster Turret"
+	"outfit space" -34
+	"required crew" 2
+	"turret mounts" -1
+	"weapon capacity" -34
+	category Turrets
+	cost 360000
+	description "Insane weapon. Six blasters onto a single revolving turret mount."
+	mass 34
+	thumbnail outfit/chain_blaster_turret
+	weapon
+		"firing energy" 12
+		"firing heat" 30
+		"hardpoint offset" 9.
+		"hardpoint sprite" "hardpoint/quad blaster turret"
+		"hit effect" "blaster impact"
+		"hull damage" 6
+		"shield damage" 9
+		"turret turn" 3
+		inaccuracy 4
+		lifetime 60
+		reload 2
+		sound blaster
+		sprite projectile/blaster
+		velocity 7
 outfit "Fat Man"
 	"self destruct" .95
 	category "Hand to Hand"
