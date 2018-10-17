@@ -1,3 +1,18 @@
+outfit "Apotropaic Anti-Missile"
+	"outfit space" -52
+	"turret mounts" -1
+	"weapon capacity" -52
+	category Turrets
+	cost 7300000
+	mass 52
+	thumbnail outfit/unknown
+	weapon
+		"firing energy" 62
+		"hit effect" "quarg anti-missile"
+		anti-missile 85
+		lifetime 1
+		reload 75
+		velocity 500
 outfit "Chain Blaster Turret"
 	"outfit space" -34
 	"required crew" 2

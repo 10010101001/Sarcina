@@ -1,4 +1,5 @@
 outfitter sarcina
+	"Apotropaic Anti-Missile"
 	"Chain Blaster Turret"
 	"Fat Man"
 	"Flame Thrower"

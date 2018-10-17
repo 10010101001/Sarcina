@@ -56,7 +56,7 @@ ship Apocalypse
 		"shield energy" 9.5
 		"shield generation" 9.1
 		"solar collection" 9.7
-		"weapon capacity" 662
+		"weapon capacity" 713
 		bunks 233
 		category "Heavy Warship"
 		cost 74980000
@@ -94,27 +94,27 @@ ship Apocalypse
 	gun -22 -520 Devastator
 	gun 22 -520 Devastator
 	outfits
+		"Apotropaic Anti-Missile" 8
 		"Irm Large Engines"
 		"Quantum Waystone"
-		"Quarg Anti-Missile" 8
 		"Reflective Plating"
 		Devastator 2
 		Hyperdrive
 	sprite ship/apocalypse
-	turret -46 26 "Quarg Anti-Missile"
-	turret -46 115 "Quarg Anti-Missile"
-	turret -46 204 "Quarg Anti-Missile"
-	turret -46 293 "Quarg Anti-Missile"
-	turret 46 26 "Quarg Anti-Missile"
-	turret 46 115 "Quarg Anti-Missile"
-	turret 46 204 "Quarg Anti-Missile"
-	turret 46 293 "Quarg Anti-Missile"
+	turret -46 26 "Apotropaic Anti-Missile"
+	turret -46 115 "Apotropaic Anti-Missile"
+	turret -46 204 "Apotropaic Anti-Missile"
+	turret -46 293 "Apotropaic Anti-Missile"
+	turret 46 26 "Apotropaic Anti-Missile"
+	turret 46 115 "Apotropaic Anti-Missile"
+	turret 46 204 "Apotropaic Anti-Missile"
+	turret 46 293 "Apotropaic Anti-Missile"
 ship Apocalypse Apocalypse(nocloak)
 	outfits
-		"Devastator" 2
+		"Apotropaic Anti-Missile" 8
 		"Irm Large Engines"
 		"Quantum Waystone"
-		"Quarg Anti-Missile" 8
+		Devastator 2
 		Hyperdrive
 ship Bennu
 	"final explode" "final explosion medium"
