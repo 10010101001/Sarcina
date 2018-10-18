@@ -1,3 +1,58 @@
+ship "Model 768"
+	"final explode" "final explosion large"
+	attributes
+		"cargo space" 141
+		"engine capacity" 161
+		"fuel capacity" 400
+		"heat dissipation" .8
+		"outfit space" 1029
+		"self destruct" .9
+		"weapon capacity" 440
+		automaton 1
+		category "Heavy Warship"
+		cost 45936000
+		drag 19.1
+		hull 37900
+		mass 1300
+		ramscoop 3
+		shields 119200
+		weapon
+			"blast radius" 420
+			"hit force" 8400
+			"hull damage" 2800
+			"shield damage" 5600
+	description "Series ship. Model 512 cousin, much improved shield matrix, slower."
+	engine -145 97
+	engine 145 97
+	explode "large explosion" 35
+	explode "medium explosion" 80
+	explode "small explosion" 115
+	explode "tiny explosion" 160
+	gun -22 -143 "Korath Minelayer"
+	gun 22 -143 "Korath Minelayer"
+	outfits
+		"Korath Disruptor" 3
+		"Korath Mine" 34
+		"Korath Minelayer" 2
+		"Korath Slicer Turret" 4
+		"Large Heat Shunt" 2
+		"Plasma Core"
+		"Reasoning Node" 4
+		"Small Heat Shunt"
+		"Steering (Stellar Class)"
+		"Systems Core (Large)"
+		"Systems Core (Small)"
+		"Thruster (Planetary Class)"
+		"Triple Plasma Core"
+		Hyperdrive
+	sprite ship/model_768
+	turret -121 86 "Korath Slicer Turret"
+	turret -130 -33 "Korath Disruptor"
+	turret -23 -134 "Korath Slicer Turret"
+	turret 124 -57 "Korath Slicer Turret"
+	turret 138 20 "Korath Slicer Turret"
+	turret 54 138 "Korath Disruptor"
+	turret 91 -102 "Korath Disruptor"
 ship Adel
 	attributes
 		"cargo space" 12

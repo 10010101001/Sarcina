@@ -1,4 +1,5 @@
 shipyard sarcina
+	"Model 768"
 	Adel
 	Apocalypse
 	Bennu
