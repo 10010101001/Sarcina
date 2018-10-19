@@ -91,3 +91,31 @@ mission "hai unfettered humans"
 	to offer
 		"combat rating" > 400
 		random < 35
+mission "quarg forgive farming"
+	invisible
+	landing
+	on offer
+		conversation
+			`	In light of a reduction in raiding the Quarg have demobilized their military. You need fear Quarg retaliation no longer.`
+				accept
+		fail "quarg retaliation"
+	repeat
+	to offer
+		"reputation: Quarg" > 5
+		has "quarg retaliation: active"
+mission "quarg retaliation"
+	invisible
+	landing
+	npc disable
+		government Quarg
+		personality heroic nemesis staying
+		ship "Quarg Wardragon" "Quarg Military Vessel"
+		ship "Quarg Wardragon" "Quarg Military Vessel"
+	on offer
+		conversation
+			`	Shortly after you land, a pair of Quarg warships jump into the system and broadcast a message. It would appear that your attacks against the Quarg have been noticed; they intend to destroy you the moment you launch.`
+				accept
+	repeat
+	to offer
+		"reputation: Quarg" < -1000
+		random < 65
