@@ -91,6 +91,60 @@ mission "hai unfettered humans"
 	to offer
 		"combat rating" > 400
 		random < 35
+mission "quarg execution"
+	invisible
+	landing
+	npc disable
+		government Quarg
+		personality entering heroic nemesis
+		ship "Quarg Wardragon" "Quarg Military Vessel"
+		ship "Quarg Wardragon" "Quarg Military Vessel"
+		ship "Quarg Wardragon" "Quarg Military Vessel"
+	npc disable
+		government Quarg
+		personality heroic nemesis staying
+		ship "Quarg Wardragon" "Quarg Scout"
+	on offer
+		conversation
+			`Shortly after you land, a Quarg Scoutship jumps into the system and broadcasts a message. It seems they're trying to send a message.`
+			choice
+				`(Open a communications channel.)`
+					goto talk
+				`(Ignore him.)`
+					goto ignore
+				`(Prep for launch.)`
+					launch
+			label talk
+			`A Quarg in what seems to be some sort of military uniform appears on your communication system. It immediately starts talking, saying "I regret to inform you that we are left with no alternative but to destroy you, even at the cost of civilian lives. If you do not leave the spaceport and allow yourself to be destroyed we will commence an orbital bombardment of your position."`
+			choice
+				`"Why are you doing this?"`
+					goto converse
+				`"Alright, I will lift off in a moment." (Lie)`
+					goto flee
+				`"Alright, I will lift off in a moment."`
+					launch
+				`"No, I refuse. I don’t believe you will attack the spaceport."`
+			label regrettable
+			`"That is regrettable."`
+				goto flee
+			label ignore
+			`You disregard the increasingly urgent messages. A few minutes later a skylance fires and you are vaporized, along with a large chunk of the spaceport.`
+				die
+			label flee
+			`You flee towards the nearest residential area. A few minutes later a burst of Quarg weapons fire annihilates both yourself and the surrounding area.`
+				die
+			label converse
+			`”Why do you attack us? We can no longer tolerate your behavior, whatever the causes, and must destroy you. What is your decision?”`
+			choice
+				`"Alright, I will lift off in a moment." (Lie)`
+					goto flee
+				`"Alright, I will lift off in a moment."`
+					launch
+				`"No, I refuse. I don’t believe you’ll attack the city"`
+					goto regrettable
+	repeat
+	to offer	
+		"reputation: Quarg" < -2500
 mission "quarg forgive farming"
 	invisible
 	landing
