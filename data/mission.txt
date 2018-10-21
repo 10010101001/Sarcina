@@ -145,6 +145,7 @@ mission "quarg execution"
 	repeat
 	to offer	
 		"reputation: Quarg" < -2500
+		random < 25
 mission "quarg forgive farming"
 	invisible
 	landing
