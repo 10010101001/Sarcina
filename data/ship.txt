@@ -98,6 +98,63 @@ ship Adel
 		`"Benga" Atomic Thruster`
 		Hyperdrive
 	sprite ship/raphid
+ship Aesalon
+	"final explode" "final explosion medium"
+	attributes
+		"cargo space" 60
+		"engine capacity" 200
+		"fuel capacity" 700
+		"heat dissipation" .6
+		"outfit space" 690
+		"required crew" 57
+		"weapon capacity" 280
+		bunks 82
+		category "Heavy Warship"
+		cost 13400000
+		drag 7.4
+		hull 9800
+		mass 580
+		shields 15100
+		weapon
+			"blast radius" 160
+			"hit force" 2400
+			"hull damage" 800
+			"shield damage" 1600
+	description "Modified ship. Originally Falcon."
+	engine -13 127
+	engine 13 127
+	explode "large explosion" 40
+	explode "medium explosion" 60
+	explode "small explosion" 55
+	explode "tiny explosion" 40
+	gun -14 -76 "Typhoon Launcher"
+	gun -14 -76 "EMP Torpedo Bay"
+	gun 14 -76 "Typhoon Launcher"
+	gun 14 -76 "EMP Torpedo Bay"
+	outfits
+		"A120 Atomic Thruster"
+		"D41-HY Shield Generator"
+		"Dwarf Core"
+		"Electron Turret" 2
+		"EMP Torpedo Bay" 2
+		"EMP Torpedo" 18
+		"Fission Reactor"
+		"Hai Fissure Batteries"
+		"Large Radar Jammer"
+		"Laser Turret" 2
+		"Liquid Nitrogen Cooler"
+		"LP144a Battery Pack"
+		"Orca Plasma Steering"
+		"Orca Plasma Thruster"
+		"Outfits Expansion"
+		"Scram Drive"
+		"Typhoon Launcher" 2
+		"Typhoon Torpedo" 60
+	sprite ship/rfalcon
+	turret -16 -21 "Laser Turret"
+	turret -46 34 "Electron Turret"
+	turret 16 -21 "Laser Turret"
+	turret 46 34 "Electron Turret"
 ship Apocalypse
 	attributes
 		"apocalypse spine" -2
