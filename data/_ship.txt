@@ -1,3 +1,26 @@
+ship "Korath World-Ship" "Korath World-Ship B"
+	outfits
+		"Broken Jump Drive"
+		"Intrusion Countermeasures" 6
+		"Korath Banisher" 3
+		"Korath Grab-Strike" 2
+		"Korath Warder" 3
+		"Large Heat Shunt" 2
+		"Steering (Planetary Class)"
+		"Systems Core (Large)"
+		"Thruster (Planetary Class)"
+		"Triple Plasma Core"
+		Hyperdrive
+		Ramscoop
+	sprite "ship/world-ship b"
+	turret -75 -112 "Korath Banisher"
+	turret -76 -219 "Korath Grab-Strike"
+	turret -83 165 "Korath Warder"
+	turret 0 -92 "Korath Warder"
+	turret 0 277 "Korath Banisher"
+	turret 75 -112 "Korath Banisher"
+	turret 76 -219 "Korath Grab-Strike"
+	turret 83 165 "Korath Warder"
 ship "Shield Beetle"
 	attributes
 		licenses

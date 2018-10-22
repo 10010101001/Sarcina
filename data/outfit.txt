@@ -13,6 +13,13 @@ outfit "Apotropaic Anti-Missile"
 		lifetime 1
 		reload 75
 		velocity 500
+outfit "Broken Jump Drive"
+	"outfit space" -17
+	category Systems
+	cost 132000
+	description "The workings of the Jump Drive are a total mystery, especially now that this drive seems completely mangled. How it got into to this state of disrepair is beyond you, it may however still hold some research potential."
+	mass 17
+	thumbnail outfit/broken_jump_drive
 outfit "Chain Blaster Turret"
 	"outfit space" -34
 	"required crew" 2
