@@ -424,6 +424,31 @@ ship Hydra
 	turret -25 10 "Anti-Missile Turret"
 	turret 15 -50 "Thrasher Turret"
 	turret 25 10 "Anti-Missile Turret"
+ship Lander
+	sprite ship/lander
+	attributes
+		category Transport
+		cost 230000
+		shields 500
+		hull 700
+		"required crew" 1
+		bunks 1
+		mass 50
+		drag 1.5
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"outfit space" 70
+		"engine capacity" 22
+		gaslining 1
+		ramscoop 3
+	outfits
+		"nGVF-AA Fuel Cell"
+		Supercapacitor
+		"X1050 Ion Engines"
+		Hyperdrive
+	engine 0 30
+	explode "tiny explosion" 8
+	explode "small explosion" 7
 ship Revelation
 	attributes
 		"cargo space" 38
