@@ -21,7 +21,6 @@ ship "Model 768"
 			"hit force" 8400
 			"hull damage" 2800
 			"shield damage" 5600
-	description "Series ship. Model 512 cousin, much improved shield matrix, slower."
 	engine -145 97
 	engine 145 97
 	explode "large explosion" 35
@@ -74,7 +73,6 @@ ship Adel
 			"hit force" 650
 			"hull damage" 200
 			"shield damage" 400
-	description "Modified ship. Weaponised Hai Aphid."
 	engine -20 55
 	engine -9 52
 	engine 20 55
@@ -120,7 +118,6 @@ ship Aesalon
 			"hit force" 2400
 			"hull damage" 800
 			"shield damage" 1600
-	description "Modified ship. Originally Falcon."
 	engine -13 127
 	engine 13 127
 	explode "large explosion" 40
@@ -250,7 +247,6 @@ ship Bennu
 			"hit force" 1550
 			"hull damage" 600
 			"shield damage" 1100
-	description "Modified ship. Originally Firebird."
 	engine -33 65
 	engine 33 65
 	explode "large explosion" 8
@@ -304,7 +300,6 @@ ship Bulwark
 			"hit force" 2600
 			"hull damage" 850
 			"shield damage" 1700
-	description "Series ship. Protector cousin, more durable, slower."
 	engine -11 122 .8
 	engine -34 99
 	engine 11 122
@@ -355,7 +350,6 @@ ship Hornet
 			"hit force" 410
 			"hull damage" 190
 			"shield damage" 260
-	description "Series ship. Wasp cousin, more durable, harder-hitting."
 	engine -15 14 .5
 	engine 0 41 .5
 	engine 15 14 .5
@@ -396,7 +390,6 @@ ship Hydra
 			"hit force" 1300
 			"hull damage" 500
 			"shield damage" 900
-	description "Modified ship. Originally Leviathan."
 	engine -25 125
 	engine 0 130
 	engine 25 125
@@ -472,7 +465,6 @@ ship Sarkic
 		mass 400
 		thrust 40
 		turn 1200
-	description "Series ship. Archon cousin, origin of Archons' biological aspects, monster, very close range only."
 	explode "small explosion" 10
 	explode "tiny explosion" 16
 	gun 0 -27 Mouthparts?
@@ -538,8 +530,6 @@ ship Scutter
 			"hit force" 240
 			"hull damage" 80
 			"shield damage" 160
-	description "Series ship. Flivver cousin, very fast, no weapons, less durable."
-	description "Concept ship. Unarmed, extremely fast, low cargo space, weak."
 	engine -12 20 .8
 	engine 12 20 .8
 	explode "small explosion" 15
