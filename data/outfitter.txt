@@ -2,6 +2,7 @@ outfitter sarcina
 	"Apotropaic Anti-Missile"
 	"Broken Jump Drive"
 	"Chain Blaster Turret"
+	"Dual Electron Beam"
 	"Fat Man"
 	"Flame Thrower"
 	"Ion Mortar"
