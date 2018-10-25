@@ -1,6 +1,7 @@
 outfitter sarcina
 	"Apotropaic Anti-Missile"
 	"Broken Jump Drive"
+	"Capacitor Rack"
 	"Chain Blaster Turret"
 	"Dual Electron Beam"
 	"Fat Man"
@@ -13,5 +14,6 @@ outfitter sarcina
 	"Quantum Waystone"
 	"Reflective Plating"
 	"Regional Map"
+	Capacitors
 	Devastator
 	Harrier

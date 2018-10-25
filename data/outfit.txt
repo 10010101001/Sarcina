@@ -20,6 +20,13 @@ outfit "Broken Jump Drive"
 	description "The workings of the Jump Drive are a total mystery, especially now that this drive seems completely mangled. How it got into to this state of disrepair is beyond you, it may however still hold some research potential."
 	mass 17
 	thumbnail outfit/broken_jump_drive
+outfit "Capacitor Rack"
+	"capacitor slots" 2
+	"outfit space" -.5
+	category Power
+	cost 2000
+	mass .5
+	thumbnail outfit/capacitor_rack
 outfit "Chain Blaster Turret"
 	"outfit space" -34
 	"required crew" 2
@@ -240,6 +247,12 @@ outfit Devastator
         safe
         sound "final explosion small"
         sprite projectile/superweapon
+outfit Capacitors
+	"capacitor slots" -1
+	"energy capacity" 18.75
+	category Power
+	cost 2400
+	thumbnail outfit/capacitors
 outfit Harrier
 	"gun ports" -1
 	"outfit space" -31
