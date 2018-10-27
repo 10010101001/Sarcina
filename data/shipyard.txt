@@ -7,7 +7,6 @@ shipyard sarcina
 	Bulwark
 	Hornet
 	Hydra
-	Lander
 	Revelation
 	Sarkic
 	Scud
