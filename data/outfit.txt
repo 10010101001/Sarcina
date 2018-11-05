@@ -13,6 +13,12 @@ outfit "Apotropaic Anti-Missile"
 		lifetime 1
 		reload 75
 		velocity 500
+outfit "Blue Screwdriver"
+    category Special
+    cost 5
+    description "It's just a blue screwdriver you found at some hardware store."
+    mass 0.1
+    thumbnail "outfit/blue screwdriver"
 outfit "Broken Jump Drive"
 	"outfit space" -17
 	category Systems
@@ -203,6 +209,12 @@ outfit "Quantum Waystone"
 	description "This precious artifact attunes a ship's quantum oscillations in a way that allows it to travel through The Gateway, an impassable wormhole seperating the Irm from the rest of the galaxy. Waystones are extremely rare and valuable, because they are only found in one place, Tutum."
 	mass 1
 	thumbnail outfit/keystone
+outfit "Red Screwdriver"
+    category Special
+    cost 5
+    description "It's just a red screwdriver you found at some hardware store."
+    mass 0.1
+    thumbnail "outfit/red screwdriver"
 outfit "Reflective Plating"
 	"cloaking energy" 18
 	"outfit space" -3

@@ -1,5 +1,6 @@
 outfitter sarcina
 	"Apotropaic Anti-Missile"
+	"Blue Screwdriver"
 	"Broken Jump Drive"
 	"Capacitor Rack"
 	"Chain Blaster Turret"
@@ -12,6 +13,7 @@ outfitter sarcina
 	"Korath Disruptor Gun"
 	"Quad Plasma Turret"
 	"Quantum Waystone"
+	"Red Screwdriver"
 	"Reflective Plating"
 	"Regional Map"
 	Capacitors
