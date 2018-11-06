@@ -1,1 +1,1 @@
-Personal testing plugin, free for others to use if they really want. Any content in here made by me that you would like to use personally, contact me (darcman00@gmail.com). Taking inspiration, do what you will. Taking assets, please tell me and credit me.
+Playground plugin, several new ships and outfits, not focused on adding content to vanilla galaxy so much of it is unavailable without an all-content plugin.
