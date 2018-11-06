@@ -73,10 +73,10 @@ ship Adel
 			"hit force" 650
 			"hull damage" 200
 			"shield damage" 400
-	engine -20 55
-	engine -9 52
-	engine 20 55
-	engine 9 52
+	engine -20 50
+	engine -9 47
+	engine 20 50
+	engine 9 47
 	explode "medium explosion" 15
 	explode "small explosion" 20
 	explode "tiny explosion" 10
@@ -95,7 +95,7 @@ ship Adel
 		"S-270 Regenerator" 2
 		`"Benga" Atomic Thruster`
 		Hyperdrive
-	sprite ship/raphid
+	sprite ship/adel
 ship Aesalon
 	"final explode" "final explosion medium"
 	attributes
