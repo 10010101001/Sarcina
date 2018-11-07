@@ -78,12 +78,6 @@ outfit "Dual Electron Beam"
 		sprite projectile/electron
 			"frame rate" 60
 		velocity 550
-outfit "Fat Man"
-	"self destruct" .95
-	category "Hand to Hand"
-	cost 512000
-	thumbnail outfit/fatman
-	unplunderable 1
 outfit "Flame Thrower"
 	"capture attack" 1.1
 	"capture defense" .9
