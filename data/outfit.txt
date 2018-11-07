@@ -77,7 +77,7 @@ outfit "Dual Electron Beam"
 		sound "electron beam"
 		sprite projectile/electron
 			"frame rate" 60
-		velocity 550
+		velocity 450
 outfit "Flame Thrower"
 	"capture attack" 1.1
 	"capture defense" .9
@@ -232,7 +232,7 @@ outfit Devastator
 	cost 2690000
 	description "The Devastator is a long-range beam that is particularly good at overheating enemy ships. A fearsome weapon to weild, provided you can fit it, and appease its hunger for power."
 	mass 143
-	thumbnail outfit/devastator
+	thumbnail outfit/unknown
 	weapon
         "blast radius" 400
         "die effect" "u-sniper fadeout"
