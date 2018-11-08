@@ -8,7 +8,7 @@ ship "Model 768"
 		"outfit space" 1029
 		"self destruct" .9
 		"weapon capacity" 440
-		automaton 1
+		automation 1
 		category "Heavy Warship"
 		cost 45936000
 		drag 19.1
@@ -21,8 +21,8 @@ ship "Model 768"
 			"hit force" 8400
 			"hull damage" 2800
 			"shield damage" 5600
-	engine -145 97
-	engine 145 97
+	engine -149 97
+	engine 149 97
 	explode "large explosion" 35
 	explode "medium explosion" 80
 	explode "small explosion" 115
@@ -80,9 +80,9 @@ ship Adel
 	explode "medium explosion" 15
 	explode "small explosion" 20
 	explode "tiny explosion" 10
-	gun -6 -49 "Beam Laser"
-	gun 0 -52 "Korath Fire-Lance"
-	gun 6 -49 "Beam Laser"
+	gun -6 -44 "Beam Laser"
+	gun 0 -48 "Korath Fire-Lance"
+	gun 6 -44 "Beam Laser"
 	outfits
 		"A255 Atomic Steering"
 		"Beam Laser" 2
@@ -118,16 +118,16 @@ ship Aesalon
 			"hit force" 2400
 			"hull damage" 800
 			"shield damage" 1600
-	engine -13 127
-	engine 13 127
+	engine -17 163
+	engine 17 163
 	explode "large explosion" 40
 	explode "medium explosion" 60
 	explode "small explosion" 55
 	explode "tiny explosion" 40
-	gun -14 -76 "Typhoon Launcher"
-	gun -14 -76 "EMP Torpedo Bay"
-	gun 14 -76 "Typhoon Launcher"
-	gun 14 -76 "EMP Torpedo Bay"
+	gun -17 -94 "Typhoon Launcher"
+	gun -17 -94 "EMP Torpedo Bay"
+	gun 17 -94 "Typhoon Launcher"
+	gun 17 -94 "EMP Torpedo Bay"
 	outfits
 		"A120 Atomic Thruster"
 		"D41-HY Shield Generator"
@@ -147,7 +147,7 @@ ship Aesalon
 		"Scram Drive"
 		"Typhoon Launcher" 2
 		"Typhoon Torpedo" 60
-	sprite ship/rfalcon
+	sprite ship/aesalon
 	turret -16 -21 "Laser Turret"
 	turret -46 34 "Electron Turret"
 	turret 16 -21 "Laser Turret"
@@ -247,16 +247,16 @@ ship Bennu
 			"hit force" 1550
 			"hull damage" 600
 			"shield damage" 1100
-	engine -33 65
-	engine 33 65
+	engine -34 72
+	engine 34 72
 	explode "large explosion" 8
 	explode "medium explosion" 24
 	explode "small explosion" 36
 	explode "tiny explosion" 18
-	gun -28 -27 "Thrasher Cannon"
-	gun -39 -13 "Inhibitor Cannon"
-	gun 28 -27 "Thrasher Cannon"
-	gun 39 -13 "Inhibitor Cannon"
+	gun -29 -28 "Thrasher Cannon"
+	gun -40 -13 "Inhibitor Cannon"
+	gun 29 -28 "Thrasher Cannon"
+	gun 40 -13 "Inhibitor Cannon"
 	outfits
 		"Anti-Missile Turret" 2
 		"Crucible-Class Thruster"
@@ -275,9 +275,9 @@ ship Bennu
 		"Thrasher Cannon" 2
 		"Thruster (Asteroid Class)" 2
 		Hyperdrive
-	sprite ship/rfirebird
-	turret -5 3 "Anti-Missile Turret"
-	turret 5 3 "Anti-Missile Turret"
+	sprite ship/bennu
+	turret 0 3 "Anti-Missile Turret"
+	turret 0 19 "Anti-Missile Turret"
 ship Bulwark
 	"final explode" "final explosion large"
 	attributes
@@ -390,17 +390,17 @@ ship Hydra
 			"hit force" 1300
 			"hull damage" 500
 			"shield damage" 900
-	engine -25 125
-	engine 0 130
-	engine 25 125
+	engine -32 166
+	engine 0 175
+	engine 32 166
 	explode "large explosion" 8
 	explode "medium explosion" 24
 	explode "small explosion" 36
 	explode "tiny explosion" 18
-	gun -38 -21 "Inhibitor Cannon"
-	gun -50 2 "Particle Cannon"
-	gun 38 -21 "Inhibitor Cannon"
-	gun 50 2 "Particle Cannon"
+	gun -50 -24 "Inhibitor Cannon"
+	gun -63 3 "Particle Cannon"
+	gun 50 -24 "Inhibitor Cannon"
+	gun 63 3 "Particle Cannon"
 	outfits
 		"Anti-Missile Turret" 2
 		"Crystal Capacitor" 2
@@ -419,11 +419,11 @@ ship Hydra
 		"Thruster (Asteroid Class)" 3
 		"X3700 Ion Thruster"
 		Hyperdrive
-	sprite ship/rleviathan
+	sprite ship/hydra
 	turret -15 -50 "Thrasher Turret"
-	turret -25 10 "Anti-Missile Turret"
+	turret -28 10 "Anti-Missile Turret"
 	turret 15 -50 "Thrasher Turret"
-	turret 25 10 "Anti-Missile Turret"
+	turret 28 10 "Anti-Missile Turret"
 ship Revelation
 	attributes
 		"cargo space" 38
@@ -508,7 +508,7 @@ ship Scud
 		"Thunderhead Storage Array"
 		"Type 1 Radiant Thruster"
 		"Type 1 Radiant Steering"
-	gun 0 -32 "Thunderhead Launcher"
+	gun 0 -36 "Thunderhead Launcher"
 	sprite ship/scud
 ship Scutter
 	attributes
