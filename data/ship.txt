@@ -8,7 +8,7 @@ ship "Model 768"
 		"outfit space" 1029
 		"self destruct" .9
 		"weapon capacity" 440
-		automation 1
+		automaton 1
 		category "Heavy Warship"
 		cost 45936000
 		drag 19.1
