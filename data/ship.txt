@@ -175,31 +175,31 @@ ship Apocalypse
 		ramscoop 2
 		shields 74800
 	description "The largest Irm ship in production, and one of the only. The Irms' focus on utilizing their resources to their full potential all collate on this monstrosity. A super capital ship with an impressive 16 drone bays is all the fearsome deterrant the Irm need, in the case they are discovered and met with hostility of course."
-	drone -98 26 under left
-	drone -98 26 under left
-	drone -98 115 under left
-	drone -98 115 under left
-	drone -98 204 under left
-	drone -98 204 under left
-	drone -98 293 under left
-	drone -98 293 under left
-	drone 98 26 under right
-	drone 98 26 under right
-	drone 98 115 under right
-	drone 98 115 under right
-	drone 98 204 under right
-	drone 98 204 under right
-	drone 98 293 under right
-	drone 98 293 under right
-	engine -132 -106 .6
-	engine -31 510 1.2
-	engine -31 510 1.2
-	engine -74 495
-	engine 0 522 2
-	engine 132 -106 .6
-	engine 31 510 1.2
-	engine 31 510 1.2
-	engine 74 495
+	drone -97 110 under left
+	drone -97 110 under left
+	drone -97 196 under left
+	drone -97 196 under left
+	drone -97 24 under left
+	drone -97 24 under left
+	drone -97 282 under left
+	drone -97 282 under left
+	drone 97 110 under right
+	drone 97 110 under right
+	drone 97 196 under right
+	drone 97 196 under right
+	drone 97 24 under right
+	drone 97 24 under right
+	drone 97 282 under right
+	drone 97 282 under right
+	engine -129 -101 .6
+	engine -30 486.5 1.2
+	engine -30 486.5 1.2
+	engine -70 472
+	engine 0 499 2
+	engine 129 -101 .6
+	engine 30 486 1.2
+	engine 30 486 1.2
+	engine 70 472
 	gun -22 -520 Devastator
 	gun 22 -520 Devastator
 	outfits
