@@ -5,7 +5,6 @@ outfitter sarcina
 	"Capacitor Rack"
 	"Chain Blaster Turret"
 	"Dual Electron Beam"
-	"Fat Man"
 	"Flame Thrower"
 	"Ion Mortar"
 	"Irm Large Engines"
