@@ -84,13 +84,46 @@ mission "hai unfettered humans"
 				"	(Join the defense fleet.)"
 				"	(Stay here until the fight is over.)"
 					decline
-			"A mix of Hai and Human pilots have amassed to help repel the unfettered attack. You join them, and take off together..."
+			`A mix of Hai and Human pilots have amassed to help repel the unfettered attack. You join them, and take off together...`
 				launch
 	source
 		planet Allhome
 	to offer
 		"combat rating" > 400
 		random < 35
+mission "pirate life"
+	invisible
+	landing
+	on accept
+		"reputation: Merchant" = -10
+		"reputation: Pirate" = 10
+		"reputation: Republic" = -10
+		"reputation: Syndicate" = -10
+		event "pirate life"
+	on offer
+		conversation
+			`Landing here feels wrong, you feel as if you do not belong in such an intense place. You expect trouble being as it is a pirate controlled planet, but all the conflict you get are mere glances from the bulky, shady looking pirates. Searching for someone around here who can help you takes longer than expected. After being shoved off by several shady characters you finally find yourself in luck.`
+			`	You may have just found exactly what you were looking for, a man in charge. By the mass of pirates surrounding the man and the way the crowd seems to try to avoid him you figure him for a local warlord. Shuffling up sort of nervously you hesitantly grab his attention and tell him that Baxter sent you.`
+			`	"Another one hey?! Baxter keeps finding new fodder for us." he blurts out, signaling to who appears to be his right hand man. The right hand man approaches you and urges you to present your ship to him. "You'll be wise to invest in greater firepower as soon as possible, be a shame to see new men with potential die so young."`
+			choice
+				`	"I plan on it."`
+					goto paint
+				`	"Excuse me?"`
+			`	"Well, we are surrounded by governments that could and would wipe us out without a second thought. We're lucky they have higher priorities for now but they still present a very real threat to us." he says, while tapping on his datapad, you have to wonder if what he is doing on there are preparations for you.`
+			choice
+				`	"Of course."`
+				`	"I'm not sure this is the right place for me"`
+					decline
+			label paint
+			`	"Now, I've organized for you to be provided with all you need to become a pirate like us; ship paint, uniform, communication channels. Just don't make Ulric regret his generosity to newcomers like you."`
+				accept
+	source
+		attributes "core pirate"
+	to offer
+		or
+			has "Intro [1 Freighter]: offered"
+			has "Intro [1 Interceptor]: offered"
+			has "Intro [1 Transport]: offered"
 mission "quarg execution"
 	invisible
 	landing
@@ -151,7 +184,7 @@ mission "quarg forgive farming"
 	landing
 	on offer
 		conversation
-			`	In light of a reduction in raiding the Quarg have demobilized their military. You need fear Quarg retaliation no longer.`
+			`In light of a reduction in raiding the Quarg have demobilized their military. You need fear Quarg retaliation no longer.`
 				accept
 		fail "quarg retaliation"
 	repeat
