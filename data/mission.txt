@@ -19,6 +19,7 @@ mission "hai enlisted"
 		has enlisted
 	to offer
 		has "hai unfettered humans: done"
+		"reputation: Hai" > 1
 mission "hai enlisted 2"
 	description "Eliminate the coordinator of the attacks on Hai space."
 	landing
@@ -95,8 +96,10 @@ mission "pirate life"
 	invisible
 	landing
 	on accept
+		"reputation: Hai" = -10
 		"reputation: Merchant" = -10
-		"reputation: Pirate" = 10
+		"reputation: Pirate" = 100
+		"reputation: Quarg" = -10
 		"reputation: Republic" = -10
 		"reputation: Syndicate" = -10
 		event "pirate life"
