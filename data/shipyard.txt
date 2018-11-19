@@ -1,4 +1,5 @@
 shipyard sarcina
+	"Korath Stalker"
 	"Model 768"
 	Adel
 	Aesalon
