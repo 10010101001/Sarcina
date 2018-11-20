@@ -1,3 +1,16 @@
+fleet "Korath Raid"
+	cargo 3
+	fighters korath
+	government Korath
+	names korath
+	personality
+		disables opportunistic plunders
+	variant
+		"Korath Chaser" 2
+		"Korath Raider"
+	variant
+		"Korath Raider"
+		"Korath Stalker" 2
 fleet "Wanderer Flycatchers"
 	government Wanderer
 	names wanderer
