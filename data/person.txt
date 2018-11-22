@@ -36,7 +36,6 @@ person "Captain Plasma"
 		explode "small explosion" 38
 		explode "tiny explosion" 20
 		outfits
-			"Fat Man"
 			"Korath Grab-Strike" 2
 			"Korath Warder" 2
 			"Large Heat Shunt" 3
