@@ -340,16 +340,17 @@ ship Bulwark
 	explode "small explosion" 38
 	explode "tiny explosion" 20
 	outfits
+		"Armageddon Core"
 		"D67-TM Shield Generator"
 		"D94-YV Shield Generator"
-		"Fusion Reactor"
 		"Heavy Anti-Missile Turret"
+		"Impala Plasma Thruster"
 		"Liquid Nitrogen Cooler"
 		"LP072a Battery Pack"
 		"LP288a Battery Pack"
 		"Quad Blaster Turret" 7
-		"X3700 Ion Thruster"
-		"X4200 Ion Steering"
+		"X1200 Ion Steering"
+		"X3200 Ion Steering"
 		Hyperdrive
 	sprite ship/bulwark
 	turret -46 -62 "Quad Blaster Turret"
