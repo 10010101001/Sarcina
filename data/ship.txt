@@ -294,6 +294,7 @@ ship Bennu
 		"Fission Reactor"
 		"Generator (Furnace Class)"
 		"Hai Corundum Regenerator"
+		"Intrusion Countermeasures"
 		"Ion Cannon" 2
 		"Laser Rifle" 5
 		"Liquid Nitrogen Cooler"
@@ -429,33 +430,35 @@ ship Hydra
 	explode "medium explosion" 24
 	explode "small explosion" 36
 	explode "tiny explosion" 18
-	gun -50 -24 "Inhibitor Cannon"
-	gun -63 3 "Particle Cannon"
-	gun 50 -24 "Inhibitor Cannon"
-	gun 63 3 "Particle Cannon"
+	gun -50 -24 "Typhoon Launcher"
+	gun -63 3 "Hai Tracker Pod"
+	gun 50 -24 "Typhoon Launcher"
+	gun 63 3 "Hai Tracker Pod"
 	outfits
-		"Anti-Missile Turret" 2
-		"Crystal Capacitor" 2
-		"D23-QP Shield Generator"
-		"D67-TM Shield Generator"
-		"Emergency Ramscoop" 3
 		"Fusion Reactor"
-		"Inhibitor Cannon" 2
-		"Liquid Helium Cooler"
-		"LP072a Battery Pack"
-		"Millennium Cell"
-		"Particle Cannon" 2
+		"Hai Tracker Pod" 2
+		"Hai Tracker" 140
+		"Heavy Anti-Missile Turret" 2
+		"Intrusion Countermeasures"
+		"Large Heat Shunt"
+		"Laser Rifle" 21
+		"LP144a Battery Pack"
+		"Nerve Gas" 12
+		"Pulse Turret" 2
 		"Quantum Key Stone"
-		"Smelter-Class Steering"
-		"Thrasher Turret" 2
-		"Thruster (Asteroid Class)" 3
-		"X3700 Ion Thruster"
+		"Steering (Planetary Class)"
+		"Systems Core (Medium)"
+		"Thruster (Planetary Class)"
+		"Tracker Storage Pod"
+		"Typhoon Launcher" 2
+		"Typhoon Storage Tube" 11
+		"Typhoon Torpedo" 225
 		Hyperdrive
 	sprite ship/hydra
-	turret -15 -50 "Thrasher Turret"
-	turret -28 10 "Anti-Missile Turret"
-	turret 15 -50 "Thrasher Turret"
-	turret 28 10 "Anti-Missile Turret"
+	turret -15 -50 "Pulse Turret"
+	turret -28 10 "Heavy Anti-Missile Turret"
+	turret 15 -50 "Pulse Turret"
+	turret 28 10 "Heavy Anti-Missile Turret"
 ship Revelation
 	attributes
 		"cargo space" 38
