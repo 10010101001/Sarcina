@@ -236,7 +236,6 @@ ship Apocalypse
 	outfits
 		"Apotropaic Anti-Missile" 8
 		"Irm Large Engines"
-		"Quantum Waystone"
 		"Reflective Plating"
 		Devastator 2
 		Hyperdrive
@@ -253,7 +252,6 @@ ship Apocalypse Apocalypse(nocloak)
 	outfits
 		"Apotropaic Anti-Missile" 8
 		"Irm Large Engines"
-		"Quantum Waystone"
 		Devastator 2
 		Hyperdrive
 ship Bennu

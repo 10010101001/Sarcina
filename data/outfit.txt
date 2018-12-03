@@ -189,14 +189,6 @@ outfit "Quad Plasma Turret"
 		sprite projectile/plasma
 			"frame rate" 3
 		velocity 12
-outfit "Quantum Waystone"
-	"outfit space" -1
-	"quantum waystone" 1
-	category Systems
-	cost 720000
-	description "This precious artifact attunes a ship's quantum oscillations in a way that allows it to travel through The Gateway, an impassable wormhole seperating the Irm from the rest of the galaxy. Waystones are extremely rare and valuable, because they are only found in one place, Tutum."
-	mass 1
-	thumbnail outfit/keystone
 outfit "Reflective Plating"
 	"cloaking energy" 18
 	"outfit space" -3
