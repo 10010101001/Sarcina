@@ -186,7 +186,7 @@ ship Aesalon
 ship Apocalypse
 	attributes
 		"apocalypse spine" -2
-		"cargo space" 173
+		"cargo space" 497
 		"energy capacity" 174000
 		"engine capacity" 139
 		"fuel capacity" 400
@@ -195,7 +195,7 @@ ship Apocalypse
 		"required crew" 117
 		"shield energy" 9.5
 		"shield generation" 9.1
-		"solar collection" 9.7
+		"solar collection" 11.7
 		"weapon capacity" 713
 		bunks 233
 		category "Heavy Warship"
@@ -205,23 +205,7 @@ ship Apocalypse
 		mass 3700
 		ramscoop 2
 		shields 74800
-	description "The largest Irm ship in production, and one of the only. The Irms' focus on utilizing their resources to their full potential all collate on this monstrosity. A super capital ship with an impressive 16 drone bays is all the fearsome deterrant the Irm need, in the case they are discovered and met with hostility of course."
-	drone -97 110 under left
-	drone -97 110 under left
-	drone -97 196 under left
-	drone -97 196 under left
-	drone -97 24 under left
-	drone -97 24 under left
-	drone -97 282 under left
-	drone -97 282 under left
-	drone 97 110 under right
-	drone 97 110 under right
-	drone 97 196 under right
-	drone 97 196 under right
-	drone 97 24 under right
-	drone 97 24 under right
-	drone 97 282 under right
-	drone 97 282 under right
+	description "The largest Irm ship in production, and one of the only. The Irms' focus on utilizing their resources to their full potential all collate on this monstrosity. A super capital ship with dual devastator beams is all the fearsome deterrant the Irm need, in the case they are discovered and met with hostility of course."
 	engine -129 -101 .6
 	engine -30 486.5 1.2
 	engine -30 486.5 1.2
@@ -463,8 +447,8 @@ ship Revelation
 		"energy capacity" 51000
 		"engine capacity" 79
 		"heat dissipation" .9
-		"outfit space" 149
-		"solar collection" 4.6
+		"outfit space" 119
+		"solar collection" 6.6
 		"weapon capacity" 32
 		"shield generation" 3.7
 		"shield energy" 4.1
@@ -475,7 +459,7 @@ ship Revelation
 		mass 68
 		shields 1300
 	description "Revelation, requires coordination and direction in order to effectively defend its' mothership. The Apocalypse tends to be discovered by alien life before it is able to finish its' cloaking sequence, on occasion these encounters develop into a hostile incursion."
-	description "Effective in numbers, best at dealing with singular targets but is suddenly inferior once multiple targets engage. A strong offensive is one where many of these disruptive drones can converge on the same target to build up electrical disruption and excess heat."
+	description "Effective in numbers, best at dealing with singular targets but is woefully outmatched once multiple targets engage. A strong offensive is one where many of these disruptive drones can converge on the same target to build up electrical disruption and excess heat."
 	engine 0 30
 	gun 0 -40 Harrier
 	outfits
