@@ -1,3 +1,19 @@
+mission "first contact: irm"
+	landing
+	on offer
+		conversation
+			`On your descent you are provided with a fantastic view of the surrounding city, everything has a sort of overwhelming industrial appearance. Though offset by the distinct lack of pollution in the air, it is a sight to behold. Even more perplexing is the magnitude of this ringworld, if all the inner surface of this ring is as conglomerated and tightly knit as this section, this stellar construction just got a whole lot crazier.`
+			`Being greeted by a large group of security personnel on landing has you uneasy, even more so with the escort of several security drones. "What are your intentions here? And who would you represent?" he proclaims slowly, but broadly.`
+			choice
+				`	"What is this place?"`
+					goto where
+				`	"I represent no one but myself, I'm just an traveler."`
+					goto traveler
+				`	"I am merely passing through."`
+			`	"Then you may pass, we mean no inconvenience to your doings. Know however, that we do not easily forgive, and you will not think yourself more than what you are to us, you are a passerby, not to get involved in our affairs."`
+				decline
+	source
+		system Solum
 mission "hai enlisted"
 	description "You have been recommended for your attentiveness for keeping the peace throughout Hai space. Hai officials would like to consult you about possible enlistment."
 	destination Hai-home
@@ -46,8 +62,8 @@ mission "hai enlisted 2"
 			`	"I see, well I'll inform my superiors of your decision. I do wish to see you again protecting our peaceful way of life."`
 				decline
 			label continue
-			`	Being lead through a series of hallways and around several bends, you have trouble visualising the exact way you and the Hai arrived here. Stopping at a large doorway you are told that beyond this door is the chamber of the elders.`
-			`	Entering the chamber you are greeted with a larger audience than you were expecting. "We have heard of your efforts defending the planet of Allhome and we are honoured," says a rather elderly Hai, "but as we have business to discuss I will skip the formalities." Saying somewhat resigned, as though discussing hostilities causes them great distress, "Recently we have learnt of the source of these attacks, joint warlords that go by Gnar and Gash, they control the unfettered planet of Stormhold," now with even more resignation in its' voice, "Usually we deal with our situations internally however human space is outside of our jurisdiction, and I'm afraid several of our largest warships would stir up quite a panic. We regret to send you alone to deal with our matters given the risk, but we will compensate you greatly for your efforts."`
+			`	Being lead through a series of hallways and around several bends, you have trouble visualizing the exact way you and the Hai arrived here. Stopping at a large doorway you are told that beyond this door is the chamber of the elders.`
+			`	Entering the chamber you are greeted with a larger audience than you were expecting. "We have heard of your efforts defending the planet of Allhome and we are honored," says a rather elderly Hai, "but as we have business to discuss I will skip the formalities." Saying somewhat resigned, as though discussing hostilities causes them great distress, "Recently we have learned of the source of these attacks, joint warlords that go by Gnar and Gash, they control the unfettered planet of Stormhold," now with even more resignation in its' voice, "Usually we deal with our situations internally however human space is outside of our jurisdiction, and I'm afraid several of our largest warships would stir up quite a panic. We regret to send you alone to deal with our matters given the risk, but we will compensate you greatly for your efforts."`
 				accept
 		set enlisted
 	source Hai-home
@@ -166,7 +182,7 @@ mission "quarg execution"
 		ship "Quarg Wardragon" "Quarg Scout"
 	on offer
 		conversation
-			`Shortly after you land, a Quarg Scoutship jumps into the system and broadcasts a message. It seems they're trying to send a message.`
+			`Shortly after you land, a Quarg Scout ship jumps into the system and broadcasts a message. It seems they're trying to send a message.`
 			choice
 				`(Open a communications channel.)`
 					goto talk
