@@ -135,7 +135,7 @@ outfit "Irm Small Engines"
 	category Engines
 	cost 940000
 	description "The Irm find a certain comfort in hybrid systems. The directional thrust used to accelerate ships forwards can be diverted to any direction. Functionally, linking thrusters and steering together can greatly bolster the effectiveness of the engines."
-	description "This is a scaled down design of the original, larger engines. In the process of miniaturization much of the efficiency that set the Irm engines as a staple for stellar traval were lost."
+	description "This is a scaled down design of the original, larger engines. In the process of miniaturization much of the efficiency that set the Irm engines as a staple for stellar travel were lost."
 	mass 76
 	thrust 12.5
 	thumbnail outfit/unknown
@@ -246,7 +246,7 @@ outfit Harrier
 	"weapon capacity" -31
 	category Guns
 	cost 1160000
-	description "The Harrier, immensively effective that is, for overheating hostile ships. Combining the electrical disruption with excess heat build-up can be devastating for any crew unfortunate enough to find themselves at the mercy of the Revalation disruptive drone."
+	description "The Harrier, immensely effective that is, for overheating hostile ships. Combining the electrical disruption with excess heat build-up can be devastating for any crew unfortunate enough to find themselves at the mercy of the Revelation disruptive drone."
 	mass 57
 	thumbnail outfit/unknown
 	weapon
