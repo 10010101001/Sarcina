@@ -443,7 +443,7 @@ ship Hydra
 	turret 28 10 "Heavy Anti-Missile Turret"
 ship Revelation
 	attributes
-		"cargo space" 38
+		"cargo space" 16
 		"energy capacity" 51000
 		"engine capacity" 79
 		"heat dissipation" .9
@@ -454,18 +454,19 @@ ship Revelation
 		"shield energy" 4.1
 		category Drone
 		cost 3410000
-		drag .9
-		hull 9200
+		drag 1.4
+		hull 2200
 		mass 68
-		shields 1300
-	description "Revelation, requires coordination and direction in order to effectively defend its' mothership. The Apocalypse tends to be discovered by alien life before it is able to finish its' cloaking sequence, on occasion these encounters develop into a hostile incursion."
-	description "Effective in numbers, best at dealing with singular targets but is woefully outmatched once multiple targets engage. A strong offensive is one where many of these disruptive drones can converge on the same target to build up electrical disruption and excess heat."
-	engine 0 30
+		shields 900
+	description "Revelation, requires coordination and direction in order operate effectively in battle. Effective in numbers, best at dealing with singular targets but is woefully outmatched once multiple targets engage. A strong offensive is one where many of these disruptive drones can converge on the same target to build up electrical disruption and excess heat."
+	engine -8 25 .3
+	engine 0 40 .6
+	engine 8 25 .3
 	gun 0 -40 Harrier
 	outfits
 		"Irm Small Engines"
 		Harrier
-	sprite "ship/hai lightning bug"
+	sprite "ship/revelation"
 ship Sarkic
 	"never disabled"
 	attributes
