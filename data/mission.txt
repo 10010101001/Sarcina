@@ -10,8 +10,12 @@ mission "first contact: irm"
 				`	"I represent no one but myself, I'm just an traveler."`
 					goto traveler
 				`	"I am merely passing through."`
-			`	"Then you may pass, we mean no inconvenience to your doings. Know however, that we do not easily forgive, and you will not think yourself more than what you are to us, you are a passerby, not to get involved in our affairs."`
+			`	"Then you may pass, we mean no inconvenience to your doings, traveler. Know however, that we do not easily forgive, and you will not think yourself more than what you are to us, you are a passerby, not to get involved in our affairs."`
 				decline
+			label traveler
+			`	"That is pleasing to hear, yet regrettable, casting off your own will only lead to hardships. It is a blessing to be part of something bigger than yourself." He lectures, seeming somewhat unsettled by your position.`
+			label where
+			`	"This is us, we inhabit a single star system and ask for no more. Politics is not an interest to us and a land grab is not important at this point in time, particularly true given our surrounding systems."`
 	source
 		system Solum
 mission "hai enlisted"
