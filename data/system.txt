@@ -1,7 +1,6 @@
 system Solum
 	asteroids "medium rock" 8 3.5834
 	asteroids "large metal" 5 2.9822
-	fleet "irm home" 2000
 	government Irm
 	object
 		distance 812

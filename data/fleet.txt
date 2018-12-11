@@ -23,10 +23,4 @@ fleet "irm home"
 	personality heroric vindictive
 	variant
 		Apocalypse(nocloak) 1
-		Revelation 16
-fleet "irm scout"
-	government Irm
-	personality forbearing vindictive
-	variant
-		Apocalypse 1
-		Revelation 16
+		Revelation 48

@@ -2,7 +2,6 @@ system Durax
 	add fleet "durax large" 2300
 	add fleet "durax moderate" 900
 system Waypoint
-	add fleet "irm scout" 13000
 	add object "Wormhole X"
 		distance 6048
 		period 5634
