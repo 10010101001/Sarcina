@@ -222,7 +222,6 @@ ship Apocalypse
 		"Irm Large Engines"
 		"Reflective Plating"
 		Devastator 2
-		Hyperdrive
 	sprite ship/apocalypse
 	turret -46 26 "Apotropaic Anti-Missile"
 	turret -46 115 "Apotropaic Anti-Missile"
@@ -232,12 +231,6 @@ ship Apocalypse
 	turret 46 115 "Apotropaic Anti-Missile"
 	turret 46 204 "Apotropaic Anti-Missile"
 	turret 46 293 "Apotropaic Anti-Missile"
-ship Apocalypse Apocalypse(nocloak)
-	outfits
-		"Apotropaic Anti-Missile" 8
-		"Irm Large Engines"
-		Devastator 2
-		Hyperdrive
 ship Bennu
 	"final explode" "final explosion medium"
 	attributes

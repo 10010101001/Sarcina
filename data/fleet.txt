@@ -22,5 +22,5 @@ fleet "irm home"
 	government Irm
 	personality heroric vindictive
 	variant
-		Apocalypse(nocloak) 1
+		Apocalypse 1
 		Revelation 48
