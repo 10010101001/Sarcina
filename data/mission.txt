@@ -10,12 +10,21 @@ mission "first contact: irm"
 				`	"I represent no one but myself, I'm just an traveler."`
 					goto traveler
 				`	"I am merely passing through."`
+			label pass
 			`	"Then you may pass, we mean no inconvenience to your doings, traveler. Know however, that we do not easily forgive, and you will not think yourself more than what you are to us, you are a passerby, not to get involved in our affairs."`
 				decline
 			label traveler
-			`	"That is pleasing to hear, yet regrettable, casting off your own will only lead to hardships. It is a blessing to be part of something bigger than yourself." He lectures, seeming somewhat unsettled by your position.`
+			`	"That is pleasing to hear, yet regrettable, casting off your own will only lead to hardships. It is honorable to be part of something bigger than yourself, humbling most of all." He lectures, seeming somewhat unsettled by your position.`
 			label where
-			`	"This is us, we inhabit a single star system and ask for no more. Politics is not an interest to us and a land grab is not important at this point in time, particularly true given our surrounding systems."`
+			`	"This is us, we inhabit a single star system and ask for no more. Politics is not an interest to us and a land grab is not important at this point in time, particularly true given our surrounding systems. So because of this, we stay, and we avoid trouble."`
+			choice
+				`	"Surrounding systems? You've met the Hai?"
+					goto hai
+				`	"I see. Well I'm just passing through."`
+					goto pass
+			label hai
+			`	"Yes, though not through means of exploration, they came to us. At the beginning we were threatened, extorted of our resources, a time where we had not yet even discovered the atom. Though for very many millennia since, we have had peace with the Hai, we do not know what events took place for the conquesting Hai to find themselves at peace but perhaps it can be an example to others."`
+			`	"Our negotiations with the peaceful Hai were extensive, they do not permit their kind to wander here, and they do not tell of our existence to outsiders, like them we mean to keep peace and this has earned us their favor."`
 	source
 		system Solum
 mission "hai enlisted"
