@@ -73,8 +73,8 @@ outfit "Dual Electron Beam"
 			"frame rate" 60
 		velocity 450
 outfit "Flame Thrower"
-	"capture attack" 1.1
-	"capture defense" .9
+	"capture attack" 1.5
+	"capture defense" 1.2
 	category "Hand to Hand"
 	cost 35000
 	illegal 450000
