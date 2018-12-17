@@ -5,19 +5,19 @@ fleet "durax large"
 		Bennu 2
 		Hydra 3
 	variant
-		Bennu 4
+		Bennu 3
 		Hydra 2
 	variant 
-		Bennu 5
+		Bennu 4
 		Hydra 1
 fleet "durax moderate"
 	government Pirate
 	personality disables forbearing plunders
 	variant
-		Bennu 2
+		Bennu 1
 		Hydra 1
 	variant
-		Bennu 5
+		Bennu 3
 fleet "irm home"
 	government Irm
 	personality heroric vindictive
