@@ -10,7 +10,6 @@ outfitter sarcina
 	"Irm Small Engines"
 	"Korath Disruptor Gun"
 	"Quad Plasma Turret"
-	"Quantum Waystone"
 	"Reflective Plating"
 	"Regional Map"
 	Capacitors
