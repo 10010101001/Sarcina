@@ -18,7 +18,7 @@ mission "first contact: irm"
 			label where
 			`	"This is us, we inhabit a single star system and ask for no more. Politics is not an interest to us and a land grab is not important at this point in time, particularly true given our surrounding systems. So because of this, we stay, and we avoid trouble."`
 			choice
-				`	"Surrounding systems? You've met the Hai?"
+				`	"Surrounding systems? You've met the Hai?"`
 					goto hai
 				`	"I see. Well I'm just passing through."`
 					goto pass
