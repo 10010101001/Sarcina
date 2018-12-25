@@ -29,7 +29,7 @@ ship "Korath Stalker"
 		"Steering (Asteroid Class)"
 		"Thruster (Asteroid Class)"
 	sprite ship/stalker
-ship "Model 768"
+ship "Model 1024"
 	"final explode" "final explosion large"
 	attributes
 		"cargo space" 141

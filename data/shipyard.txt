@@ -1,6 +1,6 @@
 shipyard sarcina
 	"Korath Stalker"
-	"Model 768"
+	"Model 1024"
 	Adel
 	Aesalon
 	Apocalypse
